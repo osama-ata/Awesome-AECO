@@ -8,12 +8,16 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- Search previous suggestions before making a new one, as yours may be a duplicate.
+- Make an individual pull request for each suggestion.
+- Use the following format: `[RESOURCE](LINK) - DESCRIPTION.`
+- Link additions should be added to the bottom of the relevant category.
+- New categories, or improvements to the existing categorization are welcome.
+- Check your spelling and grammar.
+- Make sure your text editor is set to remove trailing whitespace.
+- The pull request and commit should have a useful title.
 
 Thank you for your suggestions!
-
 
 ## Updating your PR
 
@@ -23,3 +27,16 @@ edit your PR before we merge it. There's no need to open a new PR, just edit
 the existing one. If you're not sure how to do that,
 [here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
 on the different ways you can update your PR so that we can merge it.
+
+## Adding to Awesome AECO
+
+If you have something awesome to contribute to Awesome AECO, this is how you do it.
+
+You'll need a [GitHub account](https://github.com/join)!
+
+1. Access the awesome list's GitHub page: [https://github.com/osama-ata/Awesome-AECO](https://github.com/osama-ata/Awesome-AECO)
+2. Click on the `readme.md` file.
+3. Now click on the edit icon.
+4. You can start editing the text of the file in the in-browser editor. Make sure you follow the guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+5. Say why you're proposing the changes, and then click on "Propose file change".
+6. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!
