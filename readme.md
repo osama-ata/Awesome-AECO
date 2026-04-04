@@ -21,6 +21,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [Digital Twins](#digital-twins)
   - [GIS \& Mapping](#gis--mapping)
   - [Project Management](#project-management)
+  - [Cost Estimation](#cost-estimation)
   - [Contribute](#contribute)
 
 ---
@@ -292,6 +293,12 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **LibrePlan**
   Resource planning and scheduling software for construction projects.
   *GitHub: [LibrePlan/libreplan](https://github.com/LibrePlan/libreplan)*
+
+## Cost Estimation
+
+- **Simulateur Prix Construction Maison**
+  Free French construction cost estimation tool. Estimates building prices per m² based on 36 criteria and 25 budget categories (structural work, roofing, insulation, plumbing, etc.). Built with Next.js + Supabase.
+  *Website: [simulateur-prix-construction-maison.fr](https://simulateur-prix-construction-maison.fr/)*
 
 ## Contribute
 
