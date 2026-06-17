@@ -237,6 +237,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Web application for exploring multi-dimensional design spaces, used to visualize options from parametric studies.
   *GitHub: [tt-acm/DesignExplorer](https://github.com/tt-acm/DesignExplorer)*
 
+- **Ritn3D**
+  AI floor plan to 3D interior model converter. Auto-detects walls, doors, windows, and rooms from architectural PDFs (AutoCAD, Revit, ArchiCAD, SketchUp exports), scanned blueprints, or phone-camera photos; generates a walkable 3D interior in under 2 minutes with drag-and-drop furniture and GLB / STL export.
+  *Website: [ritn3d.com](https://www.ritn3d.com)*
+
 ## Construction Automation & Robotics
 
 - **ROS (Robot Operating System)**
