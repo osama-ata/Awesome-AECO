@@ -117,6 +117,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Python-based parametric CAD scripting framework for mechanical and architectural design.
   *GitHub: [CadQuery/cadquery](https://github.com/CadQuery/cadquery)*
 
+- **Prompt2CAD**
+  Browser-based AI CAD workspace that turns natural-language requirements into dimensioned 3D models for physical objects. Useful for early AECO components, interior fixtures, furniture, and fabrication-ready concepts with STEP, DXF, STL, OBJ, and GLB export.
+  *Website: [prompt2cad.com](https://prompt2cad.com)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
