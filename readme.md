@@ -293,6 +293,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Resource planning and scheduling software for construction projects.
   *GitHub: [LibrePlan/libreplan](https://github.com/LibrePlan/libreplan)*
 
+- **OpenTakeoff**
+  Open-source (Apache-2.0), browser-based construction takeoff tool — measure quantities off a building plan (PDF/image/zip set) with one-click room detection, then export a materials buy list. Also ships an MCP server so an AI agent drives the identical measuring engine, with every shape's scale and origin (person or agent) recorded.
+  *GitHub: [Kentucky-ai/opentakeoff](https://github.com/Kentucky-ai/opentakeoff)*
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
