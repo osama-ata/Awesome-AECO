@@ -21,6 +21,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [Digital Twins](#digital-twins)
   - [GIS \& Mapping](#gis--mapping)
   - [Project Management](#project-management)
+  - [Cost Estimation & Quantity Takeoff](#cost-estimation--quantity-takeoff)
   - [Contribute](#contribute)
 
 ---
@@ -292,6 +293,12 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **LibrePlan**
   Resource planning and scheduling software for construction projects.
   *GitHub: [LibrePlan/libreplan](https://github.com/LibrePlan/libreplan)*
+
+## Cost Estimation & Quantity Takeoff
+
+- **Concrete Estimator Hub Calculators**
+  Browser-based and WordPress-embeddable concrete planning calculators for slabs, bags, ready-mix comparison, and job worksheets.
+  *Website: [concreteestimatorhub.com](https://concreteestimatorhub.com/) · GitHub: [xuhp630-bot/concrete-estimator-hub-calculators](https://github.com/xuhp630-bot/concrete-estimator-hub-calculators)*
 
 ## Contribute
 
