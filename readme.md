@@ -11,6 +11,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [Contents](#contents)
   - [BIM (Building Information Modeling)](#bim-building-information-modeling)
   - [CAD (Computer-Aided Design)](#cad-computer-aided-design)
+  - [Reference Data](#reference-data)
   - [Revit Plugins \& Extensions](#revit-plugins--extensions)
   - [Simulation \& Analysis](#simulation--analysis)
   - [Parametric \& Computational Design](#parametric--computational-design)
@@ -116,6 +117,12 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **CadQuery**
   Python-based parametric CAD scripting framework for mechanical and architectural design.
   *GitHub: [CadQuery/cadquery](https://github.com/CadQuery/cadquery)*
+
+## Reference Data
+
+- **conversion-tables**
+  Exact unit conversion factors, architectural and engineering drawing scale factors, and fractional inch tables as JSON and CSV. Values derive from the legal definitions (inch, pound, US and imperial gallon) rather than being transcribed, and exact definitions are kept separate from approximate conventions. No runtime or dependencies.
+  *GitHub: [Fluxcotech/conversion-tables](https://github.com/Fluxcotech/conversion-tables)*
 
 ## Revit Plugins & Extensions
 
