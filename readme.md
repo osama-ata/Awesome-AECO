@@ -91,6 +91,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source toolkit for working with IFC files in the browser, on a server, or in a desktop app. Features a WebGPU 3D viewer, IFC4/IFC4X3 support, BCF collaboration, IDS compliance checking, bSDD lookup, 2D drawing generation, and export to IFC, glTF, CSV, JSON, and Parquet.
   *GitHub: [louistrue/ifc-lite](https://github.com/louistrue/ifc-lite)*
 
+- **Massing**
+  Open, self-hosted, IFC-native AEC platform spanning acquisition through turnover on a single model. Browser-based IFC authoring on That Open Fragments and IfcOpenShell, federated clash detection, IDS validation, BCF round-trip, generated 2D plans, sections and elevations, an 80-module general contracting portal with RFIs, pay apps and CPM scheduling, and a development proforma with JV waterfall.
+  *GitHub: [ibuilder/massing](https://github.com/ibuilder/massing)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
