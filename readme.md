@@ -227,6 +227,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Self-hosted Computerized Maintenance Management System. Allows teams to schedule work orders and manage inventory.
   *GitHub: [Grashjs/cmms](https://github.com/Grashjs/cmms)*
 
+- **FieldServiceScout**
+  Independent comparisons of field-service management software for trade shops, including features and modeled true cost.
+  *Website: [fieldservicescout.com](https://www.fieldservicescout.com/)*
+
 ## Generative Design
 
 - **Anton**
