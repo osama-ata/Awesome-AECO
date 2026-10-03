@@ -11,6 +11,7 @@
 
 - [Contribution guidelines](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/contributing.md): Inclusion criteria and the exact entry format.
 - [Agent instructions](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/AGENTS.md): Rules and checklists for AI agents proposing changes.
+- [Add-entry prompt template](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/prompts/add-entry.md): A ready-made prompt for an AI agent to verify a resource and open a pull request that adds it to the list.
 
 ## Optional
 
