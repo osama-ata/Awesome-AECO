@@ -332,6 +332,14 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source AI-native construction estimating: 2D/3D takeoff, assemblies, pricing, scheduling, and quotes.
   *GitHub: [braedonsaunders/bidwright](https://github.com/braedonsaunders/bidwright)*
 
+- **Simulateur Prix Construction Maison**
+  Free French-market construction cost estimator. Estimates building prices per m² based on 36 criteria and 25 budget categories (structural work, roofing, insulation, plumbing, etc.).
+  *Website: [simulateur-prix-construction-maison.fr](https://simulateur-prix-construction-maison.fr/)*
+
+- **Concrete Estimator Hub Calculators**
+  Browser-based and WordPress-embeddable concrete planning calculators for slabs, bags, ready-mix comparison, and job worksheets.
+  *Website: [concreteestimatorhub.com](https://concreteestimatorhub.com/) · GitHub: [xuhp630-bot/concrete-estimator-hub-calculators](https://github.com/xuhp630-bot/concrete-estimator-hub-calculators)*
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
