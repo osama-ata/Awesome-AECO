@@ -24,6 +24,8 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [GIS \& Mapping](#gis--mapping)
   - [Project Management](#project-management)
   - [Cost Estimation \& Quantity Takeoff](#cost-estimation--quantity-takeoff)
+  - [FAQ](#faq)
+  - [Related Lists](#related-lists)
   - [Contribute](#contribute)
   - [License](#license)
 
@@ -663,6 +665,34 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source toolkit for processing drone imagery into orthophotos, elevation models, point clouds and 3D models.
   *GitHub: [OpenDroneMap/ODM](https://github.com/OpenDroneMap/ODM)*
 
+- **3dfier**
+  Tool that turns 2D GIS datasets into 3D city models by lifting polygons to elevations taken from a point cloud.
+  *GitHub: [tudelft3d/3dfier](https://github.com/tudelft3d/3dfier)*
+
+- **osgEarth**
+  C++ SDK for building geospatially accurate 3D maps and terrain rendering into applications.
+  *GitHub: [pelicanmapping/osgearth](https://github.com/pelicanmapping/osgearth)*
+
+- **TerriaJS**
+  Library for building web-based 2D and 3D geospatial data explorers, used for national and state digital twin platforms.
+  *GitHub: [TerriaJS/terriajs](https://github.com/TerriaJS/terriajs)*
+
+- **OSMnx**
+  Python package for downloading, modeling, analyzing and visualizing street networks and other geospatial features from OpenStreetMap.
+  *GitHub: [gboeing/osmnx](https://github.com/gboeing/osmnx)*
+
+- **UrbanSim**
+  Platform for building statistical models of cities and regions to support urban and land-use planning.
+  *GitHub: [UDST/urbansim](https://github.com/UDST/urbansim)*
+
+- **Entwine**
+  Data organization library for indexing very large point clouds so they can be streamed and visualized.
+  *GitHub: [connormanning/entwine](https://github.com/connormanning/entwine)*
+
+- **pgPointcloud**
+  PostgreSQL extension for storing and querying LiDAR point cloud data.
+  *GitHub: [pgpointcloud/pointcloud](https://github.com/pgpointcloud/pointcloud)*
+
 ## Project Management
 
 - **OpenProject**
@@ -694,6 +724,66 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **OpenTakeoff**
   Open-source PDF takeoff tool for measuring quantities off construction drawings, usable from a browser canvas or driven by AI agents through an MCP server.
   *GitHub: [Kentucky-ai/opentakeoff](https://github.com/Kentucky-ai/opentakeoff)*
+
+## FAQ
+
+### What is AECO?
+
+AECO stands for Architecture, Engineering, Construction and Operations. It covers designing, building and running buildings and infrastructure across their whole lifecycle, from the first sketch to ongoing maintenance.
+
+### What open-source software is available for BIM?
+
+[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell) is the main open-source IFC toolkit and geometry engine, and [Bonsai](https://github.com/IfcOpenShell/IfcOpenShell/tree/HEAD/src/bonsai) (formerly BlenderBIM) builds BIM authoring on top of it inside Blender. [FreeCAD](https://www.freecad.org/) offers parametric modeling with BIM workflows, [BIMserver](https://github.com/opensourceBIM/BIMserver) stores and versions IFC models, and [Speckle](https://github.com/specklesystems/speckle-server) moves data between design tools.
+
+### How can I read and write IFC files with open-source tools?
+
+[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell) has a Python API and a C++ library, [xBIM Toolkit](https://github.com/xBimTeam/XbimEssentials) serves .NET developers, [web-ifc](https://github.com/ThatOpen/engine_web-ifc) parses IFC in JavaScript and WebAssembly, and [goifc](https://github.com/blox-eng/goifc) is a pure-Go reader.
+
+### Are there open-source alternatives to AutoCAD and Revit?
+
+For 2D drafting, [QCAD](https://github.com/qcad/qcad) and [LibreCAD](https://github.com/LibreCAD/LibreCAD) work with DXF files, and [LibreDWG](https://github.com/LibreDWG/libredwg) reads and writes DWG. For 3D and BIM modeling, [FreeCAD](https://www.freecad.org/) and [Bonsai](https://github.com/IfcOpenShell/IfcOpenShell/tree/HEAD/src/bonsai) cover much of the same ground.
+
+### Which open-source tools simulate building energy performance?
+
+[EnergyPlus](https://github.com/NatLabRockies/EnergyPlus) and [OpenStudio](https://github.com/NatLabRockies/OpenStudio) are the core simulation engines. The [Ladybug Tools](https://github.com/ladybug-tools) libraries, such as [Honeybee](https://github.com/ladybug-tools/honeybee-energy), prepare models for them from Grasshopper or Python, and [Sinergym](https://github.com/ugr-sail/sinergym) wraps EnergyPlus for reinforcement learning research.
+
+### Which open-source tools analyze structures?
+
+[OpenSees](https://github.com/OpenSees/OpenSees) is a framework for seismic and structural simulation, [Pynite](https://github.com/JWock82/Pynite) does 3D finite element analysis in Python, and [anaStruct](https://github.com/anastruct/anaStruct) handles 2D frames and trusses. [CalculiX](https://www.calculix.de/) and [Code_Aster](https://code-aster.org/) are general-purpose finite element solvers.
+
+### Which open-source tools handle point clouds and drone imagery?
+
+[CloudCompare](https://github.com/CloudCompare/CloudCompare) compares and analyzes laser-scan data, [PDAL](https://github.com/PDAL/PDAL) processes point cloud files, [Potree](https://github.com/potree/potree) renders large point clouds in the browser, and [OpenDroneMap](https://github.com/OpenDroneMap/ODM) turns drone photos into orthophotos, elevation models and 3D models.
+
+### Which open-source GIS tools work with buildings and cities?
+
+[QGIS](https://qgis.org/) and [GRASS GIS](https://github.com/OSGeo/grass) are full desktop GIS applications, and [GDAL](https://github.com/OSGeo/gdal) underpins most geospatial software. For 3D city models, see the [3D City Database](https://github.com/3dcitydb/3dcitydb), [CityJSON](https://github.com/cityjson/specs) and [3dfier](https://github.com/tudelft3d/3dfier).
+
+### Is there open-source software for quantity takeoff and cost estimation?
+
+[OpenTakeoff](https://github.com/Kentucky-ai/opentakeoff) measures quantities off construction drawings, [BidWright](https://github.com/braedonsaunders/bidwright) covers estimating from takeoff to quotes, and [OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP) combines bills of quantities, cost databases and scheduling.
+
+### Can AI agents work with AECO tools?
+
+Some projects expose AECO workflows to AI agents through the Model Context Protocol. [IDS MCP Server](https://github.com/vinnividivicci/ifc-ids-mcp) creates and validates buildingSMART IDS files, [Pascal Editor](https://github.com/pascalorg/editor) is a 3D building editor with MCP tools, and [OpenTakeoff](https://github.com/Kentucky-ai/opentakeoff) lets an agent drive its measuring engine.
+
+### Are the listed tools free for commercial use?
+
+Many are, but licenses differ. Permissive licenses such as MIT, BSD and Apache-2.0 allow commercial use with few conditions. Copyleft licenses such as GPL, LGPL and AGPL also allow it but add obligations if you redistribute the software or, for AGPL, offer it as a network service. A few entries, such as the free US Army Corps of Engineers hydrology tools, are free to use but not open source. Check each project's license before building on it.
+
+### How do I suggest a resource for this list?
+
+Open one pull request per resource and follow the entry format in the [contribution guidelines](https://github.com/osama-ata/Awesome-AECO/blob/main/contributing.md).
+
+## Related Lists
+
+- [Awesome Civil Engineering](https://github.com/QuantumNovice/awesome-civil-engineering): software, calculators and resources for civil engineering practice.
+- [Awesome Civil Engineering List](https://github.com/riponcm/awesome-civil-engineering): open-source software for structural, geotechnical, hydraulic and transportation engineering.
+- [Awesome Digital Civil Engineering](https://github.com/Ayberkrk/awesome-digital-civil-engineering): open-source tools for earthquake engineering, structural health monitoring, geospatial work and infrastructure analytics.
+- [Awesome BIM](https://github.com/mitevpi/awesome-bim): developer resources for BIM and Revit automation.
+- [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial): geospatial analysis tools and libraries.
+- [Awesome GIS](https://github.com/sshuair/awesome-gis): GIS software, data and learning resources.
+- [Awesome Open Geoscience](https://github.com/softwareunderground/awesome-open-geoscience): open-source tools across the geoscience community.
 
 ## Contribute
 

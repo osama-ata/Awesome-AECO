@@ -50,4 +50,65 @@
   ]
 }
 </script>
+{%- comment -%}
+  FAQPage and author JSON-LD, generated from the "## FAQ" section of the
+  rendered readme: each "### Question" heading plus the paragraphs below it.
+{%- endcomment -%}
+{%- assign faq_html = readme_page.content | split: '<h2 id="faq">' | slice: 1 | first | split: "<h2 id=" | first -%}
+{%- if faq_html -%}
+{%- assign faq_blocks = faq_html | split: "<h3 id=" -%}
+{%- assign first_faq = true -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/wiki/Q132189472",
+      "name": "Osama Ata",
+      "url": "https://osamata.com/",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q132189472",
+        "https://github.com/osama-ata"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": {{ site.title | jsonify }},
+      "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sameAs": "https://github.com/osama-ata/Awesome-AECO",
+      "author": { "@id": "https://www.wikidata.org/wiki/Q132189472" },
+      "publisher": { "@id": "https://www.wikidata.org/wiki/Q132189472" }
+    },
+    {
+      "@type": "FAQPage",
+      "name": {{ site.title | append: " FAQ" | jsonify }},
+      "url": {{ site.url | append: site.baseurl | append: "/#faq" | jsonify }},
+      "author": { "@id": "https://www.wikidata.org/wiki/Q132189472" },
+      "mainEntity": [
+{%- for block in faq_blocks offset: 1 -%}
+  {%- assign parts = block | split: "</h3>" -%}
+  {%- assign faq_q = parts[0] | strip_html | split: ">" | last | strip | replace: "&amp;", "&" | replace: "&quot;", '"' | replace: "&ldquo;", "“" | replace: "&rdquo;", "”" | replace: "&rsquo;", "’" | replace: "&lsquo;", "‘" -%}
+  {%- assign faq_a = parts[1] | strip_html | normalize_whitespace | strip | replace: "&amp;", "&" | replace: "&quot;", '"' | replace: "&ldquo;", "“" | replace: "&rdquo;", "”" | replace: "&rsquo;", "’" | replace: "&lsquo;", "‘" | replace: "&ndash;", "–" | replace: "&mdash;", "—" | replace: "&hellip;", "…" -%}
+  {%- if faq_q != "" and faq_a != "" -%}
+    {%- unless first_faq %},{% endunless -%}
+    {%- assign first_faq = false %}
+        {
+          "@type": "Question",
+          "name": {{ faq_q | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ faq_a | jsonify }}
+          }
+        }
+  {%- endif -%}
+{%- endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{%- endif -%}
 {%- endif -%}
