@@ -60,9 +60,9 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   A collaborative computational framework and data schema for the built environment. Defines a core object model for AEC domains (structure, environment, MEP, etc.).
   *GitHub: [BHoM/BHoM](https://github.com/BHoM/BHoM)*
 
-- **Revit API Samples**
-  Official Autodesk repositories demonstrating Revit API usage for automation and plugin development.
-  *GitHub: [Autodesk/revit-api](https://github.com/Autodesk/revit-api)*
+- **Revit SDK Samples**
+  Revit SDK documentation and samples demonstrating Revit API usage for automation and plugin development, maintained by Autodesk's Jeremy Tammik.
+  *GitHub: [jeremytammik/RevitSdkSamples](https://github.com/jeremytammik/RevitSdkSamples)*
 
 - **BIMsurfer**
   Web-based BIM viewer for IFC models with clash detection and collaboration features.
@@ -200,13 +200,9 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   REST geometry server based on the Rhino 3D geometry kernel. Allows programmatic, headless access to Rhino's modeling capabilities.
   *GitHub: [mcneel/compute.rhino3d](https://github.com/mcneel/compute.rhino3d)*
 
-- **BlenderBIM**
+- **Bonsai (formerly BlenderBIM)**
   Blender add-on for BIM workflows, supporting IFC import/export and parametric modeling.
-  *GitHub: [blenderbim/blenderbim](https://github.com/blenderbim/blenderbim)*
-
-- **Grasshopper-IFC**
-  Grasshopper plugin for generating IFC-compliant geometries in Rhino.
-  *GitHub: [MadsHolten/IFC-Grasshopper](https://github.com/MadsHolten/IFC-Grasshopper)*
+  *GitHub: [IfcOpenShell/IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell/tree/HEAD/src/bonsai)*
 
 - **Polygonjs**
   Node-based WebGL design tool for creating interactive 3D experiences and digital twins without coding.
@@ -285,10 +281,6 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **iTwin.js**
   Open-source library from Bentley for creating and visualizing infrastructure digital twins.
   *GitHub: [iTwin/itwinjs-core](https://github.com/iTwin/itwinjs-core)*
-
-- **Digital Twin Toolkit**
-  Framework for creating digital twins of buildings and infrastructure.
-  *GitHub: [digitaltwinconsortium/DigitalTwinToolkit](https://github.com/digitaltwinconsortium/DigitalTwinToolkit)*
 
 - **PlayCanvas**
   Open-source WebGL game engine for building interactive 3D visualizations and digital twins.
