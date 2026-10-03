@@ -21,6 +21,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [Digital Twins](#digital-twins)
   - [GIS \& Mapping](#gis--mapping)
   - [Project Management](#project-management)
+  - [Cost Estimation & Quantity Takeoff](#cost-estimation--quantity-takeoff)
   - [Contribute](#contribute)
 
 ---
@@ -292,6 +293,12 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **LibrePlan**
   Resource planning and scheduling software for construction projects.
   *GitHub: [LibrePlan/libreplan](https://github.com/LibrePlan/libreplan)*
+
+## Cost Estimation & Quantity Takeoff
+
+- **BidWright**
+  Open-source AI-native construction estimating: 2D/3D takeoff, assemblies, pricing, scheduling, and quotes.
+  *GitHub: [braedonsaunders/bidwright](https://github.com/braedonsaunders/bidwright)*
 
 ## Contribute
 
