@@ -96,6 +96,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Pure-Go, cgo-free IFC reader: parses STEP, walks the spatial and semantic model, tessellates geometry, and labels every quantity with where it came from (authored Qto or derived from geometry). Geometry bounds are checked against IfcOpenShell on public sample models.
   *GitHub: [blox-eng/goifc](https://github.com/blox-eng/goifc)*
 
+- **Massing**
+  Open, self-hosted, IFC-native AEC platform spanning acquisition through turnover on a single model. Browser-based IFC authoring on That Open Fragments and IfcOpenShell, federated clash detection, IDS validation, BCF round-trip, generated 2D plans, sections and elevations, a ~100-module general contracting portal with RFIs, pay apps and CPM scheduling, and a development proforma with JV waterfall.
+  *GitHub: [ibuilder/massing](https://github.com/ibuilder/massing)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
@@ -125,6 +129,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **ArchLang**
   Open-source (MIT) DSL for floor plans that compiles `.arch` source to SVG, DXF and PDF with linting and geometric validation, and reads a plan back as rooms, areas, adjacency and an access graph without rendering an image.
   *GitHub: [ChanMeng666/archlang](https://github.com/ChanMeng666/archlang)*
+
+- **Prompt2CAD**
+  Browser-based AI CAD workspace that turns natural-language requirements into dimensioned 3D models for physical objects. Useful for early AECO components, interior fixtures, furniture, and fabrication-ready concepts with STEP, DXF, STL, OBJ, and GLB export.
+  *Website: [prompt2cad.com](https://prompt2cad.com)*
 
 ## Revit Plugins & Extensions
 
