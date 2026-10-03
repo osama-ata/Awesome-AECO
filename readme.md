@@ -225,6 +225,14 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   C# library for reading and writing DXF and DWG files in .NET applications.
   *GitHub: [DomCR/ACadSharp](https://github.com/DomCR/ACadSharp)*
 
+- **QCAD**
+  Open-source 2D CAD application for technical drawings and plans, with DXF support.
+  *GitHub: [qcad/qcad](https://github.com/qcad/qcad)*
+
+- **House Planner**
+  Self-hosted web planner for a private house with a true-scale 2D plan, 3D view, site overlay, utility layouts, design checks and a bill of materials.
+  *GitHub: [egmalt/house-planner](https://github.com/egmalt/house-planner)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
@@ -341,6 +349,94 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Web app for engineering calculations with automatic unit checking, plotting and equation solving, run locally in the browser.
   *GitHub: [mgreminger/EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz)*
 
+- **CalculiX**
+  Free finite element program for linear and nonlinear structural, dynamic and thermal analysis, with Abaqus-compatible input.
+  *Website: [calculix.de](https://www.calculix.de/)*
+
+- **Code_Aster**
+  Open-source finite element solver from EDF for structural mechanics, thermomechanics and nonlinear analysis.
+  *Website: [code-aster.org](https://code-aster.org/)*
+
+- **OpenGeoSys**
+  Open-source multiphysics simulator for thermo-hydro-mechanical-chemical processes in porous and fractured media.
+  *GitHub: [ufz/ogs](https://github.com/ufz/ogs)*
+
+- **OpenSeesPy**
+  Python interface to the OpenSees structural and geotechnical simulation framework.
+  *GitHub: [zhuminjie/OpenSeesPy](https://github.com/zhuminjie/OpenSeesPy)*
+
+- **sectionproperties**
+  Python package for analyzing arbitrary structural cross-sections, computing section properties, warping and stresses.
+  *GitHub: [robbievanleeuwen/section-properties](https://github.com/robbievanleeuwen/section-properties)*
+
+- **OpenQuake Engine**
+  Seismic hazard and risk analysis engine from the Global Earthquake Model Foundation.
+  *GitHub: [gem/oq-engine](https://github.com/gem/oq-engine)*
+
+- **GeoEq**
+  Python workflow for onshore geotechnical analysis, including soil classification, SPT and CPT interpretation, foundation design and liquefaction.
+  *GitHub: [geoeq/geoeq](https://github.com/geoeq/geoeq)*
+
+- **groundhog**
+  Python library for geotechnical engineering covering site investigation data, foundation design and soil profile analysis.
+  *GitHub: [snakesonabrain/groundhog](https://github.com/snakesonabrain/groundhog)*
+
+- **geolysis**
+  Python package for geotechnical analysis, including soil classification, SPT corrections and bearing capacity.
+  *GitHub: [patrickboateng/geolysis](https://github.com/patrickboateng/geolysis)*
+
+- **pygef**
+  Python parser and analysis tools for CPT and borehole files (GEF and XML) from geotechnical site investigations.
+  *GitHub: [cemsbv/pygef](https://github.com/cemsbv/pygef)*
+
+- **SUMO**
+  Microscopic multi-modal traffic simulation package for modeling urban and highway networks.
+  *GitHub: [eclipse-sumo/sumo](https://github.com/eclipse-sumo/sumo)*
+
+- **MATSim**
+  Agent-based framework for large-scale transport simulation and travel demand modeling.
+  *GitHub: [matsim-org/matsim-libs](https://github.com/matsim-org/matsim-libs)*
+
+- **AequilibraE**
+  Python package for transportation modeling, with network editing, traffic assignment and a QGIS plugin.
+  *GitHub: [AequilibraE/aequilibrae](https://github.com/AequilibraE/aequilibrae)*
+
+- **EPA SWMM**
+  EPA's Storm Water Management Model for simulating runoff, stormwater, wastewater and combined sewer systems.
+  *GitHub: [USEPA/Stormwater-Management-Model](https://github.com/USEPA/Stormwater-Management-Model)*
+
+- **PySWMM**
+  Python interface to EPA SWMM for stepping through stormwater simulations and controlling hydraulic elements.
+  *GitHub: [pyswmm/pyswmm](https://github.com/pyswmm/pyswmm)*
+
+- **EPANET**
+  Hydraulic and water quality solver for pressurized water distribution networks.
+  *GitHub: [OpenWaterAnalytics/EPANET](https://github.com/OpenWaterAnalytics/EPANET)*
+
+- **WNTR**
+  Python package from the EPA for simulating and analyzing the resilience of water distribution networks.
+  *GitHub: [USEPA/WNTR](https://github.com/USEPA/WNTR)*
+
+- **MODFLOW 6**
+  USGS modular hydrologic model for simulating groundwater flow and transport.
+  *GitHub: [MODFLOW-ORG/modflow6](https://github.com/MODFLOW-ORG/modflow6)*
+
+- **FloPy**
+  Python package for creating, running and post-processing MODFLOW-based groundwater models.
+  *GitHub: [modflowpy/flopy](https://github.com/modflowpy/flopy)*
+
+- **HEC-RAS**
+  Free river hydraulic modeling software from the US Army Corps of Engineers.
+  *Website: [hec.usace.army.mil](https://www.hec.usace.army.mil/software/hec-ras/)*
+
+- **HEC-HMS**
+  Free hydrologic modeling software from the US Army Corps of Engineers.
+  *Website: [hec.usace.army.mil](https://www.hec.usace.army.mil/software/hec-hms/)*
+
+- **QSDsan**
+  Python package for quantitative sustainable design of sanitation and resource recovery systems, with process modeling and life cycle assessment.
+  *GitHub: [QSD-Group/QSDsan](https://github.com/QSD-Group/QSDsan)*
+
 ## Energy & Sustainability
 
 - **Calc**
@@ -354,6 +450,14 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **LCAx**
   Open data format and validator for exchanging life-cycle assessment results, environmental product declarations, and assemblies.
   *GitHub: [ocni-dtu/lcax](https://github.com/ocni-dtu/lcax)*
+
+- **openLCA**
+  Open-source life cycle assessment and footprint software.
+  *GitHub: [GreenDelta/olca-app](https://github.com/GreenDelta/olca-app)*
+
+- **Brightway**
+  Open-source Python framework for life cycle inventory and environmental impact assessment.
+  *Website: [docs.brightway.dev](https://docs.brightway.dev/en/latest/)*
 
 ## Parametric & Computational Design
 
@@ -518,6 +622,46 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **mago 3DTiler**
   Java tool that converts 3D formats such as OBJ, glTF, CityGML and IFC into OGC 3D Tiles for digital twin services.
   *GitHub: [Gaia3D/mago-3d-tiler](https://github.com/Gaia3D/mago-3d-tiler)*
+
+- **GRASS GIS**
+  GIS suite for geospatial data management, analysis, modeling and visualization.
+  *GitHub: [OSGeo/grass](https://github.com/OSGeo/grass)*
+
+- **GeoServer**
+  Open-source server for sharing and editing geospatial data using OGC standards.
+  *GitHub: [geoserver/geoserver](https://github.com/geoserver/geoserver)*
+
+- **PostGIS**
+  Spatial database extender for PostgreSQL.
+  *GitHub: [postgis/postgis](https://github.com/postgis/postgis)*
+
+- **GDAL**
+  Translator library for raster and vector geospatial data formats.
+  *GitHub: [OSGeo/gdal](https://github.com/OSGeo/gdal)*
+
+- **GeoPandas**
+  Python library for working with geospatial vector data, with geometry operations, spatial joins and mapping.
+  *GitHub: [geopandas/geopandas](https://github.com/geopandas/geopandas)*
+
+- **GeoLibre**
+  Cloud-native GIS platform that runs in the browser, on desktop and mobile, and inside Jupyter notebooks.
+  *GitHub: [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)*
+
+- **CloudCompare**
+  3D point cloud and mesh processing software used for comparing and analyzing laser-scan survey data.
+  *GitHub: [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare)*
+
+- **PDAL**
+  Library for translating and processing point cloud data.
+  *GitHub: [PDAL/PDAL](https://github.com/PDAL/PDAL)*
+
+- **Potree**
+  WebGL viewer for rendering very large point clouds in the browser.
+  *GitHub: [potree/potree](https://github.com/potree/potree)*
+
+- **OpenDroneMap**
+  Open-source toolkit for processing drone imagery into orthophotos, elevation models, point clouds and 3D models.
+  *GitHub: [OpenDroneMap/ODM](https://github.com/OpenDroneMap/ODM)*
 
 ## Project Management
 
