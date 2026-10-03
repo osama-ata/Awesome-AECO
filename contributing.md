@@ -56,7 +56,7 @@ on the different ways you can update your PR so that we can merge it.
 
 If you have something awesome to contribute to Awesome AECO, this is how you do it.
 
-You'll need a [GitHub account](https://github.com/join)!
+You'll need a GitHub account!
 
 1. Access the awesome list's GitHub page: [https://github.com/osama-ata/Awesome-AECO](https://github.com/osama-ata/Awesome-AECO)
 2. Click on the `readme.md` file.

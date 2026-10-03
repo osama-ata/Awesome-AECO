@@ -13,11 +13,13 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [CAD (Computer-Aided Design)](#cad-computer-aided-design)
   - [Revit Plugins \& Extensions](#revit-plugins--extensions)
   - [Simulation \& Analysis](#simulation--analysis)
+  - [Energy \& Sustainability](#energy--sustainability)
   - [Parametric \& Computational Design](#parametric--computational-design)
   - [IoT \& Smart Buildings](#iot--smart-buildings)
   - [Facility \& Asset Management](#facility--asset-management)
   - [Generative Design](#generative-design)
   - [Construction Automation \& Robotics](#construction-automation--robotics)
+  - [AI \& Automation for AECO](#ai--automation-for-aeco)
   - [Digital Twins](#digital-twins)
   - [GIS \& Mapping](#gis--mapping)
   - [Project Management](#project-management)
@@ -103,7 +105,47 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **BIM Guard**
   Open-source BIM compliance application with a FastAPI backend and Svelte frontend. Upload IFC models, extract compliance rules from regulatory documents, validate against buildingSMART IDS and ISO 19650 naming, and generate reports with BCF issues.
-  *Website: [maicen.github.io](https://maicen.github.io/bim-guard/) · GitHub: [maicen/bim-guard](https://github.com/maicen/bim-guard)*
+  *Website: [bim-guard.xyz](https://bim-guard.xyz/) · GitHub: [maicen/bim-guard](https://github.com/maicen/bim-guard)*
+
+- **OpenSKP**
+  Open-source toolkit for reading, writing, and converting SketchUp (`.skp`) files in five languages, with exports including GLB, OBJ, STL, PLY, DXF, IFC4, and Fragments.
+  *GitHub: [iamahsanmehmood/openskp](https://github.com/iamahsanmehmood/openskp)*
+
+- **AEC Open Source Directory**
+  Curated directory of open-source projects for architecture, engineering, and construction, with a browsable live frontend.
+  *Website: [directory.opensource.construction](https://directory.opensource.construction/) · GitHub: [opensource-construction/osc-directory](https://github.com/opensource-construction/osc-directory)*
+
+- **Voxelization Toolkit**
+  Toolkit for analyzing IFC building models with voxel-based geometry, including volume calculations, evacuation-distance analysis, and building-code checks.
+  *GitHub: [IfcOpenShell/voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit)*
+
+- **IFC Flow Map**
+  Visual, node-based tool for viewing, filtering, transforming, analyzing, and exporting IFC building data.
+  *GitHub: [louistrue/ifc-flow](https://github.com/louistrue/ifc-flow)*
+
+- **IFC Classifier**
+  Browser-based tool for viewing IFC models and assigning, managing, and exporting element classifications.
+  *GitHub: [louistrue/ifc-classifier](https://github.com/louistrue/ifc-classifier)*
+
+- **HoneyIFC**
+  Desktop application for browsing IFC 2x3 and IFC4 model data and exporting structured data to spreadsheets.
+  *GitHub: [IliaShkola/honey-ifc](https://github.com/IliaShkola/honey-ifc)*
+
+- **BIM Open Schema**
+  Open specification for BIM data, including geometry, stored in compact Parquet-based files for data exchange and analysis.
+  *GitHub: [ara3d/bim-open-schema](https://github.com/ara3d/bim-open-schema)*
+
+- **Ara 3D WebGL**
+  WebGL viewer for large building and infrastructure models represented as BIM Open Schema files.
+  *GitHub: [ara3d/ara3d-webgl](https://github.com/ara3d/ara3d-webgl)*
+
+- **Open BIM Components**
+  Collection of Three.js-based tools for building browser-based BIM applications, including model processing, floor-plan navigation, and DXF export.
+  *GitHub: [ThatOpen/engine_components](https://github.com/ThatOpen/engine_components)*
+
+- **Speckle2Graph**
+  Python library that converts Revit and IFC models from Speckle into Neo4j graphs while preserving model relationships and hierarchies.
+  *GitHub: [regenbuild/Speckle2Graph](https://github.com/regenbuild/Speckle2Graph)*
 
 ## CAD (Computer-Aided Design)
 
@@ -143,6 +185,14 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Exact unit conversion factors, architectural and engineering drawing scale factors, and fractional inch tables as JSON and CSV. Values derive from the legal definitions (inch, pound, US and imperial gallon) rather than being transcribed, and exact definitions are kept separate from approximate conventions. No runtime or dependencies.
   *GitHub: [Fluxcotech/conversion-tables](https://github.com/Fluxcotech/conversion-tables)*
 
+- **Open CASCADE Technology**
+  C++ platform for developing 3D surface and solid modeling, CAD data exchange, visualization, manufacturing, and numerical simulation software.
+  *GitHub: [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT)*
+
+- **rhino3dm**
+  Libraries for creating, inspecting, and exchanging Rhino geometry in .NET, Python, and JavaScript applications without requiring Rhino.
+  *GitHub: [mcneel/rhino3dm](https://github.com/mcneel/rhino3dm)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
@@ -160,6 +210,18 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **IFC Exporter for Revit**
   The open-source IFC plugin used by Revit for improved IFC support (IFC2x3/IFC4).
   *GitHub: [Autodesk/revit-ifc](https://github.com/Autodesk/revit-ifc)*
+
+- **Revit Add-in Manager**
+  Revit utility for loading, running, and debugging add-ins without restarting the application.
+  *GitHub: [chuongmep/RevitAddInManager](https://github.com/chuongmep/RevitAddInManager)*
+
+- **Bowerbird**
+  Revit 2025 plugin that dynamically compiles and reloads C# command files for add-in development.
+  *GitHub: [ara3d/bowerbird](https://github.com/ara3d/bowerbird)*
+
+- **sPrint**
+  Chrome extension for batch-printing PDFs and downloading derivatives from Autodesk BIM 360 and Autodesk Construction Cloud.
+  *GitHub: [PerkinsAndWill-IO/sPrint](https://github.com/PerkinsAndWill-IO/sPrint)*
 
 ## Simulation & Analysis
 
@@ -191,6 +253,40 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Deterministic, 100% client-side engineering calculation suite for building science, duct aerodynamics, cooling loads, and heat pump sizing.
   *GitHub: [miadsaadidi/hvaclogic](https://github.com/miadsaadidi/hvaclogic)*
 
+- **bim2sim**
+  Python library that maps IFC BIM data into simulation models for building performance and HVAC, with basic methods for CFD and life-cycle assessment.
+  *GitHub: [BIM2SIM/bim2sim](https://github.com/BIM2SIM/bim2sim)*
+
+- **honeybee-energy**
+  Honeybee extension for defining building energy properties and translating building models for EnergyPlus and OpenStudio simulation.
+  *GitHub: [ladybug-tools/honeybee-energy](https://github.com/ladybug-tools/honeybee-energy)*
+
+- **Dragonfly Core**
+  Python libraries for creating and editing large-scale building models using the Dragonfly schema, with extensions for environmental simulation.
+  *GitHub: [ladybug-tools/dragonfly-core](https://github.com/ladybug-tools/dragonfly-core)*
+
+- **honeybee-radiance**
+  Honeybee extension for daylight and radiation simulation with Radiance.
+  *GitHub: [ladybug-tools/honeybee-radiance](https://github.com/ladybug-tools/honeybee-radiance)*
+
+- **Awatif**
+  Browser-based structural analysis and design toolset with finite-element analysis, Eurocode checks, and report generation.
+  *GitHub: [madil4/awatif](https://github.com/madil4/awatif)*
+
+## Energy & Sustainability
+
+- **Calc**
+  Revit-based workflow for assessing the environmental impact of early building designs using material assemblies and life-cycle calculations.
+  *GitHub: [herzogdemeuron/calc](https://github.com/herzogdemeuron/calc)*
+
+- **IfcLCA**
+  Open-source application that analyzes building life-cycle impacts from IFC models using environmental impact data and exports results back into IFC.
+  *GitHub: [IfcLCA/IfcLCA](https://github.com/IfcLCA/IfcLCA)*
+
+- **LCAx**
+  Open data format and validator for exchanging life-cycle assessment results, environmental product declarations, and assemblies.
+  *GitHub: [ocni-dtu/lcax](https://github.com/ocni-dtu/lcax)*
+
 ## Parametric & Computational Design
 
 - **Dynamo**
@@ -212,6 +308,22 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Polygonjs**
   Node-based WebGL design tool for creating interactive 3D experiences and digital twins without coding.
   *GitHub: [polygonjs/polygonjs](https://github.com/polygonjs/polygonjs)*
+
+- **COMPAS Wood**
+  COMPAS-based tools for generating timber joints and working with timber fabrication geometry.
+  *GitHub: [petrasvestartas/compas_wood](https://github.com/petrasvestartas/compas_wood)*
+
+- **Geospiza**
+  .NET library and Grasshopper plugin for evolutionary algorithms in architectural and engineering design.
+  *GitHub: [TheVessen/geospiza](https://github.com/TheVessen/geospiza)*
+
+- **D2P Components**
+  Grasshopper plugin for organizing parametric building components, their properties, instances, and parent-child relationships.
+  *GitHub: [design-to-production/D2P-Components](https://github.com/design-to-production/D2P-Components)*
+
+- **HYWE**
+  Open computational design environment for generating and analyzing early-stage architectural layouts and massing from spatial programs and constraints.
+  *GitHub: [vykrum/Hywe](https://github.com/vykrum/Hywe)*
 
 ## IoT & Smart Buildings
 
@@ -281,6 +393,16 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   High-fidelity 3D robotics simulator used to test construction robotics or automated equipment virtually.
   *GitHub: [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)*
 
+## AI & Automation for AECO
+
+- **DDC Skills Collection for AI Coding Assistants**
+  Collection of skills for AI coding assistants to automate construction workflows, including BIM analysis, cost estimation, scheduling, document processing, and reporting.
+  *GitHub: [datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)*
+
+- **IDS MCP Server**
+  Model Context Protocol server for creating, validating, and managing buildingSMART Information Delivery Specification (IDS) files.
+  *GitHub: [vinnividivicci/ifc-ids-mcp](https://github.com/vinnividivicci/ifc-ids-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
@@ -336,6 +458,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Concrete Estimator Hub Calculators**
   Browser-based and WordPress-embeddable concrete planning calculators for slabs, bags, ready-mix comparison, and job worksheets.
   *Website: [concreteestimatorhub.com](https://concreteestimatorhub.com/) · GitHub: [xuhp630-bot/concrete-estimator-hub-calculators](https://github.com/xuhp630-bot/concrete-estimator-hub-calculators)*
+
+- **OpenConstructionERP**
+  Self-hosted construction ERP with BOQ and cost databases, PDF/CAD/BIM quantity takeoff, estimating, and 4D/5D scheduling.
+  *GitHub: [datadrivenconstruction/OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP)*
 
 ## Contribute
 
