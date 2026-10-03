@@ -335,7 +335,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](https://github.com/osama-ata/Awesome-AECO/blob/main/contributing.md) first.
 
 ## License
 
