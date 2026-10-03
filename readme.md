@@ -107,10 +107,6 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source BIM compliance application with a FastAPI backend and Svelte frontend. Upload IFC models, extract compliance rules from regulatory documents, validate against buildingSMART IDS and ISO 19650 naming, and generate reports with BCF issues.
   *Website: [maicen.github.io](https://maicen.github.io/bim-guard/) · GitHub: [maicen/bim-guard](https://github.com/maicen/bim-guard)*
 
-- **BIM Workbench**
-  FreeCAD workbench for architectural and structural BIM modeling, with IFC import and export; its functionality is integrated into FreeCAD 1.0.
-  *GitHub: [yorikvanhavre/BIM_Workbench](https://github.com/yorikvanhavre/BIM_Workbench)*
-
 - **OpenSKP**
   Open-source toolkit for reading, writing, and converting SketchUp (`.skp`) files in five languages, with exports including GLB, OBJ, STL, PLY, DXF, IFC4, and Fragments.
   *GitHub: [iamahsanmehmood/openskp](https://github.com/iamahsanmehmood/openskp)*
@@ -122,10 +118,6 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Voxelization Toolkit**
   Toolkit for analyzing IFC building models with voxel-based geometry, including volume calculations, evacuation-distance analysis, and building-code checks.
   *GitHub: [IfcOpenShell/voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit)*
-
-- **BetterCorrectFast**
-  Python library for creating BIM Collaboration Format (BCF) issues with descriptions, image snapshots, and IFC element identifiers.
-  *GitHub: [boydhont/BetterCorrectFast](https://github.com/boydhont/BetterCorrectFast)*
 
 - **IFC Flow Map**
   Visual, node-based tool for viewing, filtering, transforming, analyzing, and exporting IFC building data.
@@ -280,10 +272,6 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Awatif**
   Browser-based structural analysis and design toolset with finite-element analysis, Eurocode checks, and report generation.
   *GitHub: [madil4/awatif](https://github.com/madil4/awatif)*
-
-- **Resilient Housing Bayes**
-  Research code for Bayesian decision analysis and prioritization under uncertainty, with applications to urban flood-risk assessment.
-  *GitHub: [Habnetic/resilient-housing-bayes](https://github.com/Habnetic/resilient-housing-bayes)*
 
 ## Energy & Sustainability
 
