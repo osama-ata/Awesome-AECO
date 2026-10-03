@@ -1,0 +1,26 @@
+title: Awesome AECO
+lang: en
+url: https://osama-ata.github.io
+baseurl: /Awesome-AECO
+author: Osama Ata
+description: A curated list of awesome AECO (Architecture, Engineering, Construction, and Operations) resources, tools, and technologies.
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Render readme.md as the home page and turn relative .md links into .html
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-sitemap
+relative_links:
+  enabled: true
+  collections: false
+
+# Agent/maintenance files that should not be published as pages
+exclude:
+  - AGENTS.md
+  - CLAUDE.md

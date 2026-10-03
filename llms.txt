@@ -1,0 +1,18 @@
+# Awesome AECO
+
+> A curated list of open-source tools, libraries, file formats and websites for Architecture, Engineering, Construction and Operations (AECO): BIM and IFC, CAD, Revit plugins, simulation and analysis, parametric and computational design, IoT and smart buildings, facility and asset management, generative design, construction robotics, digital twins, GIS, project management, and cost estimation. Each entry has a name, a one-sentence description and a link to its GitHub repository or website. Released under CC0.
+
+## The list
+
+- [readme.md (raw Markdown)](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/readme.md): The complete list in plain Markdown. Entries are grouped under `##` category headings; each entry is a bold name, a description line and an italic `GitHub:` or `Website:` link line.
+- [Awesome AECO (web page)](https://osama-ata.github.io/Awesome-AECO/): The same list rendered as a web page.
+
+## Contributing
+
+- [Contribution guidelines](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/contributing.md): Inclusion criteria and the exact entry format.
+- [Agent instructions](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/AGENTS.md): Rules and checklists for AI agents proposing changes.
+
+## Optional
+
+- [Repository](https://github.com/osama-ata/Awesome-AECO): Source, issues and pull requests.
+- [License (CC0 1.0)](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/LICENSE): Public-domain dedication; the content may be reused freely.
