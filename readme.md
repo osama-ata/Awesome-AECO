@@ -134,6 +134,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Browser-based AI CAD workspace that turns natural-language requirements into dimensioned 3D models for physical objects. Useful for early AECO components, interior fixtures, furniture, and fabrication-ready concepts with STEP, DXF, STL, OBJ, and GLB export.
   *Website: [prompt2cad.com](https://prompt2cad.com)*
 
+- **conversion-tables**
+  Exact unit conversion factors, architectural and engineering drawing scale factors, and fractional inch tables as JSON and CSV. Values derive from the legal definitions (inch, pound, US and imperial gallon) rather than being transcribed, and exact definitions are kept separate from approximate conventions. No runtime or dependencies.
+  *GitHub: [Fluxcotech/conversion-tables](https://github.com/Fluxcotech/conversion-tables)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
@@ -177,6 +181,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **OpenSees**
   Open System for Earthquake Engineering Simulation. Framework for structural FEA and seismic simulation of structures.
   *GitHub: [OpenSees/OpenSees](https://github.com/OpenSees/OpenSees)*
+
+- **HVACLogic**
+  Deterministic, 100% client-side engineering calculation suite for building science, duct aerodynamics, cooling loads, and heat pump sizing.
+  *GitHub: [miadsaadidi/hvaclogic](https://github.com/miadsaadidi/hvaclogic)*
 
 ## Parametric & Computational Design
 
@@ -244,6 +252,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Self-hosted Computerized Maintenance Management System. Allows teams to schedule work orders and manage inventory.
   *GitHub: [Grashjs/cmms](https://github.com/Grashjs/cmms)*
 
+- **FieldServiceScout**
+  Independent comparisons of field-service management software for trade shops, including features and modeled true cost.
+  *Website: [fieldservicescout.com](https://www.fieldservicescout.com/)*
+
 ## Generative Design
 
 - **Anton**
@@ -253,6 +265,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Design Explorer**
   Web application for exploring multi-dimensional design spaces, used to visualize options from parametric studies.
   *GitHub: [tt-acm/DesignExplorer](https://github.com/tt-acm/DesignExplorer)*
+
+- **Ritn3D**
+  AI floor plan to 3D interior model converter. Auto-detects walls, doors, windows, and rooms from architectural PDFs (AutoCAD, Revit, ArchiCAD, SketchUp exports), scanned blueprints, or phone-camera photos; generates a walkable 3D interior in under 2 minutes with drag-and-drop furniture and GLB / STL export.
+  *Website: [ritn3d.com](https://www.ritn3d.com)*
 
 ## Construction Automation & Robotics
 
