@@ -101,6 +101,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open, self-hosted, IFC-native AEC platform spanning acquisition through turnover on a single model. Browser-based IFC authoring on That Open Fragments and IfcOpenShell, federated clash detection, IDS validation, BCF round-trip, generated 2D plans, sections and elevations, a ~100-module general contracting portal with RFIs, pay apps and CPM scheduling, and a development proforma with JV waterfall.
   *GitHub: [ibuilder/massing](https://github.com/ibuilder/massing)*
 
+- **BIM Guard**
+  Open-source BIM compliance application with a FastAPI backend and Svelte frontend. Upload IFC models, extract compliance rules from regulatory documents, validate against buildingSMART IDS and ISO 19650 naming, and generate reports with BCF issues.
+  *Website: [maicen.github.io](https://maicen.github.io/bim-guard/) · GitHub: [maicen/bim-guard](https://github.com/maicen/bim-guard)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
