@@ -11,6 +11,7 @@ A curated [awesome list](https://github.com/sindresorhus/awesome) of resources f
 | `readme.md` | The list itself, plus the table of contents |
 | `contributing.md` | Rules for adding or changing entries (the source of truth for entry format) |
 | `code-of-conduct.md` | Contributor Covenant |
+| `LICENSE` | CC0 1.0 Universal |
 | `.github/` | Issue and pull request templates, link-check workflow |
 | `.gitattributes` | `readme.md` uses `merge=union` so parallel entry additions merge cleanly |
 

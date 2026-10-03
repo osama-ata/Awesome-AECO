@@ -23,6 +23,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [Project Management](#project-management)
   - [Cost Estimation \& Quantity Takeoff](#cost-estimation--quantity-takeoff)
   - [Contribute](#contribute)
+  - [License](#license)
 
 ---
 
@@ -335,3 +336,9 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See [LICENSE](LICENSE).
