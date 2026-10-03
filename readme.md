@@ -21,7 +21,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   - [Digital Twins](#digital-twins)
   - [GIS \& Mapping](#gis--mapping)
   - [Project Management](#project-management)
-  - [Cost Estimation & Quantity Takeoff](#cost-estimation--quantity-takeoff)
+  - [Cost Estimation \& Quantity Takeoff](#cost-estimation--quantity-takeoff)
   - [Contribute](#contribute)
 
 ---
@@ -72,25 +72,25 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Experimental IFC viewer with AI-powered BIM assistant. Features WebGL and WebGPU rendering, advanced sectioning, first-person navigation, element clustering, and natural language commands for model interaction via local LLM.
   *GitHub: [salpbes/GomeraX](https://github.com/salpbes/GomeraX)*
 
-- **.bim (dotBIM)**
-  Minimalist file format for BIM
+- **dotBIM (.bim)**
+  Minimalist file format for BIM.
   *GitHub: [paireks/dotbim](https://github.com/paireks/dotbim)*
 
 - **xeokit convert**
-  Convert BIM and AEC models directly into XKT files with JavaScript for super fast loading into xeokit
-  *GitHub: [xeokit/xeokit-convert/](https://github.com/xeokit/xeokit-convert/)*
+  Convert BIM and AEC models directly into XKT files with JavaScript for super fast loading into xeokit.
+  *GitHub: [xeokit/xeokit-convert](https://github.com/xeokit/xeokit-convert)*
 
 - **xeokit BIM Viewer**
-  Bundled BIM Viewer built on top of xeokit SDK with features like measurements, tree view explorer, annotations, slicing, first-person navigation
+  Bundled BIM Viewer built on top of xeokit SDK with features like measurements, tree view explorer, annotations, slicing, first-person navigation.
   *GitHub: [xeokit/xeokit-bim-viewer](https://github.com/xeokit/xeokit-bim-viewer)*
 
 - **xeokit SDK**
-  Productive open-source JavaScript SDK and 3D engine with its own WebGL renderer and extensive library of feature examples for viewing BIM, IFC, BCF, Revit, Point Clouds and other with real-world coordinates and double precision with XKT format
+  Productive open-source JavaScript SDK and 3D engine with its own WebGL renderer and extensive library of feature examples for viewing BIM, IFC, BCF, Revit, Point Clouds and other with real-world coordinates and double precision with XKT format.
   *GitHub: [xeokit/xeokit-sdk](https://github.com/xeokit/xeokit-sdk)*
 
 - **IFClite**
   Open-source toolkit for working with IFC files in the browser, on a server, or in a desktop app. Features a WebGPU 3D viewer, IFC4/IFC4X3 support, BCF collaboration, IDS compliance checking, bSDD lookup, 2D drawing generation, and export to IFC, glTF, CSV, JSON, and Parquet.
-  *GitHub: [louistrue/ifc-lite](https://github.com/louistrue/ifc-lite)*
+  *GitHub: [LTplus-AG/ifc-lite](https://github.com/LTplus-AG/ifc-lite)*
 
 - **goifc**
   Pure-Go, cgo-free IFC reader: parses STEP, walks the spatial and semantic model, tessellates geometry, and labels every quantity with where it came from (authored Qto or derived from geometry). Geometry bounds are checked against IfcOpenShell on public sample models.
@@ -146,7 +146,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **RevitLookup**
   Interactive BIM database explorer for Revit. Inspects data of selected elements (parameters, properties) in real-time.
-  *GitHub: [jeremytammik/RevitLookup](https://github.com/jeremytammik/RevitLookup)*
+  *GitHub: [lookup-foundation/RevitLookup](https://github.com/lookup-foundation/RevitLookup)*
 
 - **Rhino.Inside Revit**
   Embeds McNeel Rhino 3D and Grasshopper into Revit's environment, enabling seamless transfer of geometry and parameters.
@@ -160,11 +160,11 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **EnergyPlus**
   The DOE's flagship whole-building energy simulation engine. Models heating/cooling loads, HVAC systems, and energy consumption.
-  *GitHub: [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus)*
+  *GitHub: [NatLabRockies/EnergyPlus](https://github.com/NatLabRockies/EnergyPlus)*
 
 - **OpenStudio**
   A cross-platform collection of tools for whole-building energy modeling that sits on top of EnergyPlus.
-  *GitHub: [NREL/OpenStudio](https://github.com/NREL/OpenStudio)*
+  *GitHub: [NatLabRockies/OpenStudio](https://github.com/NatLabRockies/OpenStudio)*
 
 - **Ladybug Tools**
   Suite of open-source environmental analysis tools connecting CAD modeling to physics engines (e.g., Ladybug for solar analysis, Honeybee for energy/daylight).

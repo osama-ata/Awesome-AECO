@@ -1,0 +1,21 @@
+name: Link check
+
+on:
+  pull_request:
+    paths: [readme.md, contributing.md]
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 2 --accept 200,429 readme.md contributing.md
+          fail: true
