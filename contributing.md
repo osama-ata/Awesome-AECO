@@ -71,4 +71,4 @@ Found a dead link, a renamed project or an inaccurate description? Open an issue
 
 ## Using AI agents
 
-If you use an AI coding agent to prepare a contribution, point it at [AGENTS.md](AGENTS.md). You remain responsible for verifying that the resource exists, the link works and the description is accurate.
+If you use an AI coding agent to prepare a contribution, point it at [AGENTS.md](AGENTS.md), or start from the ready-made [prompt template](prompts/add-entry.md). You remain responsible for verifying that the resource exists, the link works and the description is accurate.
