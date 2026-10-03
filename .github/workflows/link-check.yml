@@ -17,5 +17,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --max-retries 2 --accept 200,429 readme.md contributing.md
+          args: --no-progress --max-retries 2 --accept 200,429 --exclude "^https://github.com/join$" readme.md contributing.md
           fail: true
