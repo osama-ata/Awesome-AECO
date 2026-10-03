@@ -147,6 +147,22 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Python library that converts Revit and IFC models from Speckle into Neo4j graphs while preserving model relationships and hierarchies.
   *GitHub: [regenbuild/Speckle2Graph](https://github.com/regenbuild/Speckle2Graph)*
 
+- **GeometryGymIFC**
+  C# classes for generating and parsing IFC files, supporting IFC2x3, IFC4 and infrastructure extensions such as IFC4.3.
+  *GitHub: [GeometryGym/GeometryGymIFC](https://github.com/GeometryGym/GeometryGymIFC)*
+
+- **Information Delivery Specification (IDS)**
+  buildingSMART XML-based standard for defining IFC information delivery requirements, with the schema, examples and documentation.
+  *GitHub: [buildingSMART/IDS](https://github.com/buildingSMART/IDS)*
+
+- **buildingSMART Data Dictionary**
+  Repository and documentation for the bSDD, an online service hosting classifications, properties, allowed values and units for the built environment.
+  *GitHub: [buildingSMART/bSDD](https://github.com/buildingSMART/bSDD)*
+
+- **Elements**
+  Open-source C# library for building BIM applications, with a geometry kernel and core building element types.
+  *GitHub: [hypar-io/Elements](https://github.com/hypar-io/Elements)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
@@ -193,6 +209,22 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Libraries for creating, inspecting, and exchanging Rhino geometry in .NET, Python, and JavaScript applications without requiring Rhino.
   *GitHub: [mcneel/rhino3dm](https://github.com/mcneel/rhino3dm)*
 
+- **Pascal Editor**
+  Open-source, local-first 3D building editor built with React Three Fiber and WebGPU. Runs in the browser or from the CLI, and connects AI agents through MCP.
+  *GitHub: [pascalorg/editor](https://github.com/pascalorg/editor)*
+
+- **Open CAD Studio**
+  Open-source 2D drafting and 3D modeling application for desktop and web, built with Rust, with DWG and DXF support.
+  *GitHub: [HakanSeven12/OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)*
+
+- **LibreDWG**
+  GNU C library for reading and writing the DWG file format used by AutoCAD.
+  *GitHub: [LibreDWG/libredwg](https://github.com/LibreDWG/libredwg)*
+
+- **ACadSharp**
+  C# library for reading and writing DXF and DWG files in .NET applications.
+  *GitHub: [DomCR/ACadSharp](https://github.com/DomCR/ACadSharp)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
@@ -222,6 +254,18 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **sPrint**
   Chrome extension for batch-printing PDFs and downloading derivatives from Autodesk BIM 360 and Autodesk Construction Cloud.
   *GitHub: [PerkinsAndWill-IO/sPrint](https://github.com/PerkinsAndWill-IO/sPrint)*
+
+- **Revit Database Explorer**
+  Revit add-in for exploring the Revit database, with the ability to edit parameter values, query elements, run ad hoc C# scripts and visualize element geometry.
+  *GitHub: [NeVeSpl/RevitDBExplorer](https://github.com/NeVeSpl/RevitDBExplorer)*
+
+- **Revit Toolkit**
+  Library providing a modern interface to the Revit API for add-in development in .NET.
+  *GitHub: [Nice3point/RevitToolkit](https://github.com/Nice3point/RevitToolkit)*
+
+- **Revit Templates**
+  Project templates for creating Revit add-ins on .NET, with multi-target support for Revit API versions.
+  *GitHub: [Nice3point/RevitTemplates](https://github.com/Nice3point/RevitTemplates)*
 
 ## Simulation & Analysis
 
@@ -272,6 +316,30 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Awatif**
   Browser-based structural analysis and design toolset with finite-element analysis, Eurocode checks, and report generation.
   *GitHub: [madil4/awatif](https://github.com/madil4/awatif)*
+
+- **Pynite**
+  Python library for elastic 3D structural finite element analysis.
+  *GitHub: [JWock82/Pynite](https://github.com/JWock82/Pynite)*
+
+- **anaStruct**
+  Python library for analyzing 2D frames and trusses, computing bending moments, shear and axial forces, and displacements.
+  *GitHub: [anastruct/anaStruct](https://github.com/anastruct/anaStruct)*
+
+- **XC**
+  Open-source finite element analysis program for civil engineering structures, with Python scripting.
+  *GitHub: [xcfem/xc](https://github.com/xcfem/xc)*
+
+- **Sinergym**
+  Gymnasium-based interface to building simulation engines such as EnergyPlus, for testing reinforcement learning and custom controllers on building models.
+  *GitHub: [ugr-sail/sinergym](https://github.com/ugr-sail/sinergym)*
+
+- **OpenDSM**
+  Python library, formerly OpenEEmeter, for calculating metered energy savings in buildings.
+  *GitHub: [opendsm/opendsm](https://github.com/opendsm/opendsm)*
+
+- **EngineeringPaper.xyz**
+  Web app for engineering calculations with automatic unit checking, plotting and equation solving, run locally in the browser.
+  *GitHub: [mgreminger/EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz)*
 
 ## Energy & Sustainability
 
@@ -435,6 +503,22 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   A curated list of GIS, remote sensing, 3D scanning, and other geospatial related sources.
   *GitHub: [sshuair/awesome-gis](https://github.com/sshuair/awesome-gis)*
 
+- **3D City Database**
+  Free 3D geodatabase for storing and managing semantic 3D city models on a standard spatial relational database.
+  *GitHub: [3dcitydb/3dcitydb](https://github.com/3dcitydb/3dcitydb)*
+
+- **CityJSON**
+  Specification and schemas for CityJSON, a JSON-based encoding of the CityGML data model for 3D city models.
+  *GitHub: [cityjson/specs](https://github.com/cityjson/specs)*
+
+- **val3dity**
+  Validator for 3D primitives against the ISO 19107 standard, comparable to PostGIS ST_IsValid for 3D.
+  *GitHub: [tudelft3d/val3dity](https://github.com/tudelft3d/val3dity)*
+
+- **mago 3DTiler**
+  Java tool that converts 3D formats such as OBJ, glTF, CityGML and IFC into OGC 3D Tiles for digital twin services.
+  *GitHub: [Gaia3D/mago-3d-tiler](https://github.com/Gaia3D/mago-3d-tiler)*
+
 ## Project Management
 
 - **OpenProject**
@@ -462,6 +546,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **OpenConstructionERP**
   Self-hosted construction ERP with BOQ and cost databases, PDF/CAD/BIM quantity takeoff, estimating, and 4D/5D scheduling.
   *GitHub: [datadrivenconstruction/OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP)*
+
+- **OpenTakeoff**
+  Open-source PDF takeoff tool for measuring quantities off construction drawings, usable from a browser canvas or driven by AI agents through an MCP server.
+  *GitHub: [Kentucky-ai/opentakeoff](https://github.com/Kentucky-ai/opentakeoff)*
 
 ## Contribute
 
