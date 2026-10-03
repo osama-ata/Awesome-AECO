@@ -122,6 +122,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Python-based parametric CAD scripting framework for mechanical and architectural design.
   *GitHub: [CadQuery/cadquery](https://github.com/CadQuery/cadquery)*
 
+- **ArchLang**
+  Open-source (MIT) DSL for floor plans that compiles `.arch` source to SVG, DXF and PDF with linting and geometric validation, and reads a plan back as rooms, areas, adjacency and an access graph without rendering an image.
+  *GitHub: [ChanMeng666/archlang](https://github.com/ChanMeng666/archlang)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
