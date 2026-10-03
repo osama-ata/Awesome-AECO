@@ -14,6 +14,7 @@ A curated [awesome list](https://github.com/sindresorhus/awesome) of resources f
 | `LICENSE` | CC0 1.0 Universal |
 | `_config.yml` | GitHub Pages (Jekyll) config; the site is published from `main` and renders `readme.md` as the home page |
 | `robots.txt`, `llms.txt` | Crawler rules and the AI-agent index for the published site. Update `llms.txt` if files or URLs change |
+| `_includes/head-custom.html` | Builds the ItemList JSON-LD from `readme.md` at site build time. Relies on the entry format, so do not change it |
 | `.github/` | Issue and pull request templates, link-check workflow |
 | `.gitattributes` | `readme.md` uses `merge=union` so parallel entry additions merge cleanly |
 

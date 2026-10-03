@@ -1,0 +1,51 @@
+{%- comment -%}
+  ItemList JSON-LD generated at build time from readme.md, so new entries are
+  picked up automatically. Entry format: "- **Name**", a description line, then
+  an italic "*GitHub: [..](url)*" or "*Website: [..](url)*" line.
+{%- endcomment -%}
+{%- assign readme_page = site.pages | where: "path", "readme.md" | first -%}
+{%- if page.url == "/" and readme_page -%}
+{%- capture nl %}
+{% endcapture -%}
+{%- assign sections = readme_page.content | split: "## " -%}
+{%- assign position = 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "itemListElement": [
+{%- assign first_item = true -%}
+{%- for section in sections -%}
+  {%- assign category = section | split: nl | first | strip -%}
+  {%- assign entries = section | split: "- **" -%}
+  {%- for entry in entries offset: 1 -%}
+    {%- assign lines = entry | split: nl -%}
+    {%- assign item_name = lines[0] | split: "**" | first | strip -%}
+    {%- assign item_desc = lines[1] | remove: "`" | strip -%}
+    {%- assign item_url = entry | split: "](" | slice: 1 | first | split: ")" | first -%}
+    {%- if item_name != "" and item_url != "" -%}
+      {%- assign position = position | plus: 1 -%}
+      {%- unless first_item %},{% endunless -%}
+      {%- assign first_item = false %}
+    {
+      "@type": "ListItem",
+      "position": {{ position }},
+      "item": {
+        "@type": "Thing",
+        "name": {{ item_name | jsonify }},
+        "description": {{ item_desc | jsonify }},
+        "url": {{ item_url | jsonify }},
+        "keywords": {{ category | jsonify }}
+      }
+    }
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor %}
+  ]
+}
+</script>
+{%- endif -%}
