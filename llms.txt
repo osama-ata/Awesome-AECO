@@ -13,6 +13,8 @@
 - [Agent instructions](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/AGENTS.md): Rules and checklists for AI agents proposing changes.
 - [Add-entry prompt template](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/prompts/add-entry.md): A ready-made prompt for an AI agent to verify a resource and open a pull request that adds it to the list.
 
+- [Featured badge](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg): SVG badge that listed projects can add to their README; snippet in the contribution guidelines.
+
 ## Optional
 
 - [Repository](https://github.com/osama-ata/Awesome-AECO): Source, issues and pull requests.

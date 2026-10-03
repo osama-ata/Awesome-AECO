@@ -65,6 +65,22 @@ You'll need a GitHub account!
 5. Say why you're proposing the changes, and then click on "Propose file change".
 6. Submit the [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)!
 
+## Featured badge
+
+If your project is listed in Awesome AECO, you can show it in your README. The badge links back to the list:
+
+```markdown
+[![Featured in Awesome AECO](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg)](https://github.com/osama-ata/Awesome-AECO)
+```
+
+Or as HTML:
+
+```html
+<a href="https://github.com/osama-ata/Awesome-AECO"><img src="https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg" alt="Featured in Awesome AECO"></a>
+```
+
+Please use it only while your project is in the list.
+
 ## Reporting problems
 
 Found a dead link, a renamed project or an inaccurate description? Open an issue or, better, a pull request that fixes it.
