@@ -1,14 +1,17 @@
 {%- comment -%}
-  ItemList JSON-LD generated at build time from readme.md, so new entries are
-  picked up automatically. Entry format: "- **Name**", a description line, then
-  an italic "*GitHub: [..](url)*" or "*Website: [..](url)*" line.
+  ItemList JSON-LD generated at build time from the rendered readme, so new
+  entries are picked up automatically. By the time layouts render, the page
+  content is already HTML, so this parses the HTML kramdown produces for the
+  entry format: <h2> category headings, then per entry
+  "<p><strong>Name</strong>\nDescription\n<em>GitHub: <a href=url>..</a></em></p>".
 {%- endcomment -%}
 {%- assign readme_page = site.pages | where: "path", "readme.md" | first -%}
 {%- if page.url == "/" and readme_page -%}
 {%- capture nl %}
 {% endcapture -%}
-{%- assign sections = readme_page.content | split: "## " -%}
+{%- assign sections = readme_page.content | split: "<h2 id=" -%}
 {%- assign position = 0 -%}
+{%- assign first_item = true -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -18,15 +21,14 @@
   "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "itemListElement": [
-{%- assign first_item = true -%}
-{%- for section in sections -%}
-  {%- assign category = section | split: nl | first | strip -%}
-  {%- assign entries = section | split: "- **" -%}
+{%- for section in sections offset: 1 -%}
+  {%- assign category = section | split: "</h2>" | first | strip_html | split: ">" | last | strip | replace: "&amp;", "&" -%}
+  {%- assign entries = section | split: "<p><strong>" -%}
   {%- for entry in entries offset: 1 -%}
     {%- assign lines = entry | split: nl -%}
-    {%- assign item_name = lines[0] | split: "**" | first | strip -%}
-    {%- assign item_desc = lines[1] | remove: "`" | strip -%}
-    {%- assign item_url = entry | split: "](" | slice: 1 | first | split: ")" | first -%}
+    {%- assign item_name = lines[0] | split: "</strong>" | first | strip_html | strip | replace: "&amp;", "&" -%}
+    {%- assign item_desc = lines[1] | strip_html | strip | replace: "&amp;", "&" | replace: "&quot;", '"' | replace: "&ldquo;", "“" | replace: "&rdquo;", "”" | replace: "&rsquo;", "’" | replace: "&lsquo;", "‘" -%}
+    {%- assign item_url = entry | split: 'href="' | slice: 1 | first | split: '"' | first | replace: "&amp;", "&" -%}
     {%- if item_name != "" and item_url != "" -%}
       {%- assign position = position | plus: 1 -%}
       {%- unless first_item %},{% endunless -%}
