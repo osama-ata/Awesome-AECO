@@ -105,7 +105,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **BIM Guard**
   Open-source BIM compliance application with a FastAPI backend and Svelte frontend. Upload IFC models, extract compliance rules from regulatory documents, validate against buildingSMART IDS and ISO 19650 naming, and generate reports with BCF issues.
-  *Website: [maicen.github.io](https://maicen.github.io/bim-guard/) · GitHub: [maicen/bim-guard](https://github.com/maicen/bim-guard)*
+  *Website: [bim-guard.xyz](https://bim-guard.xyz/) · GitHub: [maicen/bim-guard](https://github.com/maicen/bim-guard)*
 
 - **OpenSKP**
   Open-source toolkit for reading, writing, and converting SketchUp (`.skp`) files in five languages, with exports including GLB, OBJ, STL, PLY, DXF, IFC4, and Fragments.
