@@ -725,6 +725,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source PDF takeoff tool for measuring quantities off construction drawings, usable from a browser canvas or driven by AI agents through an MCP server.
   *GitHub: [Kentucky-ai/opentakeoff](https://github.com/Kentucky-ai/opentakeoff)*
 
+- **debim**
+  Declarative BIM engine and Building-as-Code compiler that calculates material quantities, generates cost estimates from price catalogs, compiles to IFC4, and produces standalone 3D HTML viewers.
+  *Website: [prida-takon.github.io/debim](https://prida-takon.github.io/debim/) · GitHub: [PRIDA-TAKON/debim](https://github.com/PRIDA-TAKON/debim)*
+
 ## FAQ
 
 ### What is AECO?
