@@ -725,6 +725,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source PDF takeoff tool for measuring quantities off construction drawings, usable from a browser canvas or driven by AI agents through an MCP server.
   *GitHub: [Kentucky-ai/opentakeoff](https://github.com/Kentucky-ai/opentakeoff)*
 
+- **Roof Cost Data**
+  Estimates U.S. residential roof replacement costs from roof area, pitch, material, tear-off, and location inputs for early project budgeting.
+  *Website: [roofcostdata.com](https://roofcostdata.com/roof-replacement-cost-calculator)*
+
 ## FAQ
 
 ### What is AECO?
