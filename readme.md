@@ -447,6 +447,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Free browser-based finite element solver for 2D and 3D structural, thermal, fluid and electromagnetic problems, including coupled physics, with WebGPU acceleration and a CPU fallback.
   *Website: [engineeringonweb.com](https://engineeringonweb.com/fea/)*
 
+- **AgentFEM**
+  Python finite-element platform for structural and thermal analysis, with editable models, command-line workflows and result verification for engineering studies. Runs locally on FEniCSx and can be operated by compatible AI agents.
+  *GitHub: [haoming-luo/agentfem](https://github.com/haoming-luo/agentfem)*
+
 ## Energy & Sustainability
 
 - **Calc**
