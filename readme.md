@@ -770,7 +770,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   *Website: [concretemixai.com](https://concretemixai.com/free-takeoff)*
 - **Level Commercial Building Value & Trade Expenditure Calculator**
   Calculates annual commercial building maintenance and trade-service expenditure across 51 US states/DC, 11 commercial property types, and 7 trades using 9,084,887 commercial property records, CBECS/BOMA/IFMA benchmarks, and a read-only MCP server.
-  *Website: [levelcfo.com/tools/building-value-calculator](https://levelcfo.com/tools/building-value-calculator/) · GitHub: [levelcfo/trade-economy-index-data](https://github.com/levelcfo/trade-economy-index-data)*
+  *Website: [levelcfo.com/tools/building-value-calculator](https://levelcfo.com/tools/building-revenue-calculator/) · GitHub: [levelcfo/trade-economy-index-data](https://github.com/levelcfo/trade-economy-index-data)*
 
 ## FAQ
 
