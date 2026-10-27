@@ -725,6 +725,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source PDF takeoff tool for measuring quantities off construction drawings, usable from a browser canvas or driven by AI agents through an MCP server.
   *GitHub: [Kentucky-ai/opentakeoff](https://github.com/Kentucky-ai/opentakeoff)*
 
+- **Level Commercial Building Value & Trade Expenditure Calculator**
+  Calculates annual commercial building maintenance and trade-service expenditure across 51 US states/DC, 11 commercial property types, and 7 trades using 9,084,887 commercial property records, CBECS/BOMA/IFMA benchmarks, and a read-only MCP server.
+  *Website: [levelcfo.com/tools/building-value-calculator](https://levelcfo.com/tools/building-revenue-calculator/) · GitHub: [levelcfo/trade-economy-index-data](https://github.com/levelcfo/trade-economy-index-data)*
+
 ## FAQ
 
 ### What is AECO?
