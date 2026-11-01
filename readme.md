@@ -277,6 +277,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Project templates for creating Revit add-ins on .NET, with multi-target support for Revit API versions.
   *GitHub: [Nice3point/RevitTemplates](https://github.com/Nice3point/RevitTemplates)*
 
+- **RayCAD**
+  Revit plugin that automates MEPF tagging and annotation of shop drawings, placing consistent, non-overlapping tags that follow a firm's own standard. HVAC and piping today; Revit 2021 to 2027.
+  *Website: [getraycad.com](https://getraycad.com/?utm_source=awesome-aeco)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
