@@ -451,6 +451,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Python finite-element platform for structural and thermal analysis, with editable models, command-line workflows and result verification for engineering studies. Runs locally on FEniCSx and can be operated by compatible AI agents.
   *GitHub: [haoming-luo/agentfem](https://github.com/haoming-luo/agentfem)*
 
+- **EPW.tools**
+  Web service, API and MCP server that generates EnergyPlus weather files (EPW, DDY, STAT) and ASHRAE design conditions for any coordinates: actual years from 1990, typical years and future climate to 2100.
+  *Website: [epw.tools](https://epw.tools/) · GitHub: [carlobianchi89/epwtools-python](https://github.com/carlobianchi89/epwtools-python)*
+
 ## Energy & Sustainability
 
 - **Calc**
