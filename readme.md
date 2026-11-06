@@ -281,7 +281,6 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source MCP server for Autodesk Revit 2022 to 2027: read, audit and edit live models with 89 tools, one Undo entry per change, and a workstation read-only lock.
   *GitHub: [sharafutdinovdi/revit-model-mcp](https://github.com/sharafutdinovdi/revit-model-mcp)*
 
-
 ## Simulation & Analysis
 
 - **EnergyPlus**
