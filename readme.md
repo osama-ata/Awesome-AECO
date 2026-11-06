@@ -465,6 +465,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source Python framework for life cycle inventory and environmental impact assessment.
   *Website: [docs.brightway.dev](https://docs.brightway.dev/en/latest/)*
 
+- **Construction R-value Calculator**
+  Browser-based calculator for construction R-values of walls, roofs and floors to New Zealand's H1/AS1 6th edition, using the NZS 4214 isothermal planes method and the Appendix E slab-on-ground tables. Shows every calculation step and a section drawing, and exports a PDF report.
+  *Website: [rvalue.ezbuild.co.nz](https://rvalue.ezbuild.co.nz/) · GitHub: [qq624444359/NZ-Construction-R-Value](https://github.com/qq624444359/NZ-Construction-R-Value)*
+
 ## Parametric & Computational Design
 
 - **Dynamo**
