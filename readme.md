@@ -443,6 +443,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Python package for quantitative sustainable design of sanitation and resource recovery systems, with process modeling and life cycle assessment.
   *GitHub: [QSD-Group/QSDsan](https://github.com/QSD-Group/QSDsan)*
 
+- **Engineering on Web FEA**
+  Free browser-based finite element solver for 2D and 3D structural, thermal, fluid and electromagnetic problems, including coupled physics, with WebGPU acceleration and a CPU fallback.
+  *Website: [engineeringonweb.com](https://engineeringonweb.com/fea/)*
+
 ## Energy & Sustainability
 
 - **Calc**
