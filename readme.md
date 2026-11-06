@@ -165,6 +165,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source C# library for building BIM applications, with a geometry kernel and core building element types.
   *GitHub: [hypar-io/Elements](https://github.com/hypar-io/Elements)*
 
+- **3D House Planner**
+  Free browser-based 2D/3D floor planner for houses and apartments with a furniture catalog, IFC import and export to IFC, GLB, OBJ, STL, DXF, SVG and PNG.
+  *Website: [3dhouseplanner.com](https://www.3dhouseplanner.com/)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
