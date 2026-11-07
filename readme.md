@@ -727,7 +727,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **debim**
   Declarative BIM engine and Building-as-Code compiler that calculates material quantities, generates cost estimates from price catalogs, compiles to IFC4, and produces standalone 3D HTML viewers.
-  *Website: [prida-takon.github.io/debim](https://prida-takon.github.io/debim/) · GitHub: [PRIDA-TAKON/debim](https://github.com/PRIDA-TAKON/debim)*
+  *Website: [prida-takon.github.io](https://prida-takon.github.io/debim/) · GitHub: [PRIDA-TAKON/debim](https://github.com/PRIDA-TAKON/debim)*
 
 ## FAQ
 
