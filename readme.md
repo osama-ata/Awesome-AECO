@@ -597,6 +597,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for creating, validating, and managing buildingSMART Information Delivery Specification (IDS) files.
   *GitHub: [vinnividivicci/ifc-ids-mcp](https://github.com/vinnividivicci/ifc-ids-mcp)*
 
+- **ARAI**
+  Browser-based AI engineering agent for architects and construction designers that works on the user's own DWG, DXF or PDF drawings from plain-language tasks. It explains drawing contents, calculates room areas into a schedule, edits drawings, publishes layouts as an ordered PDF drawing set, and answers building-code questions with document and clause references.
+  *Website: [arai.build](https://arai.build/en)*
+
 ## Digital Twins
 
 - **iTwin.js**
