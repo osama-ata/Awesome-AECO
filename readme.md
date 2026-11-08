@@ -721,6 +721,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   PostgreSQL extension for storing and querying LiDAR point cloud data.
   *GitHub: [pgpointcloud/pointcloud](https://github.com/pgpointcloud/pointcloud)*
 
+- **Mini5Planner**
+  Desktop app for macOS and Windows that plans single and double grid photogrammetry flights for DJI Fly drones and exports them as WPML KMZ missions, used for site, excavation and stockpile surveys. Free to use; an optional paid Pro license adds terrain following and battery splitting.
+  *Website: [anleggtech.no](https://www.anleggtech.no/en/mini5planner)*
+
 ## Project Management
 
 - **OpenProject**
