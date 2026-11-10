@@ -756,6 +756,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **debim**
   Declarative BIM engine and Building-as-Code compiler that calculates material quantities, generates cost estimates from price catalogs, compiles to IFC4, and produces standalone 3D HTML viewers.
   *Website: [prida-takon.github.io](https://prida-takon.github.io/debim/) · GitHub: [PRIDA-TAKON/debim](https://github.com/PRIDA-TAKON/debim)*
+
 - **Concrete Mix AI**
   Free concrete quantity takeoff from PDF or DWG plans (concrete, rebar, and CMU), with each quantity traced to the drawing. No account required.
   *Website: [concretemixai.com](https://concretemixai.com/free-takeoff)*
