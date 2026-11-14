@@ -608,6 +608,11 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **ARAI**
   Browser-based AI engineering agent for architects and construction designers that works on the user's own DWG, DXF or PDF drawings from plain-language tasks. It explains drawing contents, calculates room areas into a schedule, edits drawings, publishes layouts as an ordered PDF drawing set, and answers building-code questions with document and clause references.
   *Website: [arai.build](https://arai.build/en)*
+  
+
+
+- [Atlyxen Studios](https://atlyxenstudios.com/) - Architectural engineering and spatial computing studio specializing in CAD / BIM to Unreal Engine 5 real-time 60 FPS environments, procedural pipelines, and AI automation.
+
 
 ## Digital Twins
 
