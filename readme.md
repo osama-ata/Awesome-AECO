@@ -169,6 +169,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Free browser-based 2D/3D floor planner for houses and apartments with a furniture catalog, IFC import and export to IFC, GLB, OBJ, STL, DXF, SVG and PNG.
   *Website: [3dhouseplanner.com](https://www.3dhouseplanner.com/)*
 
+- **IFC Checker**
+  Browser-based checker that tests IFC models against buildingSMART IDS requirements, shows the results in tables with only the failing values marked, and turns selected results into BCF issues. Includes an IDS editor.
+  *Website: [ifcchecker.com](https://ifcchecker.com/)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
