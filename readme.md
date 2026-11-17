@@ -173,6 +173,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Browser-based checker that tests IFC models against buildingSMART IDS requirements, shows the results in tables with only the failing values marked, and turns selected results into BCF issues. Includes an IDS editor.
   *Website: [ifcchecker.com](https://ifcchecker.com/)*
 
+- **BIMpedia**
+  Free browser tools for BIM coordination and information management (BEP, MIDP, LOD/LOIN, IDS, clash matrices, BCF, COBie checks), with plain-language lessons and an ISO 19650 reference. Exports to Excel, PDF and Word; no sign-up.
+  *Website: [bimpedia.org](https://bimpedia.org/)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
