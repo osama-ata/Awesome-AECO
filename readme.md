@@ -609,6 +609,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Browser-based AI engineering agent for architects and construction designers that works on the user's own DWG, DXF or PDF drawings from plain-language tasks. It explains drawing contents, calculates room areas into a schedule, edits drawings, publishes layouts as an ordered PDF drawing set, and answers building-code questions with document and clause references.
   *Website: [arai.build](https://arai.build/en)*
 
+- **AEC Pilot**
+  Add-in that runs a local MCP server inside Revit, AutoCAD, Civil 3D, Advance Steel, Navisworks, Inventor, Fusion, 3ds Max and Robot Structural Analysis, so Claude, ChatGPT, Cursor or any MCP client can read and edit the open model. Commercial, with a 14-day free trial.
+  *Website: [aecpilot.com](https://www.aecpilot.com/) · GitHub: [hmertkaramann/aec-pilot-mcp](https://github.com/hmertkaramann/aec-pilot-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
