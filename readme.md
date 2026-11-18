@@ -205,7 +205,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **ArchLang**
   Open-source (MIT) DSL for floor plans that compiles `.arch` source to SVG, DXF and PDF with linting and geometric validation, and reads a plan back as rooms, areas, adjacency and an access graph without rendering an image.
-  *GitHub: [ChanMeng666/archlang](https://github.com/ChanMeng666/archlang)*
+  *Website: [archlang.uk](https://archlang.uk/) · GitHub: [ChanMeng666/archlang](https://github.com/ChanMeng666/archlang)*
 
 - **Prompt2CAD**
   Browser-based AI CAD workspace that turns natural-language requirements into dimensioned 3D models for physical objects. Useful for early AECO components, interior fixtures, furniture, and fabrication-ready concepts with STEP, DXF, STL, OBJ, and GLB export.
