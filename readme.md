@@ -621,6 +621,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Add-in that runs a local MCP server inside Revit, AutoCAD, Civil 3D, Advance Steel, Navisworks, Inventor, Fusion, 3ds Max and Robot Structural Analysis, so Claude, ChatGPT, Cursor or any MCP client can read and edit the open model. Commercial, with a 14-day free trial.
   *Website: [aecpilot.com](https://www.aecpilot.com/) · GitHub: [hmertkaramann/aec-pilot-mcp](https://github.com/hmertkaramann/aec-pilot-mcp)*
 
+- **DC Hub**
+  Orchestration layer for data center and energy intelligence, exposed as a remote MCP server at https://dchub.cloud/mcp that starts from an `execute_plan` tool for data center site selection questions. Covers data center and colocation facilities, power grid and interconnection queues, fiber, electricity prices and the Data Center Power Index (DCPI).
+  *Website: [dchub.cloud](https://dchub.cloud/) · GitHub: [azmartone67/dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server)*
+
 ## Digital Twins
 
 - **iTwin.js**
