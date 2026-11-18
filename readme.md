@@ -593,6 +593,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   AI floor plan to 3D interior model converter. Auto-detects walls, doors, windows, and rooms from architectural PDFs (AutoCAD, Revit, ArchiCAD, SketchUp exports), scanned blueprints, or phone-camera photos; generates a walkable 3D interior in under 2 minutes with drag-and-drop furniture and GLB / STL export.
   *Website: [ritn3d.com](https://www.ritn3d.com)*
 
+- **FitsTheRoom**
+  Bathroom, half-bath, walk-in closet, laundry and reach-in closet layouts generated for an exact room size, drawn to scale and checked against IRC clearances (R307, P2708), with failing layouts shown alongside the fix. Its inch-by-inch bathroom size results are published as a CC0 dataset.
+  *Website: [fitstheroom.com](https://fitstheroom.com/)*
+
 ## Construction Automation & Robotics
 
 - **ROS (Robot Operating System)**
