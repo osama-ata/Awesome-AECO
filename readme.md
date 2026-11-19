@@ -789,6 +789,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Calculates annual commercial building maintenance and trade-service expenditure across 51 US states/DC, 11 commercial property types, and 7 trades using 9,084,887 commercial property records, CBECS/BOMA/IFMA benchmarks, and a read-only MCP server.
   *Website: [levelcfo.com](https://levelcfo.com/tools/building-revenue-calculator/) · GitHub: [levelcfo/trade-economy-index-data](https://github.com/levelcfo/trade-economy-index-data)*
 
+- **Alsaba Cloud BOQ Pricing**
+  Web tool that prices an uploaded bill of quantities (Excel or PDF) line by line for the Saudi market and returns a priced workbook; rates without a library price are marked as preliminary estimates. Arabic and English, with a free tier.
+  *Website: [alsaba.cloud/en/boq](https://alsaba.cloud/en/boq)*
+
 ## FAQ
 
 ### What is AECO?
