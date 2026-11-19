@@ -789,6 +789,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Calculates annual commercial building maintenance and trade-service expenditure across 51 US states/DC, 11 commercial property types, and 7 trades using 9,084,887 commercial property records, CBECS/BOMA/IFMA benchmarks, and a read-only MCP server.
   *Website: [levelcfo.com](https://levelcfo.com/tools/building-revenue-calculator/) · GitHub: [levelcfo/trade-economy-index-data](https://github.com/levelcfo/trade-economy-index-data)*
 
+- **EstimatorSuite**
+  Free construction calculator library and estimating software reviews for US contractors. Covers concrete, roofing, HVAC, drywall, decking, fencing, and landscaping; the calculation engine is MIT-licensed.
+  *Website: [estimatorsuite.com](https://estimatorsuite.com/) · GitHub: [estimatorsuite/construction-calculators](https://github.com/estimatorsuite/construction-calculators)*
+
 ## FAQ
 
 ### What is AECO?
