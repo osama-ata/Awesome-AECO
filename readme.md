@@ -656,6 +656,9 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Claude PFD Generator**
   Claude skill that generates editable SVG process flow diagrams with equipment, process streams, instrumentation and control loops from plain-language process descriptions.
   *GitHub: [ScottDuncanAI/claude-manufacturing-skills](https://github.com/ScottDuncanAI/claude-manufacturing-skills)*
+- **BIM door**
+  How an AI drives UNION, a BIM and drafting program, through its built-in MCP door: the guide, every command with its step line, the one-line ops, and 449 drafting jobs with their exact calls and UNION's answers, each played green on UNION 1.0.0-beta.2. UNION is commercial, with a free trial.
+  *GitHub: [bim-door/bim-door](https://github.com/bim-door/bim-door)*
 
 ## Digital Twins
 
