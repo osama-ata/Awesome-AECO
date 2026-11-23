@@ -305,6 +305,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Revit add-in for building ribbon tabs from Revit's own commands and the commands of other add-ins, saved as profiles that a BIM manager can share and users load in one click. Supports Revit 2025 to 2027.
   *Website: [rst-c.designs-os.com](https://rst-c.designs-os.com/) · GitHub: [jedbjorn/rst-c](https://github.com/jedbjorn/rst-c)*
 
+- **Gantt-It**
+  Revit add-in that draws Gantt charts as native Revit legends in the project's own graphic styles, ready to place on sheets and regenerate when the schedule changes. Supports Revit 2025 to 2027.
+  *Website: [gantt-it.designs-os.com](https://gantt-it.designs-os.com/) · GitHub: [jedbjorn/gantt-it](https://github.com/jedbjorn/gantt-it)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
