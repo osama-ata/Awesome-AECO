@@ -297,6 +297,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Revit plugin that automates MEPF tagging and annotation of shop drawings, placing consistent, non-overlapping tags that follow a firm's own standard. HVAC and piping today; Revit 2021 to 2027.
   *Website: [getraycad.com](https://getraycad.com/)*
 
+- **RST**
+  Revit add-in for building ribbon tabs from Revit's own commands and the commands of other add-ins, saved as profiles that a BIM manager can share and users load in one click. Supports Revit 2025 to 2027.
+  *Website: [rst-c.designs-os.com](https://rst-c.designs-os.com/) · GitHub: [jedbjorn/rst-c](https://github.com/jedbjorn/rst-c)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
