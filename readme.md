@@ -733,6 +733,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for structural finite element analysis software, supporting geometry modeling, analysis execution and post-processing in ETABS and LUSAS.
   *GitHub: [GreatApo/FEA-MCP](https://github.com/GreatApo/FEA-MCP)*
 
+- **idfkit-mcp**
+  Model Context Protocol server for inspecting, editing and running EnergyPlus building energy simulation models with idfkit.
+  *Website: [mcp.idfkit.com](https://mcp.idfkit.com/) · GitHub: [idfkit/idfkit-mcp](https://github.com/idfkit/idfkit-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
