@@ -317,6 +317,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source MCP server and add-in for Autodesk Revit 2026 that lets MCP clients such as Claude and Codex work in the open Revit session, with a chosen workspace folder, one-time approval for anything outside it, and a receipt for every run. Early alpha.
   *Website: [drive-it.designs-os.com](https://drive-it.designs-os.com/) · GitHub: [jedbjorn/drive-it](https://github.com/jedbjorn/drive-it)*
 
+- **RevitMCPBridge2026**
+  Open-source MCP server for Autodesk Revit 2026 exposing 700+ API endpoints over named pipes for element creation, view management, documentation and code compliance checks.
+  *GitHub: [WeberG619/RevitMCPBridge2026](https://github.com/WeberG619/RevitMCPBridge2026)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
