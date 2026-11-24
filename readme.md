@@ -717,6 +717,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Official Autodesk Platform Services .NET MCP server for querying the AEC Data Model API, filtering elements by category and rendering models in the Viewer.
   *GitHub: [autodesk-platform-services/aps-aecdm-mcp-dotnet](https://github.com/autodesk-platform-services/aps-aecdm-mcp-dotnet)*
 
+- **ifcopenshell-mcp**
+  Model Context Protocol server built on IfcOpenShell for querying, validating and converting IFC models through natural language.
+  *GitHub: [Daviidro/ifcopenshell-mcp](https://github.com/Daviidro/ifcopenshell-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
