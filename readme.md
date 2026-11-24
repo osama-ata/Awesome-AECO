@@ -701,6 +701,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server and skills collection from NREL for creating, modifying and running OpenStudio building energy simulations via natural language.
   *GitHub: [NatLabRockies/openstudio-mcp](https://github.com/NatLabRockies/openstudio-mcp)*
 
+- **StructureClaw**
+  Open-source AI-assisted structural engineering workspace for drafting, analyzing, validating and code-checking structural models from natural-language prompts.
+  *Website: [structureclaw.com](https://structureclaw.com/) · GitHub: [structureclaw/structureclaw](https://github.com/structureclaw/structureclaw)*
+
 ## Digital Twins
 
 - **iTwin.js**
