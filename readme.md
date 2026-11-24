@@ -709,6 +709,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for querying IFC entities, properties, spatial hierarchy and wall openings from large language models.
   *GitHub: [smartaec/ifcmcp](https://github.com/smartaec/ifcmcp)*
 
+- **Speckle MCP**
+  Model Context Protocol server for listing projects, inspecting model versions and querying objects and properties in Speckle.
+  *GitHub: [bimgeek/speckle-mcp](https://github.com/bimgeek/speckle-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
