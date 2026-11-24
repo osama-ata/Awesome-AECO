@@ -681,6 +681,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Orchestration layer for data center and energy intelligence, exposed as a remote MCP server that starts from an `execute_plan` tool for data center site selection questions. Covers data center and colocation facilities, power grid and interconnection queues, fiber, electricity prices and the Data Center Power Index (DCPI).
   *Website: [dchub.cloud](https://dchub.cloud/) · GitHub: [azmartone67/dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server)*
 
+- **cad2data**
+  Conversion pipeline and importers for turning Revit, IFC, DWG and DGN files into structured datasets (XLSX, CSV, DAE) for quantity takeoff, cost estimation and automated BIM workflows.
+  *GitHub: [datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN)*
+
 ## Digital Twins
 
 - **iTwin.js**
