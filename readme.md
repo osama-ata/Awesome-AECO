@@ -313,6 +313,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Revit add-in that colors view tabs by the file they belong to and regroups scattered tabs, with separate palettes for project and family files. Supports Revit 2025 to 2027.
   *Website: [splash-it.designs-os.com](https://splash-it.designs-os.com/) · GitHub: [jedbjorn/splash-it](https://github.com/jedbjorn/splash-it)*
 
+- **Drive It**
+  Open-source MCP server and add-in for Autodesk Revit 2026 that lets MCP clients such as Claude and Codex work in the open Revit session, with a chosen workspace folder, one-time approval for anything outside it, and a receipt for every run. Early alpha.
+  *Website: [drive-it.designs-os.com](https://drive-it.designs-os.com/) · GitHub: [jedbjorn/drive-it](https://github.com/jedbjorn/drive-it)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
