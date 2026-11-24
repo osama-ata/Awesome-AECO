@@ -685,6 +685,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Conversion pipeline and importers for turning Revit, IFC, DWG and DGN files into structured datasets (XLSX, CSV, DAE) for quantity takeoff, cost estimation and automated BIM workflows.
   *GitHub: [datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN)*
 
+- **QGIS MCP**
+  Model Context Protocol server connecting QGIS Desktop to AI agents for project and layer manipulation, processing algorithm execution and PyQGIS scripting.
+  *GitHub: [jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
