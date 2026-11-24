@@ -664,6 +664,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   The MCP server built into UNION, a BIM and CAD drafting program: the guide, every command with its step line, the one-line ops, and 449 drafting jobs with their exact calls and UNION's answers, each played green on UNION 1.0.0-beta.2. UNION is commercial, with a free trial.
   *GitHub: [bim-door/bim-door](https://github.com/bim-door/bim-door)*
 
+- **ArchitecturesAI**
+  Browser-based AI rendering tool that turns a text prompt, sketch, floor plan or site photo into a photorealistic architectural render, with separate tools for interiors, exteriors, landscape and virtual staging. Freemium: one free render, then paid plans.
+  *Website: [architecturesai.com](https://architecturesai.com/)*
+
 ## Digital Twins
 
 - **iTwin.js**
