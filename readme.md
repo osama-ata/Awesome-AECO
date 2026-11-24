@@ -705,6 +705,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source AI-assisted structural engineering workspace for drafting, analyzing, validating and code-checking structural models from natural-language prompts.
   *Website: [structureclaw.com](https://structureclaw.com/) · GitHub: [structureclaw/structureclaw](https://github.com/structureclaw/structureclaw)*
 
+- **ifcMCP**
+  Model Context Protocol server for querying IFC entities, properties, spatial hierarchy and wall openings from large language models.
+  *GitHub: [smartaec/ifcmcp](https://github.com/smartaec/ifcmcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
