@@ -633,6 +633,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Curated index of publicly downloadable P&ID and engineering drawing packages from permitted water and wastewater treatment facilities, alongside industrial process time-series datasets for testing engineering AI tools.
   *GitHub: [ScottDuncanAI/public-chemical-manufacturing-datasets](https://github.com/ScottDuncanAI/public-chemical-manufacturing-datasets)*
 
+- **Claude PFD Generator**
+  Claude skill that generates editable SVG process flow diagrams with equipment, process streams, instrumentation and control loops from plain-language process descriptions.
+  *GitHub: [ScottDuncanAI/claude-manufacturing-skills](https://github.com/ScottDuncanAI/claude-manufacturing-skills)*
+
 ## Digital Twins
 
 - **iTwin.js**
