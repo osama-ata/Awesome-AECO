@@ -697,6 +697,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server connecting large language models to IFC-based BIM authoring and editing in Blender through the Bonsai add-on and IfcOpenShell.
   *GitHub: [Show2Instruct/ifc-bonsai-mcp](https://github.com/Show2Instruct/ifc-bonsai-mcp)*
 
+- **OpenStudio MCP**
+  Model Context Protocol server and skills collection from NREL for creating, modifying and running OpenStudio building energy simulations via natural language.
+  *GitHub: [NatLabRockies/openstudio-mcp](https://github.com/NatLabRockies/openstudio-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
