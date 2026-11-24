@@ -563,6 +563,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open computational design environment for generating and analyzing early-stage architectural layouts and massing from spatial programs and constraints.
   *GitHub: [vykrum/Hywe](https://github.com/vykrum/Hywe)*
 
+- **Cordyceps**
+  Model Context Protocol server for Rhino 8 and Grasshopper that lets AI agents place, wire and group Grasshopper components and manage Rhino layers and geometry.
+  *GitHub: [brookstalley/cordyceps](https://github.com/brookstalley/cordyceps)*
+
 ## IoT & Smart Buildings
 
 - **Home Assistant**
