@@ -721,6 +721,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server connecting FreeCAD to Claude and Cursor for prompt-assisted 3D CAD modeling and scene manipulation.
   *GitHub: [bonninr/freecad_mcp](https://github.com/bonninr/freecad_mcp)*
 
+- **Civil3D MCP**
+  Model Context Protocol server for Autodesk Civil 3D with tools for creating, querying and editing points, alignments, profiles, surfaces and corridors.
+  *GitHub: [Sacred-G/Civil3D-mcp](https://github.com/Sacred-G/Civil3D-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
