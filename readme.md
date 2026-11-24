@@ -317,10 +317,6 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source MCP server and add-in for Autodesk Revit 2026 that lets MCP clients such as Claude and Codex work in the open Revit session, with a chosen workspace folder, one-time approval for anything outside it, and a receipt for every run. Early alpha.
   *Website: [drive-it.designs-os.com](https://drive-it.designs-os.com/) · GitHub: [jedbjorn/drive-it](https://github.com/jedbjorn/drive-it)*
 
-- **RevitMCPBridge2026**
-  Open-source MCP server for Autodesk Revit 2026 exposing 700+ API endpoints over named pipes for element creation, view management, documentation and code compliance checks.
-  *GitHub: [WeberG619/RevitMCPBridge2026](https://github.com/WeberG619/RevitMCPBridge2026)*
-
 - **zexus**
   Autodesk Revit AI agent and add-in combining an MCP server with dynamic C# execution against the Revit API.
   *GitHub: [QuanZ827/zexus](https://github.com/QuanZ827/zexus)*
@@ -683,7 +679,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **cad2data**
   Conversion pipeline and importers for turning Revit, IFC, DWG and DGN files into structured datasets (XLSX, CSV, DAE) for quantity takeoff, cost estimation and automated BIM workflows.
-  *GitHub: [datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN)*
+  *GitHub: [datadrivenconstruction/cad2data-Revit-IFC-DWG](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG)*
 
 - **QGIS MCP**
   Model Context Protocol server connecting QGIS Desktop to AI agents for project and layer manipulation, processing algorithm execution and PyQGIS scripting.
@@ -707,7 +703,7 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 - **ifcMCP**
   Model Context Protocol server for querying IFC entities, properties, spatial hierarchy and wall openings from large language models.
-  *GitHub: [smartaec/ifcmcp](https://github.com/smartaec/ifcmcp)*
+  *GitHub: [smartaec/ifcMCP](https://github.com/smartaec/ifcMCP)*
 
 - **Speckle MCP**
   Model Context Protocol server for listing projects, inspecting model versions and querying objects and properties in Speckle.
