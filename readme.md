@@ -725,6 +725,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for Autodesk Civil 3D with tools for creating, querying and editing points, alignments, profiles, surfaces and corridors.
   *GitHub: [Sacred-G/Civil3D-mcp](https://github.com/Sacred-G/Civil3D-mcp)*
 
+- **Metashape MCP**
+  Model Context Protocol server for Agisoft Metashape Professional 2.3+ that automates photogrammetry pipelines from image alignment and dense point clouds to DEM and orthomosaic export.
+  *GitHub: [jenkinsm13/metashape-mcp](https://github.com/jenkinsm13/metashape-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
