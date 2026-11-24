@@ -713,6 +713,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for listing projects, inspecting model versions and querying objects and properties in Speckle.
   *GitHub: [bimgeek/speckle-mcp](https://github.com/bimgeek/speckle-mcp)*
 
+- **APS AEC Data Model MCP**
+  Official Autodesk Platform Services .NET MCP server for querying the AEC Data Model API, filtering elements by category and rendering models in the Viewer.
+  *GitHub: [autodesk-platform-services/aps-aecdm-mcp-dotnet](https://github.com/autodesk-platform-services/aps-aecdm-mcp-dotnet)*
+
 ## Digital Twins
 
 - **iTwin.js**
