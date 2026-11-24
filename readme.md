@@ -729,6 +729,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for Agisoft Metashape Professional 2.3+ that automates photogrammetry pipelines from image alignment and dense point clouds to DEM and orthomosaic export.
   *GitHub: [jenkinsm13/metashape-mcp](https://github.com/jenkinsm13/metashape-mcp)*
 
+- **FEA-MCP**
+  Model Context Protocol server for structural finite element analysis software, supporting geometry modeling, analysis execution and post-processing in ETABS and LUSAS.
+  *GitHub: [GreatApo/FEA-MCP](https://github.com/GreatApo/FEA-MCP)*
+
 ## Digital Twins
 
 - **iTwin.js**
