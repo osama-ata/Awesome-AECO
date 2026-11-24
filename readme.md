@@ -813,6 +813,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Free construction calculator library and estimating software reviews for US contractors. Covers concrete, roofing, HVAC, drywall, decking, fencing, and landscaping; the calculation engine is MIT-licensed.
   *Website: [estimatorsuite.com](https://estimatorsuite.com/) · GitHub: [estimatorsuite/construction-calculators](https://github.com/estimatorsuite/construction-calculators)*
 
+- **Alsaba Cloud BOQ Pricing**
+  Web tool that prices an uploaded bill of quantities (Excel or PDF) line by line for the Saudi market and returns a priced workbook; rates without a library price are marked as preliminary estimates. Arabic and English, with a free tier.
+  *Website: [alsaba.cloud](https://alsaba.cloud/en/boq)*
+
 ## FAQ
 
 ### What is AECO?
