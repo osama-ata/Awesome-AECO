@@ -625,6 +625,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Add-in that runs a local MCP server inside Revit, AutoCAD, Civil 3D, Advance Steel, Navisworks, Inventor, Fusion, 3ds Max and Robot Structural Analysis, so Claude, ChatGPT, Cursor or any MCP client can read and edit the open model. Commercial, with a 14-day free trial.
   *Website: [aecpilot.com](https://www.aecpilot.com/) · GitHub: [hmertkaramann/aec-pilot-mcp](https://github.com/hmertkaramann/aec-pilot-mcp)*
 
+- **P&ID to Knowledge Graph**
+  Claude Code skill and Python toolkit that extracts equipment, piping topology, ISA-5.1 instruments and control loops from digital or scanned P&ID and PFD PDFs into a DEXPI-aligned knowledge graph in JSON and DuckDB.
+  *GitHub: [ScottDuncanAI/PID-to-Knowledge-Graph](https://github.com/ScottDuncanAI/PID-to-Knowledge-Graph)*
+
 ## Digital Twins
 
 - **iTwin.js**
