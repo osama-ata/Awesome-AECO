@@ -321,6 +321,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Open-source MCP server for Autodesk Revit 2026 exposing 700+ API endpoints over named pipes for element creation, view management, documentation and code compliance checks.
   *GitHub: [WeberG619/RevitMCPBridge2026](https://github.com/WeberG619/RevitMCPBridge2026)*
 
+- **zexus**
+  Autodesk Revit AI agent and add-in combining an MCP server with dynamic C# execution against the Revit API.
+  *GitHub: [QuanZ827/zexus](https://github.com/QuanZ827/zexus)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
