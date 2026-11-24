@@ -247,6 +247,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Self-hosted web planner for a private house with a true-scale 2D plan, 3D view, site overlay, utility layouts, design checks and a bill of materials.
   *GitHub: [egmalt/house-planner](https://github.com/egmalt/house-planner)*
 
+- **Room Meadow**
+  Browser-based 2D floor plan editor for drawing measured rooms, placing doors and furniture, and checking clearances. Drawing and watermarked PNG export are free without an account, and print-to-scale PDF export uses credits.
+  *Website: [roommeadow.com](https://roommeadow.com/floor-plan-maker)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
