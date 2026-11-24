@@ -668,6 +668,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Browser-based AI rendering tool that turns a text prompt, sketch, floor plan or site photo into a photorealistic architectural render, with separate tools for interiors, exteriors, landscape and virtual staging. Freemium: one free render, then paid plans.
   *Website: [architecturesai.com](https://architecturesai.com/)*
 
+- **DC Hub**
+  Orchestration layer for data center and energy intelligence, exposed as a remote MCP server that starts from an `execute_plan` tool for data center site selection questions. Covers data center and colocation facilities, power grid and interconnection queues, fiber, electricity prices and the Data Center Power Index (DCPI).
+  *Website: [dchub.cloud](https://dchub.cloud/) · GitHub: [azmartone67/dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server)*
+
 ## Digital Twins
 
 - **iTwin.js**
