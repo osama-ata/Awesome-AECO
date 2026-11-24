@@ -717,6 +717,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server built on IfcOpenShell for querying, validating and converting IFC models through natural language.
   *GitHub: [Daviidro/ifcopenshell-mcp](https://github.com/Daviidro/ifcopenshell-mcp)*
 
+- **FreeCAD MCP**
+  Model Context Protocol server connecting FreeCAD to Claude and Cursor for prompt-assisted 3D CAD modeling and scene manipulation.
+  *GitHub: [bonninr/freecad_mcp](https://github.com/bonninr/freecad_mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
