@@ -693,6 +693,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   AI-powered workbench for FreeCAD providing Model Context Protocol integration and agentic 3D CAD modeling workflows.
   *GitHub: [ghbalf/freecad-ai](https://github.com/ghbalf/freecad-ai)*
 
+- **MCP4IFC**
+  Model Context Protocol server connecting large language models to IFC-based BIM authoring and editing in Blender through the Bonsai add-on and IfcOpenShell.
+  *GitHub: [Show2Instruct/ifc-bonsai-mcp](https://github.com/Show2Instruct/ifc-bonsai-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
