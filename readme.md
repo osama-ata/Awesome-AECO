@@ -952,6 +952,8 @@ Open one pull request per resource and follow the entry format in the [contribut
 - [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial): geospatial analysis tools and libraries.
 - [Awesome GIS](https://github.com/sshuair/awesome-gis): GIS software, data and learning resources.
 - [Awesome Open Geoscience](https://github.com/softwareunderground/awesome-open-geoscience): open-source tools across the geoscience community.
+- [Awesome AI Tools for AEC](https://github.com/barbosaihan/Awesome-AEC-AI-Tools): MCP servers, AI agent skills and AI applications for architecture, engineering and construction.
+- [Awesome AEC MCP Servers](https://github.com/Daviidro/awesome-aec-mcp): Model Context Protocol servers for BIM, CAD, GIS and 3D workflows.
 
 ## Contribute
 
