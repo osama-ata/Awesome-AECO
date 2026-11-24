@@ -629,6 +629,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Claude Code skill and Python toolkit that extracts equipment, piping topology, ISA-5.1 instruments and control loops from digital or scanned P&ID and PFD PDFs into a DEXPI-aligned knowledge graph in JSON and DuckDB.
   *GitHub: [ScottDuncanAI/PID-to-Knowledge-Graph](https://github.com/ScottDuncanAI/PID-to-Knowledge-Graph)*
 
+- **Public Chemical Manufacturing Datasets**
+  Curated index of publicly downloadable P&ID and engineering drawing packages from permitted water and wastewater treatment facilities, alongside industrial process time-series datasets for testing engineering AI tools.
+  *GitHub: [ScottDuncanAI/public-chemical-manufacturing-datasets](https://github.com/ScottDuncanAI/public-chemical-manufacturing-datasets)*
+
 ## Digital Twins
 
 - **iTwin.js**
