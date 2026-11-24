@@ -309,6 +309,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Revit add-in that draws Gantt charts as native Revit legends in the project's own graphic styles, ready to place on sheets and regenerate when the schedule changes. Supports Revit 2025 to 2027.
   *Website: [gantt-it.designs-os.com](https://gantt-it.designs-os.com/) · GitHub: [jedbjorn/gantt-it](https://github.com/jedbjorn/gantt-it)*
 
+- **Splash-It**
+  Revit add-in that colors view tabs by the file they belong to and regroups scattered tabs, with separate palettes for project and family files. Supports Revit 2025 to 2027.
+  *Website: [splash-it.designs-os.com](https://splash-it.designs-os.com/) · GitHub: [jedbjorn/splash-it](https://github.com/jedbjorn/splash-it)*
+
 ## Simulation & Analysis
 
 - **EnergyPlus**
