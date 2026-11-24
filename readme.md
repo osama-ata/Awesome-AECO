@@ -689,6 +689,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server connecting QGIS Desktop to AI agents for project and layer manipulation, processing algorithm execution and PyQGIS scripting.
   *GitHub: [jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)*
 
+- **FreeCAD AI**
+  AI-powered workbench for FreeCAD providing Model Context Protocol integration and agentic 3D CAD modeling workflows.
+  *GitHub: [ghbalf/freecad-ai](https://github.com/ghbalf/freecad-ai)*
+
 ## Digital Twins
 
 - **iTwin.js**
