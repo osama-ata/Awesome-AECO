@@ -627,13 +627,21 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 
 ## Construction Automation & Robotics
 
-- **ROS (Robot Operating System)**
-  Leading middleware for robotics, used in AEC to prototype construction robots or automation equipment.
-  *GitHub: [ros/ros](https://github.com/ros/ros)*
+- **ROS 2 (Robot Operating System)**
+  Open-source robotics middleware and toolkit, used in AEC to prototype construction robots and automation equipment.
+  *GitHub: [ros2/ros2](https://github.com/ros2/ros2)*
 
 - **Gazebo Simulator**
   High-fidelity 3D robotics simulator used to test construction robotics or automated equipment virtually.
   *GitHub: [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)*
+
+- **Open-RMF (Robotics Middleware Framework)**
+  Open-source framework for managing heterogeneous robot fleets and integrating them with building infrastructure such as elevators, automatic doors, workcells, and multi-floor facility maps.
+  *Website: [open-rmf.org](https://www.open-rmf.org/) · GitHub: [open-rmf/rmf](https://github.com/open-rmf/rmf)*
+
+- **ros2_control**
+  Real-time hardware interface and controller framework for ROS 2, used to control actuators, robotic arms, and mobile bases in construction robotics and automated fabrication systems.
+  *Website: [control.ros.org](https://control.ros.org/) · GitHub: [ros-controls/ros2_control](https://github.com/ros-controls/ros2_control)*
 
 ## AI & Automation for AECO
 
