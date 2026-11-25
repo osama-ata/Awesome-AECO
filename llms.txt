@@ -5,6 +5,7 @@
 ## The list
 
 - [readme.md (raw Markdown)](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/readme.md): The complete list in plain Markdown. Entries are grouped under `##` category headings; each entry is a bold name, a description line and an italic `GitHub:` or `Website:` link line.
+- [catalog.json (enriched JSON)](https://awesome-aeco.github.io/Awesome-AECO/data/catalog.json): Machine-readable JSON catalog of all entries enriched weekly with GitHub stars, star velocity, license, primary language, topics, and inferred domain/standard tags (CC BY 4.0).
 - [Awesome AECO (web page)](https://awesome-aeco.github.io/Awesome-AECO/): The same list rendered as a web page.
 
 ## Contributing

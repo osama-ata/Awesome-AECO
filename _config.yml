@@ -24,3 +24,4 @@ relative_links:
 exclude:
   - AGENTS.md
   - CLAUDE.md
+  - scripts

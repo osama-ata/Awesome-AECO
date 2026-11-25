@@ -1,0 +1,23 @@
+name: Lint readme
+
+on:
+  pull_request:
+    paths: [readme.md, scripts/lint_readme.py]
+  push:
+    branches: [main]
+    paths: [readme.md, scripts/lint_readme.py]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lint readme.md format, TOC, and duplicates
+        run: python3 scripts/lint_readme.py readme.md

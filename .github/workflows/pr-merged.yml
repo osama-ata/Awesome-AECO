@@ -1,0 +1,51 @@
+name: PR merged badge and content drafts
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  on-merge:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout trusted main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Detect new entries and generate badge comment + content drafts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/pr_content_drafts.py \
+            --base "${{ github.event.pull_request.base.sha }}" \
+            --head "${{ github.event.pull_request.merge_commit_sha }}" \
+            --out-dir pr-artifacts
+
+      - name: Comment Featured badge snippet on merged PR
+        if: hashFiles('pr-artifacts/badge_comment.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" \
+            --body-file pr-artifacts/badge_comment.md
+
+      - name: Upload platform content drafts
+        if: hashFiles('pr-artifacts/content_drafts.md') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-${{ github.event.pull_request.number }}-content-drafts
+          path: |
+            pr-artifacts/content_drafts.md
+            pr-artifacts/new_entries.json
