@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T00:36:01Z",
+  "generated_at": "2026-11-25T23:48:49Z",
   "source": "https://github.com/awesome-aeco/Awesome-AECO/blob/main/readme.md",
   "license": "CC-BY-4.0",
   "stats": {
-    "total_entries": 212,
+    "total_entries": 214,
     "categories": 15,
-    "github_repos": 190,
-    "enriched_repos": 190,
-    "archived_repos": 1,
+    "github_repos": 192,
+    "enriched_repos": 192,
+    "archived_repos": 0,
     "fetch_errors": 0
   },
   "categories": [
@@ -42,19 +42,19 @@
       ],
       "github": {
         "full_name": "IfcOpenShell/IfcOpenShell",
-        "stars": 2991,
+        "stars": 2996,
         "forks": 1022,
-        "open_issues": 2136,
+        "open_issues": 2154,
         "language": "C++",
         "license": "LGPL-3.0",
         "topics": [],
         "archived": false,
-        "pushed_at": "2026-11-24T22:13:38Z",
+        "pushed_at": "2026-11-25T21:02:38Z",
         "default_branch": "v0.9.0",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2991,
+        "stars_delta": 5
       },
       "is_new": false
     },
@@ -93,8 +93,8 @@
         "default_branch": "master",
         "homepage": "https://xbimteam.github.io/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 586,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -133,8 +133,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1777,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -152,7 +152,7 @@
       ],
       "github": {
         "full_name": "ThatOpen/engine_web-ifc",
-        "stars": 1106,
+        "stars": 1105,
         "forks": 301,
         "open_issues": 70,
         "language": "TypeScript",
@@ -166,12 +166,12 @@
           "webassembly"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T18:45:15Z",
+        "pushed_at": "2026-11-25T15:39:45Z",
         "default_branch": "main",
         "homepage": "https://thatopen.github.io/engine_web-ifc/demo",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1106,
+        "stars_delta": -1
       },
       "is_new": false
     },
@@ -186,7 +186,7 @@
       "tags": [],
       "github": {
         "full_name": "ThatOpen/engine_fragment",
-        "stars": 233,
+        "stars": 234,
         "forks": 81,
         "open_issues": 57,
         "language": "TypeScript",
@@ -197,8 +197,8 @@
         "default_branch": "main",
         "homepage": "https://docs.thatopen.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 233,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -224,8 +224,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 61,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -263,8 +263,8 @@
         "default_branch": "main",
         "homepage": "https://speckle.systems",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 864,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -289,12 +289,12 @@
           "core"
         ],
         "archived": false,
-        "pushed_at": "2026-11-17T13:05:47Z",
+        "pushed_at": "2026-11-25T13:20:16Z",
         "default_branch": "develop",
         "homepage": "https://bhom.xyz",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 250,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -322,8 +322,8 @@
         "default_branch": "master",
         "homepage": "https://www.autodesk.com/developer-network/platform-technologies/revit",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 177,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -343,7 +343,7 @@
       "github": {
         "full_name": "opensourceBIM/BIMsurfer",
         "stars": 432,
-        "forks": 131,
+        "forks": 132,
         "open_issues": 54,
         "language": "JavaScript",
         "license": "MIT",
@@ -363,8 +363,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 432,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -399,8 +399,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 28,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -433,8 +433,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 204,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -484,8 +484,8 @@
         "default_branch": "main",
         "homepage": "https://xeokit.github.io/xeokit-convert/docs/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 88,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -535,8 +535,8 @@
         "default_branch": "master",
         "homepage": "https://xeokit.github.io/xeokit-sdk/examples/bimviewer.html",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 577,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -559,7 +559,7 @@
         "full_name": "xeokit/xeokit-sdk",
         "stars": 967,
         "forks": 335,
-        "open_issues": 191,
+        "open_issues": 192,
         "language": "HTML",
         "license": "AGPL-3.0",
         "topics": [
@@ -585,12 +585,12 @@
           "webgl-viewer"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T13:40:53Z",
+        "pushed_at": "2026-11-25T08:12:37Z",
         "default_branch": "master",
         "homepage": "https://xeokit.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 967,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -610,9 +610,9 @@
       ],
       "github": {
         "full_name": "LTplus-AG/ifc-lite",
-        "stars": 487,
-        "forks": 132,
-        "open_issues": 103,
+        "stars": 488,
+        "forks": 131,
+        "open_issues": 101,
         "language": "TypeScript",
         "license": "MPL-2.0",
         "topics": [
@@ -631,12 +631,12 @@
           "webgpu"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:14:56Z",
+        "pushed_at": "2026-11-25T23:28:24Z",
         "default_branch": "main",
         "homepage": "https://ifclite.dev",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 487,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -656,7 +656,7 @@
         "full_name": "blox-eng/goifc",
         "stars": 3,
         "forks": 0,
-        "open_issues": 23,
+        "open_issues": 21,
         "language": "Go",
         "license": "MIT",
         "topics": [
@@ -676,12 +676,12 @@
           "step"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T22:25:42Z",
+        "pushed_at": "2026-11-25T22:21:39Z",
         "default_branch": "main",
         "homepage": "goifc.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 3,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -701,9 +701,9 @@
       ],
       "github": {
         "full_name": "ibuilder/massing",
-        "stars": 140,
-        "forks": 53,
-        "open_issues": 35,
+        "stars": 139,
+        "forks": 54,
+        "open_issues": 36,
         "language": "Python",
         "license": "MIT",
         "topics": [
@@ -733,8 +733,8 @@
         "default_branch": "main",
         "homepage": "https://massing.build",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 140,
+        "stars_delta": -1
       },
       "is_new": false
     },
@@ -772,8 +772,8 @@
         "default_branch": "main",
         "homepage": "https://bim-guard.xyz",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -793,9 +793,9 @@
       ],
       "github": {
         "full_name": "iamahsanmehmood/openskp",
-        "stars": 207,
-        "forks": 67,
-        "open_issues": 27,
+        "stars": 211,
+        "forks": 69,
+        "open_issues": 26,
         "language": "Python",
         "license": "MIT",
         "topics": [
@@ -821,12 +821,12 @@
           "typescript"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T19:58:16Z",
+        "pushed_at": "2026-11-25T18:00:53Z",
         "default_branch": "main",
         "homepage": "https://openskp.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 207,
+        "stars_delta": 4
       },
       "is_new": false
     },
@@ -853,12 +853,12 @@
           "opensource"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T08:55:13Z",
+        "pushed_at": "2026-11-25T07:31:05Z",
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 45,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -886,8 +886,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 96,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -921,8 +921,8 @@
         "default_branch": "master",
         "homepage": "https://ifcflow.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 89,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -956,8 +956,8 @@
         "default_branch": "master",
         "homepage": "https://ifcclassify.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 26,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -995,8 +995,8 @@
         "default_branch": "main",
         "homepage": "https://honeyifc.io/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 10,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1034,8 +1034,8 @@
         "default_branch": "main",
         "homepage": "https://bimopenschema.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 57,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1070,8 +1070,8 @@
         "default_branch": "main",
         "homepage": "https://ara3d.github.io/ara3d-webgl/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 49,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1088,8 +1088,8 @@
       ],
       "github": {
         "full_name": "ThatOpen/engine_components",
-        "stars": 752,
-        "forks": 226,
+        "stars": 762,
+        "forks": 228,
         "open_issues": 55,
         "language": "TypeScript",
         "license": "MIT",
@@ -1099,8 +1099,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 752,
+        "stars_delta": 10
       },
       "is_new": false
     },
@@ -1129,8 +1129,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 20,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1147,7 +1147,7 @@
       ],
       "github": {
         "full_name": "GeometryGym/GeometryGymIFC",
-        "stars": 313,
+        "stars": 314,
         "forks": 102,
         "open_issues": 36,
         "language": "C#",
@@ -1158,8 +1158,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 313,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1178,9 +1178,9 @@
       ],
       "github": {
         "full_name": "buildingSMART/IDS",
-        "stars": 332,
+        "stars": 333,
         "forks": 94,
-        "open_issues": 83,
+        "open_issues": 82,
         "language": "C#",
         "license": null,
         "topics": [
@@ -1196,8 +1196,8 @@
         "default_branch": "development",
         "homepage": "https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 332,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1236,8 +1236,8 @@
         "default_branch": "master",
         "homepage": "https://www.buildingsmart.org/users/services/buildingsmart-data-dictionary/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 200,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1254,7 +1254,7 @@
       ],
       "github": {
         "full_name": "hypar-io/Elements",
-        "stars": 422,
+        "stars": 423,
         "forks": 81,
         "open_issues": 92,
         "language": "C#",
@@ -1275,8 +1275,8 @@
         "default_branch": "master",
         "homepage": "https://www.hypar.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 422,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1344,9 +1344,9 @@
       ],
       "github": {
         "full_name": "FreeCAD/FreeCAD",
-        "stars": 35760,
-        "forks": 6468,
-        "open_issues": 4070,
+        "stars": 35788,
+        "forks": 6471,
+        "open_issues": 4077,
         "language": "C++",
         "license": "LGPL-2.1",
         "topics": [
@@ -1368,12 +1368,12 @@
           "windows"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:32:03Z",
+        "pushed_at": "2026-11-25T14:06:27Z",
         "default_branch": "main",
         "homepage": "https://www.freecad.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 35760,
+        "stars_delta": 28
       },
       "is_new": false
     },
@@ -1391,9 +1391,9 @@
       ],
       "github": {
         "full_name": "LibreCAD/LibreCAD",
-        "stars": 6638,
-        "forks": 1409,
-        "open_issues": 571,
+        "stars": 6642,
+        "forks": 1410,
+        "open_issues": 570,
         "language": "C++",
         "license": null,
         "topics": [
@@ -1405,12 +1405,12 @@
           "qt"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:53:46Z",
+        "pushed_at": "2026-11-25T20:40:04Z",
         "default_branch": "master",
         "homepage": "http://librecad.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6638,
+        "stars_delta": 4
       },
       "is_new": false
     },
@@ -1427,21 +1427,21 @@
       ],
       "github": {
         "full_name": "BRL-CAD/brlcad",
-        "stars": 1045,
+        "stars": 1046,
         "forks": 239,
-        "open_issues": 79,
+        "open_issues": 80,
         "language": "Tcl",
         "license": null,
         "topics": [
           "cad"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:05:03Z",
+        "pushed_at": "2026-11-25T21:41:19Z",
         "default_branch": "main",
         "homepage": "https://brlcad.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1045,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1456,9 +1456,9 @@
       "tags": [],
       "github": {
         "full_name": "openscad/openscad",
-        "stars": 10735,
-        "forks": 1794,
-        "open_issues": 824,
+        "stars": 10746,
+        "forks": 1797,
+        "open_issues": 828,
         "language": "C++",
         "license": null,
         "topics": [
@@ -1479,12 +1479,12 @@
           "windows"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T05:16:08Z",
+        "pushed_at": "2026-11-25T21:07:43Z",
         "default_branch": "master",
         "homepage": "https://www.openscad.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 10735,
+        "stars_delta": 11
       },
       "is_new": false
     },
@@ -1502,8 +1502,8 @@
       ],
       "github": {
         "full_name": "solvespace/solvespace",
-        "stars": 4269,
-        "forks": 612,
+        "stars": 4272,
+        "forks": 613,
         "open_issues": 280,
         "language": "C++",
         "license": "GPL-3.0",
@@ -1516,8 +1516,8 @@
         "default_branch": "master",
         "homepage": "http://solvespace.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 4269,
+        "stars_delta": 3
       },
       "is_new": false
     },
@@ -1534,9 +1534,9 @@
       ],
       "github": {
         "full_name": "CadQuery/cadquery",
-        "stars": 6166,
-        "forks": 576,
-        "open_issues": 487,
+        "stars": 6173,
+        "forks": 575,
+        "open_issues": 485,
         "language": "Python",
         "license": null,
         "topics": [
@@ -1554,12 +1554,12 @@
           "stl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T21:15:25Z",
+        "pushed_at": "2026-11-25T07:34:46Z",
         "default_branch": "master",
         "homepage": "https://cadquery.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6166,
+        "stars_delta": 7
       },
       "is_new": false
     },
@@ -1609,8 +1609,8 @@
         "default_branch": "main",
         "homepage": "https://archlang.uk/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 92,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1661,8 +1661,8 @@
         "default_branch": "main",
         "homepage": "https://convert.fluxcotech.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1679,9 +1679,9 @@
       ],
       "github": {
         "full_name": "Open-Cascade-SAS/OCCT",
-        "stars": 3207,
-        "forks": 777,
-        "open_issues": 368,
+        "stars": 3211,
+        "forks": 779,
+        "open_issues": 374,
         "language": "C++",
         "license": "LGPL-2.1",
         "topics": [
@@ -1699,8 +1699,8 @@
         "default_branch": "master",
         "homepage": "https://occt3d.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 3207,
+        "stars_delta": 4
       },
       "is_new": false
     },
@@ -1737,8 +1737,8 @@
         "default_branch": "9.x",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 776,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1758,9 +1758,9 @@
       ],
       "github": {
         "full_name": "pascalorg/editor",
-        "stars": 25725,
-        "forks": 3205,
-        "open_issues": 56,
+        "stars": 25758,
+        "forks": 3208,
+        "open_issues": 59,
         "language": "TypeScript",
         "license": "MIT",
         "topics": [
@@ -1790,8 +1790,8 @@
         "default_branch": "main",
         "homepage": "https://editor.pascal.app",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 25725,
+        "stars_delta": 33
       },
       "is_new": false
     },
@@ -1809,9 +1809,9 @@
       ],
       "github": {
         "full_name": "HakanSeven12/OpenCADStudio",
-        "stars": 4260,
-        "forks": 533,
-        "open_issues": 54,
+        "stars": 4274,
+        "forks": 537,
+        "open_issues": 56,
         "language": "Rust",
         "license": "GPL-3.0",
         "topics": [
@@ -1837,12 +1837,12 @@
           "rust"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:11:01Z",
+        "pushed_at": "2026-11-25T23:16:46Z",
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 4260,
+        "stars_delta": 14
       },
       "is_new": false
     },
@@ -1860,9 +1860,9 @@
       ],
       "github": {
         "full_name": "LibreDWG/libredwg",
-        "stars": 1683,
-        "forks": 387,
-        "open_issues": 31,
+        "stars": 1686,
+        "forks": 388,
+        "open_issues": 29,
         "language": "C",
         "license": "GPL-3.0",
         "topics": [
@@ -1870,12 +1870,12 @@
           "dwg"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T18:58:09Z",
+        "pushed_at": "2026-11-25T19:01:41Z",
         "default_branch": "master",
         "homepage": "https://savannah.gnu.org/projects/libredwg/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1683,
+        "stars_delta": 3
       },
       "is_new": false
     },
@@ -1893,9 +1893,9 @@
       ],
       "github": {
         "full_name": "DomCR/ACadSharp",
-        "stars": 943,
-        "forks": 252,
-        "open_issues": 146,
+        "stars": 944,
+        "forks": 251,
+        "open_issues": 147,
         "language": "C#",
         "license": "MIT",
         "topics": [
@@ -1910,12 +1910,12 @@
           "dxf-writer"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T18:02:36Z",
+        "pushed_at": "2026-11-25T16:06:22Z",
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 943,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1933,7 +1933,7 @@
       ],
       "github": {
         "full_name": "qcad/qcad",
-        "stars": 1941,
+        "stars": 1942,
         "forks": 490,
         "open_issues": 0,
         "language": "C++",
@@ -1953,8 +1953,8 @@
         "default_branch": "master",
         "homepage": "https://qcad.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1941,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1971,8 +1971,8 @@
       ],
       "github": {
         "full_name": "egmalt/house-planner",
-        "stars": 410,
-        "forks": 44,
+        "stars": 416,
+        "forks": 45,
         "open_issues": 1,
         "language": "TypeScript",
         "license": "MIT",
@@ -2003,8 +2003,8 @@
         "default_branch": "main",
         "homepage": "https://app.homedesignsai.pro",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 410,
+        "stars_delta": 6
       },
       "is_new": false
     },
@@ -2033,9 +2033,9 @@
       ],
       "github": {
         "full_name": "pyrevitlabs/pyRevit",
-        "stars": 2070,
+        "stars": 2072,
         "forks": 514,
-        "open_issues": 88,
+        "open_issues": 77,
         "language": "Python",
         "license": "GPL-3.0",
         "topics": [
@@ -2049,12 +2049,12 @@
           "vbnet"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:53:40Z",
+        "pushed_at": "2026-11-25T23:15:16Z",
         "default_branch": "develop",
         "homepage": "https://www.pyrevitlabs.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2070,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -2090,8 +2090,8 @@
         "default_branch": "develop",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1480,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2122,12 +2122,12 @@
           "rhino"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:22:19Z",
+        "pushed_at": "2026-11-25T23:20:04Z",
         "default_branch": "1.x",
         "homepage": "https://www.rhino3d.com/inside/revit/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 345,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2156,8 +2156,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 659,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2174,7 +2174,7 @@
       ],
       "github": {
         "full_name": "chuongmep/RevitAddInManager",
-        "stars": 512,
+        "stars": 513,
         "forks": 86,
         "open_issues": 4,
         "language": "C#",
@@ -2197,8 +2197,8 @@
         "default_branch": "dev",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 512,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -2233,8 +2233,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 68,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2262,8 +2262,8 @@
         "default_branch": "main",
         "homepage": "https://sprint-sandy.vercel.app",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 34,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2281,7 +2281,7 @@
       "github": {
         "full_name": "NeVeSpl/RevitDBExplorer",
         "stars": 283,
-        "forks": 62,
+        "forks": 61,
         "open_issues": 7,
         "language": "C#",
         "license": "Apache-2.0",
@@ -2296,8 +2296,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 283,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2314,7 +2314,7 @@
       ],
       "github": {
         "full_name": "Nice3point/RevitToolkit",
-        "stars": 184,
+        "stars": 185,
         "forks": 30,
         "open_issues": 2,
         "language": "C#",
@@ -2331,8 +2331,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 184,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -2363,12 +2363,12 @@
           "templates"
         ],
         "archived": false,
-        "pushed_at": "2026-11-16T13:04:46Z",
+        "pushed_at": "2026-11-25T22:43:46Z",
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 466,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2387,7 +2387,7 @@
       ],
       "github": {
         "full_name": "sharafutdinovdi/revit-model-mcp",
-        "stars": 23,
+        "stars": 24,
         "forks": 2,
         "open_issues": 34,
         "language": "C#",
@@ -2419,8 +2419,8 @@
         "default_branch": "main",
         "homepage": "https://sharafutdinovdi.github.io/revit-model-mcp/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 23,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -2470,8 +2470,8 @@
         "default_branch": "main",
         "homepage": "https://rst-c.designs-os.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2506,8 +2506,8 @@
         "default_branch": "main",
         "homepage": "https://gantt-it.designs-os.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2542,8 +2542,8 @@
         "default_branch": "main",
         "homepage": "https://splash-it.designs-os.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 4,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2564,7 +2564,7 @@
         "full_name": "jedbjorn/drive-it",
         "stars": 0,
         "forks": 0,
-        "open_issues": 1,
+        "open_issues": 0,
         "language": "JavaScript",
         "license": "MIT",
         "topics": [
@@ -2578,12 +2578,12 @@
           "revit-addin"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:44:08Z",
+        "pushed_at": "2026-11-25T18:49:53Z",
         "default_branch": "main",
         "homepage": "https://drive-it.designs-os.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2622,8 +2622,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 98,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2640,7 +2640,7 @@
       ],
       "github": {
         "full_name": "NatLabRockies/EnergyPlus",
-        "stars": 1630,
+        "stars": 1631,
         "forks": 507,
         "open_issues": 876,
         "language": "C++",
@@ -2651,8 +2651,8 @@
         "default_branch": "develop",
         "homepage": "https://energyplus.net",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1630,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -2669,7 +2669,7 @@
       ],
       "github": {
         "full_name": "NatLabRockies/OpenStudio",
-        "stars": 663,
+        "stars": 664,
         "forks": 242,
         "open_issues": 275,
         "language": "C++",
@@ -2680,12 +2680,12 @@
           "openstudio-sdk"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T21:19:00Z",
+        "pushed_at": "2026-11-25T22:40:38Z",
         "default_branch": "develop",
         "homepage": "https://www.openstudio.net/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 663,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -2713,8 +2713,8 @@
         "default_branch": "master",
         "homepage": "https://www.ladybug.tools/ladybug/docs/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 234,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2742,8 +2742,8 @@
         "default_branch": "cvsimport",
         "homepage": "https://www.radiance-online.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 197,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2760,19 +2760,19 @@
       ],
       "github": {
         "full_name": "OpenFOAM/OpenFOAM-dev",
-        "stars": 2328,
-        "forks": 748,
+        "stars": 2330,
+        "forks": 749,
         "open_issues": 8,
         "language": "C++",
         "license": null,
         "topics": [],
         "archived": false,
-        "pushed_at": "2026-11-24T11:06:12Z",
+        "pushed_at": "2026-11-25T10:42:34Z",
         "default_branch": "master",
         "homepage": "https://openfoam.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2328,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -2800,8 +2800,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 864,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2835,8 +2835,8 @@
         "default_branch": "main",
         "homepage": "https://hvaclogic.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2876,8 +2876,8 @@
         "default_branch": "development",
         "homepage": "https://bim2sim.github.io/bim2sim/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 101,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2905,8 +2905,8 @@
         "default_branch": "master",
         "homepage": "https://www.ladybug.tools/honeybee-energy/docs/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 37,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2923,7 +2923,7 @@
         "full_name": "ladybug-tools/dragonfly-core",
         "stars": 19,
         "forks": 13,
-        "open_issues": 1,
+        "open_issues": 2,
         "language": "Python",
         "license": "AGPL-3.0",
         "topics": [],
@@ -2932,8 +2932,8 @@
         "default_branch": "master",
         "homepage": "https://www.ladybug.tools/dragonfly-core/docs/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 19,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2961,8 +2961,8 @@
         "default_branch": "master",
         "homepage": "https://www.ladybug.tools/honeybee-radiance/docs/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 21,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -2980,7 +2980,7 @@
       ],
       "github": {
         "full_name": "madil4/awatif",
-        "stars": 193,
+        "stars": 194,
         "forks": 34,
         "open_issues": 1,
         "language": "TypeScript",
@@ -3003,8 +3003,8 @@
         "default_branch": "main",
         "homepage": "https://awatif.co",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 193,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -3021,9 +3021,9 @@
       ],
       "github": {
         "full_name": "JWock82/Pynite",
-        "stars": 796,
+        "stars": 798,
         "forks": 167,
-        "open_issues": 31,
+        "open_issues": 32,
         "language": "Python",
         "license": "MIT",
         "topics": [
@@ -3040,8 +3040,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 796,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -3056,7 +3056,7 @@
       "tags": [],
       "github": {
         "full_name": "anastruct/anaStruct",
-        "stars": 477,
+        "stars": 478,
         "forks": 124,
         "open_issues": 33,
         "language": "Python",
@@ -3076,8 +3076,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 477,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -3096,7 +3096,7 @@
         "full_name": "xcfem/xc",
         "stars": 397,
         "forks": 74,
-        "open_issues": 6,
+        "open_issues": 7,
         "language": "C++",
         "license": "GPL-3.0",
         "topics": [
@@ -3121,12 +3121,12 @@
           "xcfea-package"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T12:04:53Z",
+        "pushed_at": "2026-11-25T17:31:03Z",
         "default_branch": "master",
         "homepage": "http://www.xcengineering.xyz/html_files/software.html",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 397,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3164,8 +3164,8 @@
         "default_branch": "main",
         "homepage": "https://ugr-sail.github.io/sinergym/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 241,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3197,8 +3197,8 @@
         "default_branch": "master",
         "homepage": "https://opendsm.energy",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 244,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3234,8 +3234,8 @@
         "default_branch": "main",
         "homepage": "https://EngineeringPaper.xyz",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 256,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3292,12 +3292,12 @@
           "thmc"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T12:35:38Z",
+        "pushed_at": "2026-11-25T13:00:45Z",
         "default_branch": "master",
         "homepage": "https://www.opengeosys.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 126,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3314,7 +3314,7 @@
       ],
       "github": {
         "full_name": "zhuminjie/OpenSeesPy",
-        "stars": 293,
+        "stars": 295,
         "forks": 98,
         "open_issues": 42,
         "language": "C++",
@@ -3330,8 +3330,8 @@
         "default_branch": "openseespy",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 293,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -3367,8 +3367,8 @@
         "default_branch": "master",
         "homepage": "https://sectionproperties.rtfd.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 574,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3387,7 +3387,7 @@
         "full_name": "gem/oq-engine",
         "stars": 472,
         "forks": 330,
-        "open_issues": 57,
+        "open_issues": 54,
         "language": "Python",
         "license": "AGPL-3.0",
         "topics": [
@@ -3408,12 +3408,12 @@
           "seismic"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T16:56:36Z",
+        "pushed_at": "2026-11-25T20:58:17Z",
         "default_branch": "master",
         "homepage": "https://github.com/gem/oq-engine",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 472,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3458,8 +3458,8 @@
         "default_branch": "main",
         "homepage": "https://geoeq.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 93,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3485,8 +3485,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 140,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3517,8 +3517,8 @@
         "default_branch": "main",
         "homepage": "https://docs.geolysis.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 29,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3545,12 +3545,12 @@
           "python"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T19:33:27Z",
+        "pushed_at": "2026-11-25T17:58:50Z",
         "default_branch": "master",
         "homepage": "https://cemsbv.github.io/pygef",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 36,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3566,8 +3566,8 @@
       "github": {
         "full_name": "eclipse-sumo/sumo",
         "stars": 4292,
-        "forks": 1884,
-        "open_issues": 3527,
+        "forks": 1885,
+        "open_issues": 3596,
         "language": "Python",
         "license": "EPL-2.0",
         "topics": [
@@ -3576,12 +3576,12 @@
           "transport"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T21:04:04Z",
+        "pushed_at": "2026-11-25T19:04:55Z",
         "default_branch": "main",
         "homepage": "https://eclipse.dev/sumo",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 4292,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3599,8 +3599,8 @@
       "github": {
         "full_name": "matsim-org/matsim-libs",
         "stars": 655,
-        "forks": 507,
-        "open_issues": 245,
+        "forks": 508,
+        "open_issues": 242,
         "language": "Java",
         "license": null,
         "topics": [
@@ -3612,12 +3612,12 @@
           "transportation-planning"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T16:39:22Z",
+        "pushed_at": "2026-11-25T18:24:09Z",
         "default_branch": "main",
         "homepage": "www.matsim.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 655,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3634,7 +3634,7 @@
       ],
       "github": {
         "full_name": "AequilibraE/aequilibrae",
-        "stars": 229,
+        "stars": 230,
         "forks": 62,
         "open_issues": 47,
         "language": "Python",
@@ -3645,8 +3645,8 @@
         "default_branch": "develop",
         "homepage": "https://www.aequilibrae.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 229,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -3661,7 +3661,7 @@
       "tags": [],
       "github": {
         "full_name": "USEPA/Stormwater-Management-Model",
-        "stars": 385,
+        "stars": 387,
         "forks": 255,
         "open_issues": 71,
         "language": "C",
@@ -3678,8 +3678,8 @@
         "default_branch": "develop",
         "homepage": "https://usepa.github.io/Stormwater-Management-Model/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 385,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -3712,8 +3712,8 @@
         "default_branch": "main",
         "homepage": "https://www.pyswmm.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 386,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3728,8 +3728,8 @@
       "tags": [],
       "github": {
         "full_name": "OpenWaterAnalytics/EPANET",
-        "stars": 435,
-        "forks": 253,
+        "stars": 434,
+        "forks": 254,
         "open_issues": 55,
         "language": "C",
         "license": "MIT",
@@ -3743,8 +3743,8 @@
         "default_branch": "dev",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 435,
+        "stars_delta": -1
       },
       "is_new": false
     },
@@ -3759,8 +3759,8 @@
       "tags": [],
       "github": {
         "full_name": "USEPA/WNTR",
-        "stars": 477,
-        "forks": 244,
+        "stars": 479,
+        "forks": 245,
         "open_issues": 31,
         "language": "Python",
         "license": null,
@@ -3777,8 +3777,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 477,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -3795,7 +3795,7 @@
         "full_name": "MODFLOW-ORG/modflow6",
         "stars": 391,
         "forks": 173,
-        "open_issues": 119,
+        "open_issues": 121,
         "language": "Fortran",
         "license": null,
         "topics": [
@@ -3804,12 +3804,12 @@
           "modflow"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T14:53:46Z",
+        "pushed_at": "2026-11-25T23:34:44Z",
         "default_branch": "develop",
         "homepage": "https://modflow6.readthedocs.io/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 391,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3824,9 +3824,9 @@
       "tags": [],
       "github": {
         "full_name": "modflowpy/flopy",
-        "stars": 644,
+        "stars": 645,
         "forks": 364,
-        "open_issues": 69,
+        "open_issues": 68,
         "language": "Python",
         "license": null,
         "topics": [
@@ -3835,12 +3835,12 @@
           "python"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T22:21:33Z",
+        "pushed_at": "2026-11-25T22:29:44Z",
         "default_branch": "develop",
         "homepage": "https://flopy.readthedocs.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 644,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -3881,7 +3881,7 @@
         "full_name": "QSD-Group/QSDsan",
         "stars": 53,
         "forks": 32,
-        "open_issues": 2,
+        "open_issues": 3,
         "language": "Python",
         "license": null,
         "topics": [
@@ -3895,12 +3895,12 @@
           "techno-economic-analysis"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T12:22:29Z",
+        "pushed_at": "2026-11-25T23:43:58Z",
         "default_branch": "main",
         "homepage": "https://qsdsan.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 53,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -3937,7 +3937,7 @@
         "full_name": "haoming-luo/agentfem",
         "stars": 42,
         "forks": 3,
-        "open_issues": 2,
+        "open_issues": 1,
         "language": "Python",
         "license": "Apache-2.0",
         "topics": [
@@ -3962,12 +3962,12 @@
           "surrogate-models"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T16:45:31Z",
+        "pushed_at": "2026-11-25T14:57:05Z",
         "default_branch": "main",
         "homepage": "https://haoming-luo.github.io/agentfem/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 42,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4010,8 +4010,8 @@
         "default_branch": "main",
         "homepage": "https://epw.tools",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4039,8 +4039,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 21,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4073,8 +4073,8 @@
         "default_branch": "main",
         "homepage": "https://ifclca.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 39,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4089,7 +4089,7 @@
       "tags": [],
       "github": {
         "full_name": "ocni-dtu/lcax",
-        "stars": 78,
+        "stars": 79,
         "forks": 7,
         "open_issues": 12,
         "language": "Rust",
@@ -4100,8 +4100,8 @@
         "default_branch": "main",
         "homepage": "http://docs.lcax.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 78,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4127,12 +4127,12 @@
           "openlca"
         ],
         "archived": false,
-        "pushed_at": "2026-11-20T12:29:16Z",
+        "pushed_at": "2026-11-25T11:39:22Z",
         "default_branch": "master",
         "homepage": "openlca.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 272,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4183,8 +4183,8 @@
         "default_branch": "main",
         "homepage": "https://rvalue.ezbuild.co.nz/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4204,7 +4204,7 @@
         "full_name": "DynamoDS/Dynamo",
         "stars": 2057,
         "forks": 683,
-        "open_issues": 211,
+        "open_issues": 212,
         "language": "HTML",
         "license": "Apache-2.0",
         "topics": [
@@ -4217,12 +4217,12 @@
           "visualprogramming"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T19:45:53Z",
+        "pushed_at": "2026-11-25T20:50:23Z",
         "default_branch": "master",
         "homepage": "https://dynamobim.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2057,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4257,8 +4257,8 @@
         "default_branch": "main",
         "homepage": "https://compas.dev/compas/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 392,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4277,19 +4277,19 @@
         "full_name": "mcneel/compute.rhino3d",
         "stars": 407,
         "forks": 224,
-        "open_issues": 94,
+        "open_issues": 93,
         "language": "C#",
         "license": null,
         "topics": [
           "hacktoberfest"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T20:18:46Z",
+        "pushed_at": "2026-11-25T19:33:58Z",
         "default_branch": "9.x",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 407,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4349,8 +4349,8 @@
         "default_branch": "master",
         "homepage": "https://polygonjs.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 826,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4393,8 +4393,8 @@
         "default_branch": "main",
         "homepage": "https://petrasvestartas.github.io/compas_wood/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 50,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4427,8 +4427,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 8,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4463,8 +4463,8 @@
         "default_branch": "main",
         "homepage": "https://www.designtoproduction.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 20,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4502,12 +4502,12 @@
           "webgpu"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T18:55:54Z",
+        "pushed_at": "2026-11-25T10:27:25Z",
         "default_branch": "main",
         "homepage": "https://hywe.in/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 11,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4527,7 +4527,7 @@
       ],
       "github": {
         "full_name": "brookstalley/cordyceps",
-        "stars": 113,
+        "stars": 114,
         "forks": 9,
         "open_issues": 41,
         "language": "C#",
@@ -4542,8 +4542,8 @@
         "default_branch": "develop",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 113,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4558,9 +4558,9 @@
       "tags": [],
       "github": {
         "full_name": "home-assistant/core",
-        "stars": 92492,
-        "forks": 39350,
-        "open_issues": 3835,
+        "stars": 92540,
+        "forks": 39363,
+        "open_issues": 3746,
         "language": "Python",
         "license": "Apache-2.0",
         "topics": [
@@ -4574,12 +4574,12 @@
           "raspberry-pi"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:50:04Z",
+        "pushed_at": "2026-11-25T23:39:36Z",
         "default_branch": "dev",
         "homepage": "https://www.home-assistant.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 92492,
+        "stars_delta": 48
       },
       "is_new": false
     },
@@ -4596,7 +4596,7 @@
         "full_name": "openhab/openhab-addons",
         "stars": 2064,
         "forks": 3731,
-        "open_issues": 711,
+        "open_issues": 706,
         "language": "Java",
         "license": "EPL-2.0",
         "topics": [
@@ -4605,12 +4605,12 @@
           "openhab"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T22:49:16Z",
+        "pushed_at": "2026-11-25T22:33:24Z",
         "default_branch": "main",
         "homepage": "https://www.openhab.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2064,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4646,8 +4646,8 @@
         "default_branch": "main",
         "homepage": "https://volttron.readthedocs.io/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 504,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4662,7 +4662,7 @@
       "tags": [],
       "github": {
         "full_name": "edgexfoundry/edgex-go",
-        "stars": 1556,
+        "stars": 1557,
         "forks": 523,
         "open_issues": 74,
         "language": "Go",
@@ -4675,8 +4675,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1556,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4691,9 +4691,9 @@
       "tags": [],
       "github": {
         "full_name": "thingsboard/thingsboard",
-        "stars": 22717,
-        "forks": 6569,
-        "open_issues": 405,
+        "stars": 22720,
+        "forks": 6570,
+        "open_issues": 407,
         "language": "Java",
         "license": null,
         "topics": [
@@ -4717,12 +4717,12 @@
           "visualization"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T18:34:42Z",
+        "pushed_at": "2026-11-25T14:15:35Z",
         "default_branch": "master",
         "homepage": "https://thingsboard.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 22717,
+        "stars_delta": 3
       },
       "is_new": false
     },
@@ -4739,7 +4739,7 @@
         "full_name": "google/digitalbuildings",
         "stars": 470,
         "forks": 178,
-        "open_issues": 53,
+        "open_issues": 51,
         "language": "Python",
         "license": "Apache-2.0",
         "topics": [
@@ -4750,12 +4750,12 @@
           "rdf"
         ],
         "archived": false,
-        "pushed_at": "2026-11-16T19:00:52Z",
+        "pushed_at": "2026-11-25T18:26:12Z",
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 470,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4770,7 +4770,7 @@
       "tags": [],
       "github": {
         "full_name": "BrickSchema/Brick",
-        "stars": 412,
+        "stars": 413,
         "forks": 95,
         "open_issues": 103,
         "language": "Python",
@@ -4781,8 +4781,8 @@
         "default_branch": "master",
         "homepage": "http://brickschema.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 412,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4797,9 +4797,9 @@
       "tags": [],
       "github": {
         "full_name": "open-condo-software/condo",
-        "stars": 435,
-        "forks": 164,
-        "open_issues": 118,
+        "stars": 436,
+        "forks": 163,
+        "open_issues": 119,
         "language": "JavaScript",
         "license": "MIT",
         "topics": [
@@ -4823,12 +4823,12 @@
           "zendesk"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T13:25:13Z",
+        "pushed_at": "2026-11-25T16:49:56Z",
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 435,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4843,8 +4843,8 @@
       "tags": [],
       "github": {
         "full_name": "Grashjs/cmms",
-        "stars": 875,
-        "forks": 257,
+        "stars": 876,
+        "forks": 259,
         "open_issues": 117,
         "language": "TypeScript",
         "license": "AGPL-3.0",
@@ -4875,8 +4875,8 @@
         "default_branch": "main",
         "homepage": "https://atlas-cmms.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 875,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4907,7 +4907,7 @@
       ],
       "github": {
         "full_name": "senthurayyappan/anton",
-        "stars": 210,
+        "stars": 211,
         "forks": 20,
         "open_issues": 7,
         "language": "Python",
@@ -4926,8 +4926,8 @@
         "default_branch": "master",
         "homepage": "https://anton.readthedocs.io/en/latest/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 210,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4953,8 +4953,8 @@
         "default_branch": "gh-pages",
         "homepage": "http://tt-acm.github.io/DesignExplorer/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 113,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4986,31 +4986,31 @@
       "is_new": false
     },
     {
-      "id": "ros-robot-operating-system",
-      "name": "ROS (Robot Operating System)",
+      "id": "ros-2-robot-operating-system",
+      "name": "ROS 2 (Robot Operating System)",
       "category": "Construction Automation & Robotics",
-      "description": "Leading middleware for robotics, used in AEC to prototype construction robots or automation equipment.",
+      "description": "Open-source robotics middleware and toolkit, used in AEC to prototype construction robots and automation equipment.",
       "website": null,
-      "github_url": "https://github.com/ros/ros",
-      "github_repo": "ros/ros",
+      "github_url": "https://github.com/ros2/ros2",
+      "github_repo": "ros2/ros2",
       "tags": [],
       "github": {
-        "full_name": "ros/ros",
-        "stars": 3251,
-        "forks": 802,
-        "open_issues": 0,
-        "language": "Python",
-        "license": "BSD-3-Clause",
+        "full_name": "ros2/ros2",
+        "stars": 6349,
+        "forks": 985,
+        "open_issues": 142,
+        "language": null,
+        "license": null,
         "topics": [],
-        "archived": true,
-        "pushed_at": "2025-05-31T17:36:03Z",
-        "default_branch": "noetic-devel",
-        "homepage": "www.ros.org",
+        "archived": false,
+        "pushed_at": "2026-11-17T16:20:20Z",
+        "default_branch": "rolling",
+        "homepage": "https://docs.ros.org",
         "error": null,
         "stars_prev": null,
         "stars_delta": null
       },
-      "is_new": false
+      "is_new": true
     },
     {
       "id": "gazebo-simulator",
@@ -5025,7 +5025,7 @@
         "full_name": "gazebosim/gz-sim",
         "stars": 1595,
         "forks": 534,
-        "open_issues": 692,
+        "open_issues": 694,
         "language": "C++",
         "license": "Apache-2.0",
         "topics": [
@@ -5049,14 +5049,80 @@
           "simulation"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T22:19:16Z",
+        "pushed_at": "2026-11-25T22:21:07Z",
         "default_branch": "main",
         "homepage": "https://gazebosim.org",
+        "error": null,
+        "stars_prev": 1595,
+        "stars_delta": 0
+      },
+      "is_new": false
+    },
+    {
+      "id": "open-rmf-robotics-middleware-framework",
+      "name": "Open-RMF (Robotics Middleware Framework)",
+      "category": "Construction Automation & Robotics",
+      "description": "Open-source framework for managing heterogeneous robot fleets and integrating them with building infrastructure such as elevators, automatic doors, workcells, and multi-floor facility maps.",
+      "website": "https://www.open-rmf.org/",
+      "github_url": "https://github.com/open-rmf/rmf",
+      "github_repo": "open-rmf/rmf",
+      "tags": [],
+      "github": {
+        "full_name": "open-rmf/rmf",
+        "stars": 468,
+        "forks": 94,
+        "open_issues": 64,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2026-11-12T03:16:30Z",
+        "default_branch": "main",
+        "homepage": null,
         "error": null,
         "stars_prev": null,
         "stars_delta": null
       },
-      "is_new": false
+      "is_new": true
+    },
+    {
+      "id": "ros2-control",
+      "name": "ros2_control",
+      "category": "Construction Automation & Robotics",
+      "description": "Real-time hardware interface and controller framework for ROS 2, used to control actuators, robotic arms, and mobile bases in construction robotics and automated fabrication systems.",
+      "website": "https://control.ros.org/",
+      "github_url": "https://github.com/ros-controls/ros2_control",
+      "github_repo": "ros-controls/ros2_control",
+      "tags": [],
+      "github": {
+        "full_name": "ros-controls/ros2_control",
+        "stars": 1070,
+        "forks": 510,
+        "open_issues": 158,
+        "language": "C++",
+        "license": "Apache-2.0",
+        "topics": [
+          "control",
+          "control-systems",
+          "controllers",
+          "robot-control",
+          "robotics",
+          "ros",
+          "ros2",
+          "ros2-control",
+          "ros2-humble",
+          "ros2-jazzy",
+          "ros2-rolling"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T23:39:56Z",
+        "default_branch": "master",
+        "homepage": "https://control.ros.org",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
     },
     {
       "id": "ddc-skills-collection-for-ai-coding-assistants",
@@ -5073,7 +5139,7 @@
       ],
       "github": {
         "full_name": "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction",
-        "stars": 441,
+        "stars": 442,
         "forks": 101,
         "open_issues": 1,
         "language": "Python",
@@ -5097,8 +5163,8 @@
         "default_branch": "main",
         "homepage": "https://datadrivenconstruction.io/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 441,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -5128,8 +5194,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 28,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5196,8 +5262,8 @@
         "default_branch": "main",
         "homepage": "https://www.aecpilot.com/mcp-guides",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5214,8 +5280,8 @@
       ],
       "github": {
         "full_name": "ScottDuncanAI/PID-to-Knowledge-Graph",
-        "stars": 347,
-        "forks": 72,
+        "stars": 411,
+        "forks": 84,
         "open_issues": 2,
         "language": "Python",
         "license": "MIT",
@@ -5232,8 +5298,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 347,
+        "stars_delta": 64
       },
       "is_new": false
     },
@@ -5250,8 +5316,8 @@
       ],
       "github": {
         "full_name": "ScottDuncanAI/public-chemical-manufacturing-datasets",
-        "stars": 140,
-        "forks": 35,
+        "stars": 146,
+        "forks": 36,
         "open_issues": 0,
         "language": null,
         "license": "CC-BY-4.0",
@@ -5261,8 +5327,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 140,
+        "stars_delta": 6
       },
       "is_new": false
     },
@@ -5279,7 +5345,7 @@
       ],
       "github": {
         "full_name": "ScottDuncanAI/claude-manufacturing-skills",
-        "stars": 98,
+        "stars": 100,
         "forks": 26,
         "open_issues": 0,
         "language": "Python",
@@ -5290,8 +5356,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 98,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -5340,8 +5406,8 @@
         "default_branch": "main",
         "homepage": "https://www.unionbim.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5401,12 +5467,12 @@
           "site-selection"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:50:01Z",
+        "pushed_at": "2026-11-25T23:38:31Z",
         "default_branch": "main",
         "homepage": "https://dchub.cloud/mcp",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 3,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5459,8 +5525,8 @@
         "default_branch": "main",
         "homepage": "https://datadrivenconstruction.io/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 562,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5490,8 +5556,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1162,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5511,9 +5577,9 @@
       ],
       "github": {
         "full_name": "ghbalf/freecad-ai",
-        "stars": 640,
-        "forks": 106,
-        "open_issues": 10,
+        "stars": 642,
+        "forks": 107,
+        "open_issues": 9,
         "language": "Python",
         "license": "LGPL-2.1",
         "topics": [
@@ -5531,12 +5597,12 @@
           "python"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T21:09:04Z",
+        "pushed_at": "2026-11-25T21:46:43Z",
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 640,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -5567,8 +5633,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 70,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5587,19 +5653,19 @@
       ],
       "github": {
         "full_name": "NatLabRockies/openstudio-mcp",
-        "stars": 58,
+        "stars": 59,
         "forks": 13,
-        "open_issues": 21,
+        "open_issues": 29,
         "language": "Python",
         "license": null,
         "topics": [],
         "archived": false,
-        "pushed_at": "2026-11-19T15:15:46Z",
+        "pushed_at": "2026-11-25T18:39:10Z",
         "default_branch": "develop",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 58,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -5628,8 +5694,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 198,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5659,8 +5725,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 34,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5689,8 +5755,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 14,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5719,8 +5785,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 40,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5760,8 +5826,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5791,8 +5857,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 231,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5829,8 +5895,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 69,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5871,8 +5937,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 37,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5902,8 +5968,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 23,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5940,8 +6006,8 @@
         "default_branch": "main",
         "homepage": "https://mcp.idfkit.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 14,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5960,7 +6026,7 @@
         "full_name": "iTwin/itwinjs-core",
         "stars": 743,
         "forks": 252,
-        "open_issues": 442,
+        "open_issues": 441,
         "language": "TypeScript",
         "license": "MIT",
         "topics": [
@@ -5978,12 +6044,12 @@
           "webgl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:00:29Z",
+        "pushed_at": "2026-11-25T23:15:25Z",
         "default_branch": "master",
         "homepage": "https://www.itwinjs.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 743,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -5998,9 +6064,9 @@
       "tags": [],
       "github": {
         "full_name": "playcanvas/engine",
-        "stars": 17363,
+        "stars": 17374,
         "forks": 2073,
-        "open_issues": 516,
+        "open_issues": 514,
         "language": "JavaScript",
         "license": "MIT",
         "topics": [
@@ -6023,12 +6089,12 @@
           "webxr"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T15:21:36Z",
+        "pushed_at": "2026-11-25T17:00:34Z",
         "default_branch": "main",
         "homepage": "https://playcanvas.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 17363,
+        "stars_delta": 11
       },
       "is_new": false
     },
@@ -6045,19 +6111,19 @@
       ],
       "github": {
         "full_name": "qgis/QGIS",
-        "stars": 14880,
-        "forks": 3607,
-        "open_issues": 5518,
+        "stars": 14887,
+        "forks": 3609,
+        "open_issues": 5525,
         "language": "C++",
         "license": "GPL-2.0",
         "topics": [],
         "archived": false,
-        "pushed_at": "2026-11-24T23:36:10Z",
+        "pushed_at": "2026-11-25T22:30:57Z",
         "default_branch": "master",
         "homepage": "https://qgis.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 14880,
+        "stars_delta": 7
       },
       "is_new": false
     },
@@ -6074,9 +6140,9 @@
       ],
       "github": {
         "full_name": "CesiumGS/cesium",
-        "stars": 15981,
-        "forks": 3906,
-        "open_issues": 1693,
+        "stars": 15987,
+        "forks": 3907,
+        "open_issues": 1699,
         "language": "JavaScript",
         "license": "Apache-2.0",
         "topics": [
@@ -6091,12 +6157,12 @@
           "webgl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:47:07Z",
+        "pushed_at": "2026-11-25T23:33:17Z",
         "default_branch": "main",
         "homepage": "https://cesium.com/cesiumjs/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 15981,
+        "stars_delta": 6
       },
       "is_new": false
     },
@@ -6113,9 +6179,9 @@
       ],
       "github": {
         "full_name": "openlayers/openlayers",
-        "stars": 12684,
+        "stars": 12685,
         "forks": 3217,
-        "open_issues": 889,
+        "open_issues": 890,
         "language": "JavaScript",
         "license": "BSD-2-Clause",
         "topics": [
@@ -6128,8 +6194,8 @@
         "default_branch": "main",
         "homepage": "https://openlayers.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 12684,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6147,8 +6213,8 @@
       ],
       "github": {
         "full_name": "domlysz/BlenderGIS",
-        "stars": 9681,
-        "forks": 1545,
+        "stars": 9686,
+        "forks": 1544,
         "open_issues": 324,
         "language": "Python",
         "license": "GPL-3.0",
@@ -6178,8 +6244,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 9681,
+        "stars_delta": 5
       },
       "is_new": false
     },
@@ -6197,8 +6263,8 @@
       "github": {
         "full_name": "sshuair/awesome-gis",
         "stars": 5641,
-        "forks": 929,
-        "open_issues": 149,
+        "forks": 933,
+        "open_issues": 155,
         "language": null,
         "license": "MIT",
         "topics": [
@@ -6216,8 +6282,8 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 5641,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6249,12 +6315,12 @@
           "postgresql"
         ],
         "archived": false,
-        "pushed_at": "2026-11-23T14:27:29Z",
+        "pushed_at": "2026-11-25T20:27:41Z",
         "default_branch": "master",
         "homepage": "http://www.3dcitydb.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 490,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6289,8 +6355,8 @@
         "default_branch": "main",
         "homepage": "https://cityjson.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 127,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6327,8 +6393,8 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 114,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6380,8 +6446,8 @@
         "default_branch": "main",
         "homepage": "https://gaia3d.com/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 381,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6398,9 +6464,9 @@
       ],
       "github": {
         "full_name": "OSGeo/grass",
-        "stars": 1194,
+        "stars": 1195,
         "forks": 473,
-        "open_issues": 730,
+        "open_issues": 735,
         "language": "C",
         "license": null,
         "topics": [
@@ -6426,12 +6492,12 @@
           "vector"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:08:01Z",
+        "pushed_at": "2026-11-25T23:13:13Z",
         "default_branch": "main",
         "homepage": "https://grass.osgeo.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1194,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6448,9 +6514,9 @@
       ],
       "github": {
         "full_name": "geoserver/geoserver",
-        "stars": 4506,
-        "forks": 2344,
-        "open_issues": 28,
+        "stars": 4507,
+        "forks": 2345,
+        "open_issues": 31,
         "language": "Java",
         "license": null,
         "topics": [
@@ -6466,12 +6532,12 @@
           "wps"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T20:54:54Z",
+        "pushed_at": "2026-11-25T13:55:16Z",
         "default_branch": "main",
         "homepage": "http://geoserver.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 4506,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6488,7 +6554,7 @@
       ],
       "github": {
         "full_name": "postgis/postgis",
-        "stars": 2271,
+        "stars": 2272,
         "forks": 445,
         "open_issues": 58,
         "language": "PLpgSQL",
@@ -6502,12 +6568,12 @@
           "postgresql"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T14:37:02Z",
+        "pushed_at": "2026-11-25T08:57:06Z",
         "default_branch": "master",
         "homepage": "https://postgis.net",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2271,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6524,9 +6590,9 @@
       ],
       "github": {
         "full_name": "OSGeo/gdal",
-        "stars": 6174,
-        "forks": 3005,
-        "open_issues": 612,
+        "stars": 6177,
+        "forks": 3006,
+        "open_issues": 616,
         "language": "C++",
         "license": null,
         "topics": [
@@ -6536,12 +6602,12 @@
           "vector"
         ],
         "archived": false,
-        "pushed_at": "2026-11-22T12:45:16Z",
+        "pushed_at": "2026-11-25T13:01:25Z",
         "default_branch": "master",
         "homepage": "https://gdal.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6174,
+        "stars_delta": 3
       },
       "is_new": false
     },
@@ -6558,7 +6624,7 @@
       ],
       "github": {
         "full_name": "geopandas/geopandas",
-        "stars": 5312,
+        "stars": 5313,
         "forks": 1085,
         "open_issues": 432,
         "language": "Python",
@@ -6575,8 +6641,8 @@
         "default_branch": "main",
         "homepage": "http://geopandas.org/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 5312,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6593,9 +6659,9 @@
       ],
       "github": {
         "full_name": "opengeos/GeoLibre",
-        "stars": 8793,
-        "forks": 991,
-        "open_issues": 23,
+        "stars": 8822,
+        "forks": 994,
+        "open_issues": 26,
         "language": "TypeScript",
         "license": "MIT",
         "topics": [
@@ -6611,12 +6677,12 @@
           "tauri-app"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:28:21Z",
+        "pushed_at": "2026-11-25T23:43:50Z",
         "default_branch": "main",
         "homepage": "https://geolibre.app",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 8793,
+        "stars_delta": 29
       },
       "is_new": false
     },
@@ -6634,9 +6700,9 @@
       ],
       "github": {
         "full_name": "CloudCompare/CloudCompare",
-        "stars": 4886,
-        "forks": 1234,
-        "open_issues": 269,
+        "stars": 4890,
+        "forks": 1235,
+        "open_issues": 271,
         "language": "C++",
         "license": null,
         "topics": [
@@ -6648,8 +6714,8 @@
         "default_branch": "master",
         "homepage": "https://cloudcompare.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 4886,
+        "stars_delta": 4
       },
       "is_new": false
     },
@@ -6678,8 +6744,8 @@
         "default_branch": "master",
         "homepage": "https://pdal.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1438,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6697,7 +6763,7 @@
       ],
       "github": {
         "full_name": "potree/potree",
-        "stars": 5676,
+        "stars": 5680,
         "forks": 1370,
         "open_issues": 827,
         "language": "JavaScript",
@@ -6708,8 +6774,8 @@
         "default_branch": "develop",
         "homepage": "http://potree.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 5676,
+        "stars_delta": 4
       },
       "is_new": false
     },
@@ -6727,7 +6793,7 @@
       ],
       "github": {
         "full_name": "OpenDroneMap/ODM",
-        "stars": 6642,
+        "stars": 6644,
         "forks": 1333,
         "open_issues": 126,
         "language": "Python",
@@ -6745,8 +6811,8 @@
         "default_branch": "master",
         "homepage": "https://opendronemap.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6642,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -6764,7 +6830,7 @@
       ],
       "github": {
         "full_name": "tudelft3d/3dfier",
-        "stars": 644,
+        "stars": 645,
         "forks": 117,
         "open_issues": 30,
         "language": "C++",
@@ -6784,8 +6850,8 @@
         "default_branch": "master",
         "homepage": "http://tudelft3d.github.io/3dfier",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 644,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6819,12 +6885,12 @@
           "terrain-visualization"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T23:21:45Z",
+        "pushed_at": "2026-11-25T18:35:44Z",
         "default_branch": "master",
         "homepage": "https://www.pelicanmapping.com/home-1/opensource",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1829,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6841,9 +6907,9 @@
       ],
       "github": {
         "full_name": "TerriaJS/terriajs",
-        "stars": 1394,
-        "forks": 404,
-        "open_issues": 879,
+        "stars": 1405,
+        "forks": 405,
+        "open_issues": 878,
         "language": "TypeScript",
         "license": "Apache-2.0",
         "topics": [
@@ -6863,12 +6929,12 @@
           "wps"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T20:27:44Z",
+        "pushed_at": "2026-11-25T23:10:12Z",
         "default_branch": "main",
         "homepage": "https://terria.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1394,
+        "stars_delta": 11
       },
       "is_new": false
     },
@@ -6885,7 +6951,7 @@
       ],
       "github": {
         "full_name": "gboeing/osmnx",
-        "stars": 5908,
+        "stars": 5909,
         "forks": 898,
         "open_issues": 0,
         "language": "Python",
@@ -6917,8 +6983,8 @@
         "default_branch": "main",
         "homepage": "https://osmnx.readthedocs.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 5908,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -6946,8 +7012,8 @@
         "default_branch": "main",
         "homepage": "https://udst.github.io/urbansim/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 558,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6976,8 +7042,8 @@
         "default_branch": "master",
         "homepage": "https://entwine.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 534,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7006,8 +7072,8 @@
         "default_branch": "master",
         "homepage": "https://pgpointcloud.github.io/pointcloud/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 429,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7037,9 +7103,9 @@
       "tags": [],
       "github": {
         "full_name": "opf/openproject",
-        "stars": 17700,
-        "forks": 3831,
-        "open_issues": 329,
+        "stars": 17739,
+        "forks": 3841,
+        "open_issues": 354,
         "language": "Ruby",
         "license": "GPL-3.0",
         "topics": [
@@ -7065,12 +7131,12 @@
           "workflows"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T00:31:30Z",
+        "pushed_at": "2026-11-25T23:42:13Z",
         "default_branch": "dev",
         "homepage": "https://www.openproject.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 17700,
+        "stars_delta": 39
       },
       "is_new": false
     },
@@ -7096,8 +7162,8 @@
         "default_branch": "main",
         "homepage": "https://www.libreplan.dev",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 362,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7141,8 +7207,8 @@
         "default_branch": "main",
         "homepage": "https://demo.bidwright.app",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 84,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7192,8 +7258,8 @@
         "default_branch": "main",
         "homepage": "https://concreteestimatorhub.com/resources/calculators-for-your-site",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7212,8 +7278,8 @@
       ],
       "github": {
         "full_name": "datadrivenconstruction/OpenConstructionERP",
-        "stars": 1492,
-        "forks": 448,
+        "stars": 1498,
+        "forks": 451,
         "open_issues": 16,
         "language": "TypeScript",
         "license": "AGPL-3.0",
@@ -7240,12 +7306,12 @@
           "takeoff"
         ],
         "archived": false,
-        "pushed_at": "2026-11-24T22:38:19Z",
+        "pushed_at": "2026-11-25T23:15:44Z",
         "default_branch": "main",
         "homepage": "https://openconstructionerp.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1492,
+        "stars_delta": 6
       },
       "is_new": false
     },
@@ -7264,9 +7330,9 @@
       ],
       "github": {
         "full_name": "Kentucky-ai/opentakeoff",
-        "stars": 896,
-        "forks": 199,
-        "open_issues": 41,
+        "stars": 905,
+        "forks": 200,
+        "open_issues": 42,
         "language": "TypeScript",
         "license": "AGPL-3.0",
         "topics": [
@@ -7296,8 +7362,8 @@
         "default_branch": "main",
         "homepage": "https://opentakeoff.kentucky-ai.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 896,
+        "stars_delta": 9
       },
       "is_new": false
     },
@@ -7322,12 +7388,12 @@
         "license": "MIT",
         "topics": [],
         "archived": false,
-        "pushed_at": "2026-11-24T14:40:59Z",
+        "pushed_at": "2026-11-25T07:00:42Z",
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 25,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7383,8 +7449,8 @@
         "default_branch": "main",
         "homepage": "https://tradesindex.org/data/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 0,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7423,8 +7489,8 @@
         "default_branch": "main",
         "homepage": "https://estimatorsuite.github.io/construction-calculators/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 6,
+        "stars_delta": 0
       },
       "is_new": false
     },
