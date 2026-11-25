@@ -12,10 +12,9 @@ A curated [awesome list](https://github.com/sindresorhus/awesome) of resources f
 | `contributing.md` | Rules for adding or changing entries (the source of truth for entry format) |
 | `code-of-conduct.md` | Contributor Covenant |
 | `LICENSE` | CC0 1.0 Universal |
-| `_config.yml` | GitHub Pages (Jekyll) config; the site is published from `main` and renders `readme.md` as the home page |
-| `robots.txt`, `llms.txt` | Crawler rules and the AI-agent index for the published site. Update `llms.txt` if files or URLs change |
-| `_includes/head-custom.html` | Builds the ItemList JSON-LD from `readme.md` at site build time. Relies on the entry format, so do not change it |
-| `.github/` | Issue and pull request templates, link-check workflow |
+| `llms.txt` | AI-agent index for the repository and published website (`https://awesome-aeco.github.io/`). Update `llms.txt` if files or URLs change |
+| `data/` | Auto-generated `catalog.json` and weekly `movers.md` synced to `awesome-aeco/awesome-aeco.github.io` |
+| `.github/` | Issue and pull request templates, linting, link-check, catalog enrichment, and website rebuild trigger workflows |
 | `.gitattributes` | `readme.md` uses `merge=union` so parallel entry additions merge cleanly |
 
 ## Rules
