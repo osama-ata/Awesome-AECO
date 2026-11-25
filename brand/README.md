@@ -30,6 +30,8 @@ Official logos, color tokens, OpenGraph social preview assets, and embeddable ba
 | Dark Wordmark | [`logo-dark.svg`](logo-dark.svg) | Dark backgrounds, terminal/dev docs, dark themes |
 | OpenGraph Card (SVG) | [`og-card.svg`](og-card.svg) | Editable vector source (`1200×630`) |
 | OpenGraph Card (PNG) | [`og-card.png`](og-card.png) | GitHub social preview, LinkedIn/X/Slack OpenGraph meta tag (`1200×630`) |
+| LinkedIn Banner (SVG) | [`linkedin-banner.svg`](linkedin-banner.svg) | Editable vector source for LinkedIn Company Page banner (`2256×382`) |
+| LinkedIn Banner (PNG) | [`linkedin-banner.png`](linkedin-banner.png) | Ready-to-upload 2× retina LinkedIn Company Page banner (`2256×382`) |
 
 ---
 
