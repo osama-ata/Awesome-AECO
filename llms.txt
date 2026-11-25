@@ -8,6 +8,7 @@
 - [catalog.json (enriched JSON)](https://awesome-aeco.github.io/data/catalog.json): Machine-readable JSON catalog of all entries enriched weekly with GitHub stars, star velocity, license, primary language, topics, and inferred domain/standard tags (CC BY 4.0).
 - [Awesome AECO Directory (web)](https://awesome-aeco.github.io/awesome/): Searchable, filterable web directory backed by `readme.md` and `catalog.json`.
 - [Awesome AECO Hub (web)](https://awesome-aeco.github.io/): Brand hub, weekly movers digest, AI/developer docs, and brand kit.
+- [MCP Server (remote HTTP)](https://awesome-aeco-mcp.eng-superosama.workers.dev/mcp): Hosted stateless Streamable HTTP Model Context Protocol server wrapping `catalog.json` (`search_tools`, `get_tool`, `list_categories`, `list_tags`, `get_movers`). Also available via stdio (`npx -y awesome-aeco-mcp`, [awesome-aeco/awesome-aeco-mcp](https://github.com/awesome-aeco/awesome-aeco-mcp)).
 
 ## Contributing
 
