@@ -5,10 +5,10 @@
 ## The list
 
 - [readme.md (raw Markdown)](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/readme.md): The complete list in plain Markdown. Entries are grouped under `##` category headings; each entry is a bold name, a description line and an italic `GitHub:` or `Website:` link line.
-- [catalog.json (enriched JSON)](https://awesome-aeco.github.io/data/catalog.json): Machine-readable JSON catalog of all entries enriched weekly with GitHub stars, star velocity, license, primary language, topics, and inferred domain/standard tags (CC BY 4.0).
-- [Awesome AECO Directory (web)](https://awesome-aeco.github.io/awesome/): Searchable, filterable web directory backed by `readme.md` and `catalog.json`.
-- [Awesome AECO Hub (web)](https://awesome-aeco.github.io/): Brand hub, weekly movers digest, AI/developer docs, and brand kit.
-- [MCP Server (remote HTTP)](https://awesome-aeco-mcp.eng-superosama.workers.dev/mcp): Hosted stateless Streamable HTTP Model Context Protocol server wrapping `catalog.json` (`search_tools`, `get_tool`, `list_categories`, `list_tags`, `get_movers`). Also available via stdio (`npx -y awesome-aeco-mcp`, [awesome-aeco/awesome-aeco-mcp](https://github.com/awesome-aeco/awesome-aeco-mcp)).
+- [catalog.json (enriched JSON)](https://awesome-aeco.org/data/catalog.json): Machine-readable JSON catalog of all entries enriched weekly with GitHub stars, star velocity, license, primary language, topics, and inferred domain/standard tags (CC BY 4.0).
+- [Awesome AECO Directory (web)](https://awesome-aeco.org/awesome/): Searchable, filterable web directory backed by `readme.md` and `catalog.json`.
+- [Awesome AECO Hub (web)](https://awesome-aeco.org/): Brand hub, weekly movers digest, AI/developer docs, and brand kit.
+- [MCP Server (remote HTTP)](https://mcp.awesome-aeco.org/mcp): Hosted stateless Streamable HTTP Model Context Protocol server wrapping `catalog.json` (`search_tools`, `get_tool`, `list_categories`, `list_tags`, `get_movers`). Also available via stdio (`npx -y awesome-aeco-mcp`, [awesome-aeco/awesome-aeco-mcp](https://github.com/awesome-aeco/awesome-aeco-mcp)).
 
 ## Contributing
 
