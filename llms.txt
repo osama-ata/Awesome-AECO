@@ -4,18 +4,19 @@
 
 ## The list
 
-- [readme.md (raw Markdown)](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/readme.md): The complete list in plain Markdown. Entries are grouped under `##` category headings; each entry is a bold name, a description line and an italic `GitHub:` or `Website:` link line.
-- [Awesome AECO (web page)](https://osama-ata.github.io/Awesome-AECO/): The same list rendered as a web page.
+- [readme.md (raw Markdown)](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/readme.md): The complete list in plain Markdown. Entries are grouped under `##` category headings; each entry is a bold name, a description line and an italic `GitHub:` or `Website:` link line.
+- [Awesome AECO (web page)](https://awesome-aeco.github.io/Awesome-AECO/): The same list rendered as a web page.
 
 ## Contributing
 
-- [Contribution guidelines](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/contributing.md): Inclusion criteria and the exact entry format.
-- [Agent instructions](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/AGENTS.md): Rules and checklists for AI agents proposing changes.
-- [Add-entry prompt template](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/prompts/add-entry.md): A ready-made prompt for an AI agent to verify a resource and open a pull request that adds it to the list.
-
-- [Featured badge](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg): SVG badge that listed projects can add to their README; snippet in the contribution guidelines.
+- [Contribution guidelines](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/contributing.md): Inclusion criteria and the exact entry format.
+- [Agent instructions](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/AGENTS.md): Rules and checklists for AI agents proposing changes.
+- [Add-entry prompt template](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/prompts/add-entry.md): A ready-made prompt for an AI agent to verify a resource and open a pull request that adds it to the list.
+- [Brand kit](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/brand/README.md): Logos, color tokens, OpenGraph card, and embeddable badges.
+- [Featured badge](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg): SVG badge that listed projects can add to their README; snippet in the contribution guidelines.
 
 ## Optional
 
-- [Repository](https://github.com/osama-ata/Awesome-AECO): Source, issues and pull requests.
-- [License (CC0 1.0)](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/LICENSE): Public-domain dedication; the content may be reused freely.
+- [Repository](https://github.com/awesome-aeco/Awesome-AECO): Source, issues and pull requests.
+- [License (CC0 1.0)](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/LICENSE): Public-domain dedication for the curated list content.
+- [Trademark & Brand Policy](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/TRADEMARK.md): Usage terms for the Awesome AECO name, logos, and badges.

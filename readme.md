@@ -957,7 +957,7 @@ Many are, but licenses differ. Permissive licenses such as MIT, BSD and Apache-2
 
 ### How do I suggest a resource for this list?
 
-Open one pull request per resource and follow the entry format in the [contribution guidelines](https://github.com/osama-ata/Awesome-AECO/blob/main/contributing.md).
+Open one pull request per resource and follow the entry format in the [contribution guidelines](https://github.com/awesome-aeco/Awesome-AECO/blob/main/contributing.md).
 
 ## Related Lists
 
@@ -973,10 +973,12 @@ Open one pull request per resource and follow the entry format in the [contribut
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](https://github.com/osama-ata/Awesome-AECO/blob/main/contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](https://github.com/awesome-aeco/Awesome-AECO/blob/main/contributing.md) first.
 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See [LICENSE](LICENSE).
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to the curated list content. See [LICENSE](LICENSE).
+
+The **Awesome AECO** name, logos, badges, and visual brand assets are excluded from the CC0 dedication and are governed by [TRADEMARK.md](TRADEMARK.md).

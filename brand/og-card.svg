@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Awesome AECO — Curated Open-Source Resources for AECO">
+  <title>Awesome AECO — Curated Open-Source Resources for AECO</title>
+  <defs>
+    <linearGradient id="ogBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B3B59"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#38BDF8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B6E99"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background + Blueprint Grid -->
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Subtle architectural border frame -->
+  <rect x="36" y="36" width="1128" height="558" rx="20" fill="none" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Left Content Column -->
+  <!-- Eyebrow Pill -->
+  <rect x="84" y="92" width="290" height="36" rx="18" fill="#0B6E99" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="229" y="115" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="1.6" fill="#7DD3FC">OPEN-SOURCE AECO DIRECTORY</text>
+
+  <!-- Title -->
+  <text x="84" y="216" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="-1.5" fill="#F8FAFC">Awesome <tspan fill="#38BDF8">AECO</tspan></text>
+
+  <!-- Subtitle -->
+  <text x="84" y="276" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="400" fill="#CBD5E1">Curated open-source tools, libraries &amp; standards for</text>
+  <text x="84" y="314" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="400" fill="#CBD5E1">Architecture, Engineering, Construction &amp; Operations.</text>
+
+  <!-- Domain Pills Row 1 -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">
+    <rect x="84" y="364" width="126" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="147" y="387" text-anchor="middle">BIM &amp; IFC</text>
+
+    <rect x="224" y="364" width="150" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="299" y="387" text-anchor="middle">CAD &amp; Parametric</text>
+
+    <rect x="388" y="364" width="164" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="470" y="387" text-anchor="middle">Simulation &amp; FEA</text>
+
+    <rect x="566" y="364" width="144" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="638" y="387" text-anchor="middle">Digital Twins</text>
+  </g>
+
+  <!-- Domain Pills Row 2 -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">
+    <rect x="84" y="414" width="168" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="168" y="437" text-anchor="middle">AI &amp; MCP Agents</text>
+
+    <rect x="266" y="414" width="144" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="338" y="437" text-anchor="middle">GIS &amp; Mapping</text>
+
+    <rect x="424" y="414" width="194" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="521" y="437" text-anchor="middle">Energy &amp; Estimation</text>
+  </g>
+
+  <!-- Footer URL -->
+  <line x1="84" y1="504" x2="720" y2="504" stroke="#334155" stroke-width="1"/>
+  <text x="84" y="544" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="20" font-weight="500" fill="#7DD3FC">github.com/awesome-aeco/Awesome-AECO</text>
+
+  <!-- Right Emblem: Large Isometric BIM Cube -->
+  <g transform="translate(955,315)">
+    <!-- Subtle halo -->
+    <circle cx="0" cy="0" r="168" fill="#0B6E99" fill-opacity="0.14"/>
+    <circle cx="0" cy="0" r="168" fill="none" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 8"/>
+    <!-- Cube -->
+    <polygon points="0,-132 114,-66 0,0 -114,-66" fill="url(#cubeTop)"/>
+    <polygon points="-114,-66 0,0 0,132 -114,66" fill="url(#cubeLeft)"/>
+    <polygon points="114,-66 0,0 0,132 114,66" fill="#1E293B"/>
+    <!-- Floor-plate lines -->
+    <polyline points="-114,-22 0,44 114,-22" fill="none" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.55"/>
+    <polyline points="-114,22 0,88 114,22" fill="none" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.35"/>
+    <!-- Crisp Wireframe -->
+    <polygon points="0,-132 114,-66 114,66 0,132 -114,66 -114,-66" fill="none" stroke="#E0F2FE" stroke-width="5.5" stroke-linejoin="round"/>
+    <line x1="0" y1="0" x2="0" y2="132" stroke="#E0F2FE" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="-114" y1="-66" x2="0" y2="0" stroke="#E0F2FE" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="114" y1="-66" x2="0" y2="0" stroke="#E0F2FE" stroke-width="5.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="11" fill="#F8FAFC"/>
+    <circle cx="0" cy="0" r="4.5" fill="#0B6E99"/>
+  </g>
+</svg>

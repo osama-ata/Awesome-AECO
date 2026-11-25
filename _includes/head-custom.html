@@ -1,3 +1,8 @@
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/brand/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/brand/og-card.png">
 {%- comment -%}
   ItemList JSON-LD generated at build time from the rendered readme, so new
   entries are picked up automatically. By the time layouts render, the page
@@ -78,7 +83,7 @@
       "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
       "description": {{ site.description | jsonify }},
       "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "sameAs": "https://github.com/osama-ata/Awesome-AECO",
+      "sameAs": "https://github.com/awesome-aeco/Awesome-AECO",
       "author": { "@id": "https://www.wikidata.org/wiki/Q132189472" },
       "publisher": { "@id": "https://www.wikidata.org/wiki/Q132189472" }
     },

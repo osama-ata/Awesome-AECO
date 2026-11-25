@@ -58,7 +58,7 @@ If you have something awesome to contribute to Awesome AECO, this is how you do 
 
 You'll need a GitHub account!
 
-1. Access the awesome list's GitHub page: [https://github.com/osama-ata/Awesome-AECO](https://github.com/osama-ata/Awesome-AECO)
+1. Access the awesome list's GitHub page: [https://github.com/awesome-aeco/Awesome-AECO](https://github.com/awesome-aeco/Awesome-AECO)
 2. Click on the `readme.md` file.
 3. Now click on the edit icon.
 4. You can start editing the text of the file in the in-browser editor. Make sure you follow the guidelines above. You can use [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
@@ -70,16 +70,16 @@ You'll need a GitHub account!
 If your project is listed in Awesome AECO, you can show it in your README. The badge links back to the list:
 
 ```markdown
-[![Featured in Awesome AECO](https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg)](https://github.com/osama-ata/Awesome-AECO)
+[![Featured in Awesome AECO](https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg)](https://github.com/awesome-aeco/Awesome-AECO)
 ```
 
 Or as HTML:
 
 ```html
-<a href="https://github.com/osama-ata/Awesome-AECO"><img src="https://raw.githubusercontent.com/osama-ata/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg" alt="Featured in Awesome AECO"></a>
+<a href="https://github.com/awesome-aeco/Awesome-AECO"><img src="https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg" alt="Featured in Awesome AECO"></a>
 ```
 
-Please use it only while your project is in the list.
+Please use it only while your project is in the list. See [brand/README.md](brand/README.md) and [TRADEMARK.md](TRADEMARK.md) for logos, additional badges, and brand usage guidelines.
 
 ## Reporting problems
 

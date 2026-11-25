@@ -7,7 +7,7 @@ The agent needs shell access and, for opening the pull request, the [GitHub CLI]
 ---
 
 ````text
-Add a resource to the Awesome AECO list (https://github.com/osama-ata/Awesome-AECO).
+Add a resource to the Awesome AECO list (https://github.com/awesome-aeco/Awesome-AECO).
 
 Resource to add
 - Name: <project name, as the project writes it>
@@ -17,7 +17,7 @@ Resource to add
 - I am the author or a maintainer of this project: <yes / no>
 
 Steps
-1. Fork and clone https://github.com/osama-ata/Awesome-AECO, then create a branch named add-<project-name>.
+1. Fork and clone https://github.com/awesome-aeco/Awesome-AECO, then create a branch named add-<project-name>.
 2. Read AGENTS.md and contributing.md in the clone. They are the source of truth for the entry format and the checks. Follow them exactly.
 3. Check for duplicates: search readme.md for the project name, the repo URL and any former or forked names. If the project is already listed, stop and tell me.
 4. Verify the resource:
@@ -36,7 +36,7 @@ Steps
 7. Change nothing else: do not reorder, reword or reformat other entries, and do not touch other files.
 8. Run the checks from AGENTS.md (trailing whitespace and link check) and show me the output.
 9. Show me the diff and wait for my approval before committing.
-10. After I approve, commit with the title "Add <Name> to <Section>" and open a pull request against osama-ata/Awesome-AECO with the same title. In the pull request description, say whether I am the author or a maintainer, and give the link to the project.
+10. After I approve, commit with the title "Add <Name> to <Section>" and open a pull request against awesome-aeco/Awesome-AECO with the same title. In the pull request description, say whether I am the author or a maintainer, and give the link to the project.
 
 Rules
 - Do not add AI attribution anywhere: no Co-Authored-By lines naming an AI, no "Generated with ..." lines, and no mention of AI tools in the commit message or pull request.

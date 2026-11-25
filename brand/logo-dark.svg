@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80" width="380" height="80" role="img" aria-label="Awesome AECO">
+  <title>Awesome AECO</title>
+  <!-- Isometric BIM Icon -->
+  <g transform="translate(40,40)">
+    <polygon points="0,-28 24,-14 0,0 -24,-14" fill="#38BDF8"/>
+    <polygon points="-24,-14 0,0 0,28 -24,14" fill="#0B6E99"/>
+    <polygon points="24,-14 0,0 0,28 24,14" fill="#1E293B"/>
+    <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="none" stroke="#E0F2FE" stroke-width="2.2" stroke-linejoin="round"/>
+    <line x1="0" y1="0" x2="0" y2="28" stroke="#E0F2FE" stroke-width="2"/>
+    <line x1="-24" y1="-14" x2="0" y2="0" stroke="#E0F2FE" stroke-width="2"/>
+    <line x1="24" y1="-14" x2="0" y2="0" stroke="#E0F2FE" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3.5" fill="#F8FAFC"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="80" y="42" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">Awesome <tspan fill="#38BDF8">AECO</tspan></text>
+  <text x="82" y="61" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="500" letter-spacing="1.4" fill="#94A3B8">OPEN-SOURCE BUILT ENVIRONMENT</text>
+</svg>

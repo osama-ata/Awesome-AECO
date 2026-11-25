@@ -6,7 +6,7 @@
 ## Checklist
 
 - [ ] I searched the list and previous PRs; this is not a duplicate
-- [ ] The entry follows the [entry format](https://github.com/osama-ata/Awesome-AECO/blob/main/contributing.md#entry-format)
+- [ ] The entry follows the [entry format](https://github.com/awesome-aeco/Awesome-AECO/blob/main/contributing.md#entry-format)
 - [ ] The entry is at the bottom of its section
 - [ ] The link works, uses the canonical URL, and the repository is not archived (or the description says so)
 - [ ] The description is factual, ends with a period, and has no trailing whitespace

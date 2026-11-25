@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Awesome AECO Icon">
+  <title>Awesome AECO Icon</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B3B59"/>
+    </linearGradient>
+    <linearGradient id="topFace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="leftFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B6E99"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="rightFace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Subtle architectural drafting grid -->
+  <g stroke="#38BDF8" stroke-opacity="0.1" stroke-width="1.5">
+    <line x1="128" y1="0" x2="128" y2="512"/>
+    <line x1="256" y1="0" x2="256" y2="512"/>
+    <line x1="384" y1="0" x2="384" y2="512"/>
+    <line x1="0" y1="128" x2="512" y2="128"/>
+    <line x1="0" y1="256" x2="512" y2="256"/>
+    <line x1="0" y1="384" x2="512" y2="384"/>
+  </g>
+  <!-- Isometric BIM Cube / Architectural Structure -->
+  <g transform="translate(256,256)">
+    <!-- Outer hexagon faces -->
+    <polygon points="0,-156 135,-78 0,0 -135,-78" fill="url(#topFace)"/>
+    <polygon points="-135,-78 0,0 0,156 -135,78" fill="url(#leftFace)"/>
+    <polygon points="135,-78 0,0 0,156 135,78" fill="url(#rightFace)"/>
+    <!-- Structural floor-plate lines -->
+    <polyline points="-135,-26 0,52 135,-26" fill="none" stroke="#38BDF8" stroke-width="6" stroke-opacity="0.55"/>
+    <polyline points="-135,26 0,104 135,26" fill="none" stroke="#38BDF8" stroke-width="6" stroke-opacity="0.35"/>
+    <!-- Inner wireframe A-frame / spatial core -->
+    <polygon points="0,-156 135,-78 135,78 0,156 -135,78 -135,-78" fill="none" stroke="#E0F2FE" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="0" y1="0" x2="0" y2="156" stroke="#E0F2FE" stroke-width="8" stroke-linecap="round"/>
+    <line x1="-135" y1="-78" x2="0" y2="0" stroke="#E0F2FE" stroke-width="8" stroke-linecap="round"/>
+    <line x1="135" y1="-78" x2="0" y2="0" stroke="#E0F2FE" stroke-width="8" stroke-linecap="round"/>
+    <!-- Center node -->
+    <circle cx="0" cy="0" r="14" fill="#F8FAFC"/>
+    <circle cx="0" cy="0" r="6" fill="#0B6E99"/>
+  </g>
+</svg>

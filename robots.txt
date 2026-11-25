@@ -14,4 +14,4 @@ User-agent: Google-Extended
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://osama-ata.github.io/Awesome-AECO/sitemap.xml
+Sitemap: https://awesome-aeco.github.io/Awesome-AECO/sitemap.xml
