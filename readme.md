@@ -251,6 +251,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Browser-based 2D floor plan editor for drawing measured rooms, placing doors and furniture, and checking clearances. Drawing and watermarked PNG export are free without an account, and print-to-scale PDF export uses credits.
   *Website: [roommeadow.com](https://roommeadow.com/floor-plan-maker)*
 
+- **Online 3D Viewer**
+  Browser-based 3D, CAD, and BIM model viewer and embeddable JavaScript library supporting IFC, STEP, IGES, BREP, Rhino 3DM, FreeCAD FCStd, glTF, OBJ, STL, and FBX.
+  *Website: [3dviewer.net](https://3dviewer.net/) · GitHub: [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
@@ -592,6 +596,26 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **Brick Schema**
   Open-source uniform metadata schema for efficiently representing metadata in buildings.
   *GitHub: [BrickSchema/Brick](https://github.com/BrickSchema/Brick)*
+
+- **BACnet Stack**
+  Open-source C protocol stack implementing the ASHRAE 135 BACnet standard for building automation and control networks, covering HVAC, lighting, access control, and fire detection systems.
+  *GitHub: [bacnet-stack/bacnet-stack](https://github.com/bacnet-stack/bacnet-stack)*
+
+- **BAC0**
+  Python library built on BACpypes3 for scripting, testing, and commissioning BACnet building automation networks and HVAC controllers.
+  *GitHub: [ChristianTremblay/BAC0](https://github.com/ChristianTremblay/BAC0)*
+
+- **open62541**
+  Open-source C implementation of the OPC UA (IEC 62541) protocol for integrating building management systems, MEP equipment, and industrial facility data.
+  *Website: [open62541.org](https://open62541.org/) · GitHub: [open62541/open62541](https://github.com/open62541/open62541)*
+
+- **Matter**
+  Open-source connectivity standard and reference SDK from the Connectivity Standards Alliance for interoperable smart home and smart building devices over IP.
+  *GitHub: [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip)*
+
+- **ioBroker**
+  Open-source IoT and building automation platform written in Node.js with a modular adapter ecosystem for integrating smart building devices and protocols.
+  *Website: [iobroker.com](https://www.iobroker.com/) · GitHub: [ioBroker/ioBroker](https://github.com/ioBroker/ioBroker)*
 
 ## Facility & Asset Management
 
