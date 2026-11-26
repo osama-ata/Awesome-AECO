@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T00:13:58Z",
+  "generated_at": "2026-11-26T00:30:35Z",
   "source": "https://github.com/awesome-aeco/Awesome-AECO/blob/main/readme.md",
   "license": "CC-BY-4.0",
   "stats": {
@@ -42,7 +42,7 @@
       ],
       "github": {
         "full_name": "IfcOpenShell/IfcOpenShell",
-        "stars": 2996,
+        "stars": 2997,
         "forks": 1022,
         "open_issues": 2154,
         "language": "C++",
@@ -54,7 +54,7 @@
         "homepage": null,
         "error": null,
         "stars_prev": 2996,
-        "stars_delta": 0
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1351,10 +1351,10 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 25,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "bimdown",
@@ -1395,10 +1395,10 @@
         "default_branch": "main",
         "homepage": "https://bim.jouledown.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 18,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "freecad",
@@ -1417,7 +1417,7 @@
       ],
       "github": {
         "full_name": "FreeCAD/FreeCAD",
-        "stars": 35788,
+        "stars": 35789,
         "forks": 6471,
         "open_issues": 4077,
         "language": "C++",
@@ -1446,7 +1446,7 @@
         "homepage": "https://www.freecad.org",
         "error": null,
         "stars_prev": 35788,
-        "stars_delta": 0
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -1509,7 +1509,7 @@
           "cad"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T21:41:19Z",
+        "pushed_at": "2026-11-26T00:26:09Z",
         "default_branch": "main",
         "homepage": "https://brlcad.org",
         "error": null,
@@ -1754,7 +1754,7 @@
         "full_name": "Open-Cascade-SAS/OCCT",
         "stars": 3211,
         "forks": 779,
-        "open_issues": 374,
+        "open_issues": 373,
         "language": "C++",
         "license": "LGPL-2.1",
         "topics": [
@@ -1831,7 +1831,7 @@
       ],
       "github": {
         "full_name": "pascalorg/editor",
-        "stars": 25759,
+        "stars": 25760,
         "forks": 3208,
         "open_issues": 59,
         "language": "TypeScript",
@@ -1864,7 +1864,7 @@
         "homepage": "https://editor.pascal.app",
         "error": null,
         "stars_prev": 25759,
-        "stars_delta": 0
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -2171,10 +2171,10 @@
         "default_branch": "main",
         "homepage": "https://rodeo.build",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 37,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dwg2dxf-converter",
@@ -2203,10 +2203,10 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 22,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "mlightcad-cad-viewer",
@@ -2254,10 +2254,10 @@
         "default_branch": "main",
         "homepage": "https://mlightcad.com/cad-viewer/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1285,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "fluidcad",
@@ -2289,10 +2289,10 @@
         "default_branch": "main",
         "homepage": "https://fluidcad.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 788,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "opengeometry",
@@ -2332,10 +2332,10 @@
         "default_branch": "main",
         "homepage": "https://opengeometry.io",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 561,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dxf-viewer",
@@ -2361,10 +2361,10 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 591,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dxf-parser",
@@ -2390,10 +2390,10 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 563,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "smlibpy",
@@ -2419,10 +2419,10 @@
         "default_branch": "main",
         "homepage": "https://smlibpy.classcad.ch",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 253,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "pyrevit",
@@ -3046,7 +3046,7 @@
       ],
       "github": {
         "full_name": "mcp-servers-for-revit/mcp-servers-for-revit",
-        "stars": 468,
+        "stars": 469,
         "forks": 186,
         "open_issues": 33,
         "language": "C#",
@@ -3061,10 +3061,10 @@
         "default_branch": "main",
         "homepage": "https://sparx-fire.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 468,
+        "stars_delta": 1
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "bimwright",
@@ -3108,10 +3108,10 @@
         "default_branch": "master",
         "homepage": "https://github.com/bimwright/rvt-mcp",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 153,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "revit-mcp-server",
@@ -3139,10 +3139,10 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 93,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "energyplus",
@@ -3255,7 +3255,7 @@
         "license": null,
         "topics": [],
         "archived": false,
-        "pushed_at": "2026-11-21T00:51:39Z",
+        "pushed_at": "2026-11-26T00:20:31Z",
         "default_branch": "cvsimport",
         "homepage": "https://www.radiance-online.org",
         "error": null,
@@ -5111,10 +5111,10 @@
         "default_branch": "main",
         "homepage": "https://brepjs.dev",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 151,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jscad",
@@ -5157,10 +5157,10 @@
         "default_branch": "master",
         "homepage": "https://openjscad.xyz/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 3283,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "home-assistant",
@@ -5173,9 +5173,9 @@
       "tags": [],
       "github": {
         "full_name": "home-assistant/core",
-        "stars": 92544,
+        "stars": 92546,
         "forks": 39363,
-        "open_issues": 3747,
+        "open_issues": 3752,
         "language": "Python",
         "license": "Apache-2.0",
         "topics": [
@@ -5189,12 +5189,12 @@
           "raspberry-pi"
         ],
         "archived": false,
-        "pushed_at": "2026-11-26T00:09:27Z",
+        "pushed_at": "2026-11-26T00:19:07Z",
         "default_branch": "dev",
         "homepage": "https://www.home-assistant.io",
         "error": null,
-        "stars_prev": 92543,
-        "stars_delta": 1
+        "stars_prev": 92544,
+        "stars_delta": 2
       },
       "is_new": false
     },
@@ -5640,10 +5640,10 @@
         "default_branch": "master",
         "homepage": "https://frangoteam.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 5325,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "node-opcua",
@@ -5686,10 +5686,10 @@
         "default_branch": "master",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 1674,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "node-modbus-serial",
@@ -5720,10 +5720,10 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 731,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "condo",
@@ -6380,7 +6380,7 @@
         "full_name": "azmartone67/dchub-mcp-server",
         "stars": 3,
         "forks": 0,
-        "open_issues": 12,
+        "open_issues": 11,
         "language": "JavaScript",
         "license": "MIT",
         "topics": [
@@ -6406,7 +6406,7 @@
           "site-selection"
         ],
         "archived": false,
-        "pushed_at": "2026-11-26T00:11:39Z",
+        "pushed_at": "2026-11-26T00:25:08Z",
         "default_branch": "main",
         "homepage": "https://dchub.cloud/mcp",
         "error": null,
@@ -6976,10 +6976,10 @@
         "default_branch": "main",
         "homepage": "https://www.npmjs.com/package/ifc-mcp",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 14,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "itwin-js",
@@ -7014,7 +7014,7 @@
           "webgl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-26T00:06:17Z",
+        "pushed_at": "2026-11-26T00:14:19Z",
         "default_branch": "master",
         "homepage": "https://www.itwinjs.org",
         "error": null,
@@ -7108,10 +7108,10 @@
         "default_branch": "master",
         "homepage": "https://nasa-ammos.github.io/3DTilesRendererJS/three/mars.html",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 2547,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "qgis",
@@ -7172,7 +7172,7 @@
           "webgl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-26T00:04:57Z",
+        "pushed_at": "2026-11-26T00:29:18Z",
         "default_branch": "main",
         "homepage": "https://cesium.com/cesiumjs/",
         "error": null,
@@ -7531,7 +7531,7 @@
         "full_name": "geoserver/geoserver",
         "stars": 4507,
         "forks": 2345,
-        "open_issues": 31,
+        "open_issues": 32,
         "language": "Java",
         "license": null,
         "topics": [
@@ -7674,7 +7674,7 @@
       ],
       "github": {
         "full_name": "opengeos/GeoLibre",
-        "stars": 8823,
+        "stars": 8824,
         "forks": 994,
         "open_issues": 26,
         "language": "TypeScript",
@@ -7697,7 +7697,7 @@
         "homepage": "https://geolibre.app",
         "error": null,
         "stars_prev": 8823,
-        "stars_delta": 0
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -8118,9 +8118,9 @@
       "tags": [],
       "github": {
         "full_name": "opf/openproject",
-        "stars": 17741,
+        "stars": 17742,
         "forks": 3841,
-        "open_issues": 355,
+        "open_issues": 356,
         "language": "Ruby",
         "license": "GPL-3.0",
         "topics": [
@@ -8146,11 +8146,11 @@
           "workflows"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:59:03Z",
+        "pushed_at": "2026-11-26T00:29:59Z",
         "default_branch": "dev",
         "homepage": "https://www.openproject.org",
         "error": null,
-        "stars_prev": 17740,
+        "stars_prev": 17741,
         "stars_delta": 1
       },
       "is_new": false
@@ -8321,7 +8321,7 @@
           "takeoff"
         ],
         "archived": false,
-        "pushed_at": "2026-11-26T00:06:42Z",
+        "pushed_at": "2026-11-26T00:20:08Z",
         "default_branch": "main",
         "homepage": "https://openconstructionerp.com",
         "error": null,
