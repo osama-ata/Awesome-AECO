@@ -13,8 +13,11 @@ A curated [awesome list](https://github.com/sindresorhus/awesome) of resources f
 | `code-of-conduct.md` | Contributor Covenant |
 | `LICENSE` | CC0 1.0 Universal |
 | `llms.txt` | AI-agent index for the repository and published website (`https://awesome-aeco.org/`). Update `llms.txt` if files or URLs change |
+| `skills/` | Installable Agent Skills (`awesome-aeco`, `add-after-you-build`) for checking existing AECO tools before building and listing newly built tools |
+| `.mcp.json` | Project MCP configuration pointing to `https://mcp.awesome-aeco.org/mcp` |
+| `scripts/` | Python automation: `lint_readme.py`, `build_catalog.py`, `issue_to_pr.py`, `pr_content_drafts.py`, `movers_digest.py` |
 | `data/` | Auto-generated `catalog.json` and weekly `movers.md` synced to `awesome-aeco/awesome-aeco.github.io` |
-| `.github/` | Issue and pull request templates, linting, link-check, catalog enrichment, and website rebuild trigger workflows |
+| `.github/` | Issue forms, pull request templates, Copilot instructions, linting, link-check, suggestion-to-PR, catalog enrichment, and website rebuild workflows |
 | `.gitattributes` | `readme.md` uses `merge=union` so parallel entry additions merge cleanly |
 
 ## Rules
@@ -51,8 +54,8 @@ Every entry in `readme.md` is exactly three lines followed by a blank line:
 ## Checks to run
 
 ```bash
-# Trailing whitespace (should print nothing)
-grep -n ' $' readme.md
+# Format, TOC, trailing whitespace, and duplicate check
+python3 scripts/lint_readme.py
 
 # Every GitHub/Website link in the list should return 200
 grep -oE 'https?://[^) ]+' readme.md | sort -u | xargs -P 8 -I{} curl -s -o /dev/null -L --max-time 20 -A "Mozilla/5.0" -w "%{http_code} {}\n" {} | grep -v '^200'

@@ -1,0 +1,91 @@
+name: Suggest a resource
+description: Submit an AECO tool, library, format, or website to Awesome AECO (no Git or PR required)
+title: "Add <ToolName>"
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit a public, usable AECO resource so engineers and AI coding agents can find and reuse it instead of reinventing the wheel.
+        Listed tools are automatically indexed in [awesome-aeco.org](https://awesome-aeco.org/awesome/), `catalog.json`, `llms.txt`, and `awesome-aeco-mcp`.
+
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: Use the project's own capitalization.
+      placeholder: e.g. IfcOpenShell
+    validations:
+      required: true
+
+  - type: input
+    id: github_url
+    attributes:
+      label: GitHub repository URL
+      description: Optional if this is a website-only resource. No trailing slash.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: false
+
+  - type: input
+    id: website_url
+    attributes:
+      label: Website URL
+      description: Optional if this is a GitHub-only resource.
+      placeholder: https://example.com/
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Pick the closest existing section in readme.md.
+      options:
+        - BIM (Building Information Modeling)
+        - CAD (Computer-Aided Design)
+        - Revit Plugins & Extensions
+        - Simulation & Analysis
+        - Energy & Sustainability
+        - Parametric & Computational Design
+        - IoT & Smart Buildings
+        - Facility & Asset Management
+        - Generative Design
+        - Construction Automation & Robotics
+        - AI & Automation for AECO
+        - Digital Twins
+        - GIS & Mapping
+        - Project Management
+        - Cost Estimation & Quantity Takeoff
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two factual sentences describing what it does and why it is useful for AECO. End with a period. No marketing superlatives ("best", "leading") or emojis.
+      placeholder: Open-source toolkit and geometry engine for buildingSMART IFC files. Enables reading, writing, and modifying BIM models via a C++ library and Python API.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: is_author
+    attributes:
+      label: Are you the author or a maintainer of this project?
+      description: Self-submissions are welcome when the tool is public, usable, and relevant to AECO.
+      options:
+        - "Yes, I am the author or a maintainer"
+        - "No, I am recommending someone else's project"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched readme.md and confirmed this resource is not already listed.
+          required: true
+        - label: The project is public, usable today (not a placeholder or waitlist), and relevant to AECO.
+          required: true

@@ -14,6 +14,7 @@ from build_catalog import fetch_github_repo, parse_readme
 
 BADGE_URL = "https://raw.githubusercontent.com/awesome-aeco/Awesome-AECO/main/badges/featured-in-awesome-aeco.svg"
 REPO_URL = "https://github.com/awesome-aeco/Awesome-AECO"
+DIRECTORY_URL = "https://awesome-aeco.org/awesome/"
 
 
 def load_entries_from_git_ref(ref: str, readme_rel: str = "readme.md") -> list[dict[str, Any]]:
@@ -30,6 +31,9 @@ def build_badge_comment(new_entries: list[dict[str, Any]]) -> str:
     names = ", ".join(f"**{e['name']}**" for e in new_entries)
     return (
         f"Thank you for contributing {names} to **Awesome AECO**!\n\n"
+        f"Your entry will shortly be live in the searchable directory at [{DIRECTORY_URL}]({DIRECTORY_URL}) "
+        "and indexed in `catalog.json`, `llms.txt`, and `awesome-aeco-mcp` so both engineers and AI coding agents "
+        "discover and reuse it instead of rebuilding it from scratch.\n\n"
         "If you maintain this project, you're welcome to add the **Featured in Awesome AECO** badge to your README:\n\n"
         "**Markdown**\n"
         "```markdown\n"

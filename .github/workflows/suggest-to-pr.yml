@@ -1,0 +1,102 @@
+name: Suggestion issue to PR
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  suggest-to-pr:
+    if: contains(github.event.issue.labels.*.name, 'suggestion')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate suggestion and update readme.md
+        id: parse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 - << 'EOF'
+          import os
+          from pathlib import Path
+          Path("/tmp/issue_body.md").write_text(os.environ.get("ISSUE_BODY", ""), encoding="utf-8")
+          EOF
+          python3 scripts/issue_to_pr.py \
+            --body-file /tmp/issue_body.md \
+            --readme readme.md \
+            --meta-out /tmp/suggestion_meta.json
+
+      - name: Comment validation issues or open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+        run: |
+          python3 - << 'EOF'
+          import json, os, subprocess
+          from pathlib import Path
+
+          meta = json.loads(Path("/tmp/suggestion_meta.json").read_text(encoding="utf-8"))
+          issue_num = os.environ["ISSUE_NUMBER"]
+          issue_author = os.environ["ISSUE_AUTHOR"]
+
+          if not meta.get("ok"):
+              bullets = "\n".join(f"- {e}" for e in meta.get("errors", ["Unknown validation error."]))
+              comment = (
+                  "Thanks for suggesting a resource! Automatic validation found a few items to fix before opening a PR:\n\n"
+                  f"{bullets}\n\n"
+                  "Edit the issue description above to fix these and this workflow will re-run automatically."
+              )
+              subprocess.check_call(["gh", "issue", "comment", issue_num, "--body", comment])
+              raise SystemExit(0)
+
+          branch = f"suggestion/{issue_num}-{meta['slug']}"
+          subprocess.check_call(["git", "config", "user.name", "github-actions[bot]"])
+          subprocess.check_call(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
+          subprocess.check_call(["git", "checkout", "-B", branch])
+          subprocess.check_call(["git", "add", "readme.md"])
+          subprocess.check_call(["git", "commit", "-m", meta["pr_title"]])
+          subprocess.check_call(["git", "push", "--force-with-lease", "origin", branch])
+
+          existing = subprocess.check_output(
+              ["gh", "pr", "list", "--head", branch, "--json", "url", "--jq", ".[0].url"],
+              text=True,
+          ).strip()
+          if existing:
+              subprocess.check_call(
+                  ["gh", "issue", "comment", issue_num, "--body", f"Updated the draft pull request: {existing}"]
+              )
+              raise SystemExit(0)
+
+          links = "\n".join(
+              f"- {label}: {val}"
+              for label, val in [("GitHub", meta["github_url"]), ("Website", meta["website_url"])]
+              if val
+          )
+          pr_body = (
+              f"Closes #{issue_num}\n\n"
+              f"Suggested by @{issue_author}.\n\n"
+              f"{links}\n"
+              f"- Author/maintainer: {meta['is_author'] or 'Not specified'}\n"
+          )
+          pr_url = subprocess.check_output(
+              ["gh", "pr", "create", "--base", "main", "--head", branch, "--title", meta["pr_title"], "--body", pr_body],
+              text=True,
+          ).strip()
+          subprocess.check_call(
+              ["gh", "issue", "comment", issue_num, "--body", f"Opened pull request {pr_url} for maintainer review."]
+          )
+          EOF

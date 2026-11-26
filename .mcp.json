@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "awesome-aeco": {
+      "type": "http",
+      "url": "https://mcp.awesome-aeco.org/mcp"
+    }
+  }
+}

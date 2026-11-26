@@ -5,6 +5,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 > A curated list of awesome AECO resources, tools, and technologies.
 > Inspired by [Awesome](https://github.com/sindresorhus/awesome).
 
+> **Don't reinvent the wheel:** Search the [web directory](https://awesome-aeco.org/awesome/), connect your AI coding agent via MCP (`https://mcp.awesome-aeco.org/mcp` or `npx -y awesome-aeco-mcp`), or install the agent skill (`npx skills add awesome-aeco/Awesome-AECO`) so your agent checks existing AECO libraries before building from scratch.
+>
+> **Built an AECO tool?** [Submit it via the 1-minute form](https://github.com/awesome-aeco/Awesome-AECO/issues/new?template=suggest-resource.yml) (no Git required) or open a PR. Listed tools are automatically indexed in [awesome-aeco.org](https://awesome-aeco.org/awesome/), `catalog.json`, `llms.txt`, and `awesome-aeco-mcp`.
+
 ## Contents
 
 - [Awesome AECO](#awesome-aeco-)
@@ -1069,7 +1073,7 @@ Many are, but licenses differ. Permissive licenses such as MIT, BSD and Apache-2
 
 ### How do I suggest a resource for this list?
 
-Open one pull request per resource and follow the entry format in the [contribution guidelines](https://github.com/awesome-aeco/Awesome-AECO/blob/main/contributing.md).
+Use the [Suggest a resource form](https://github.com/awesome-aeco/Awesome-AECO/issues/new?template=suggest-resource.yml) (an automated workflow validates the links and opens a pull request for you), or open one pull request per resource following the [contribution guidelines](https://github.com/awesome-aeco/Awesome-AECO/blob/main/contributing.md).
 
 ## Related Lists
 

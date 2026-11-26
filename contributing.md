@@ -54,9 +54,15 @@ on the different ways you can update your PR so that we can merge it.
 
 ## Adding to Awesome AECO
 
-If you have something awesome to contribute to Awesome AECO, this is how you do it.
+Listing a tool here makes it discoverable across [awesome-aeco.org](https://awesome-aeco.org/awesome/), `catalog.json`, `llms.txt`, and `awesome-aeco-mcp`, so both engineers and AI coding agents find and reuse it instead of rebuilding it from scratch.
 
-You'll need a GitHub account!
+### Option 1: 1-minute Issue Form (no Git required)
+
+Open the [Suggest a resource](https://github.com/awesome-aeco/Awesome-AECO/issues/new?template=suggest-resource.yml) form and fill in the project name, URL, category, and a factual one- or two-sentence description. An automated workflow checks for duplicates, verifies the links, and opens a formatted pull request for maintainer review.
+
+### Option 2: Direct Pull Request
+
+If you prefer to open a pull request directly, you'll need a GitHub account:
 
 1. Access the awesome list's GitHub page: [https://github.com/awesome-aeco/Awesome-AECO](https://github.com/awesome-aeco/Awesome-AECO)
 2. Click on the `readme.md` file.
