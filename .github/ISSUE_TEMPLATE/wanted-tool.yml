@@ -1,0 +1,60 @@
+name: Request a missing AECO tool (Wanted)
+description: Log a gap you couldn't find in Awesome AECO so the community knows what needs to be built
+title: "[Wanted] <Short description of missing tool>"
+labels: ["wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Searched [Awesome AECO](https://awesome-aeco.org/awesome/) (or `check_before_building` in `awesome-aeco-mcp`) and couldn't find a maintained open-source tool for your AECO workflow?
+        Log the gap here so other builders see real community demand instead of reinventing existing tools.
+
+  - type: input
+    id: goal
+    attributes:
+      label: What do you need?
+      description: Short summary of the missing capability or tool.
+      placeholder: e.g. Pure-Rust IFC4x3 geometry tessellator with WASM bindings
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Preferred language or ecosystem
+      description: Optional (e.g. Python, TypeScript, Rust, C#, Revit, Blender, browser/WASM).
+      placeholder: e.g. Python / TypeScript
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - BIM (Building Information Modeling)
+        - CAD (Computer-Aided Design)
+        - Revit Plugins & Extensions
+        - Simulation & Analysis
+        - Energy & Sustainability
+        - Parametric & Computational Design
+        - IoT & Smart Buildings
+        - Facility & Asset Management
+        - Generative Design
+        - Construction Automation & Robotics
+        - AI & Automation for AECO
+        - Digital Twins
+        - GIS & Mapping
+        - Project Management
+        - Cost Estimation & Quantity Takeoff
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Context & existing tools you checked
+      description: Mention any adjacent or archived tools you evaluated and why they didn't fit (language, license, missing standard, etc.).
+      placeholder: Checked IfcOpenShell (C++/Python), need a lightweight MIT-licensed browser/TS alternative.
+    validations:
+      required: false

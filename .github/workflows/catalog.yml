@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: catalog-enrichment
@@ -71,3 +72,49 @@ jobs:
             -H "X-GitHub-Api-Version: 2022-11-28" \
             https://api.github.com/repos/awesome-aeco/awesome-aeco.github.io/dispatches \
             -d '{"event_type":"sync-awesome-data","client_payload":{"ref":"main"}}'
+
+      - name: Track archived repositories in a maintenance issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - << 'EOF'
+          import json, subprocess
+          from pathlib import Path
+
+          catalog = json.loads(Path("data/catalog.json").read_text(encoding="utf-8"))
+          archived = [
+              e for e in catalog.get("entries", [])
+              if (e.get("github") or {}).get("archived") is True
+          ]
+
+          title = "[Maintenance] Archived repositories in readme.md"
+          existing = json.loads(
+              subprocess.check_output(
+                  ["gh", "issue", "list", "--state", "open", "--search", f'"{title}" in:title', "--json", "number,title"],
+                  text=True,
+              )
+          )
+          match = next((i for i in existing if i["title"] == title), None)
+
+          if not archived:
+              if match:
+                  subprocess.check_call([
+                      "gh", "issue", "close", str(match["number"]),
+                      "--comment", "All listed GitHub repositories are currently active (0 archived). Closing automatically."
+                  ])
+              raise SystemExit(0)
+
+          lines = [
+              f"Detected **{len(archived)}** archived GitHub repository/repositories in `readme.md` (catalog snapshot `{catalog.get('generated_at', '')}`):",
+              "",
+          ]
+          for e in archived:
+              url = e.get("github_url") or e.get("website") or ""
+              lines.append(f"- **[{e['name']}]({url})** (*{e['category']}*) — consider updating to an active replacement or noting its archived status.")
+          body = "\n".join(lines) + "\n"
+
+          if match:
+              subprocess.check_call(["gh", "issue", "edit", str(match["number"]), "--body", body])
+          else:
+              subprocess.check_call(["gh", "issue", "create", "--title", title, "--body", body])
+          EOF
