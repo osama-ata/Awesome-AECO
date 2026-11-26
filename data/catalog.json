@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T00:03:49Z",
+  "generated_at": "2026-11-26T00:13:58Z",
   "source": "https://github.com/awesome-aeco/Awesome-AECO/blob/main/readme.md",
   "license": "CC-BY-4.0",
   "stats": {
-    "total_entries": 220,
+    "total_entries": 240,
     "categories": 15,
-    "github_repos": 198,
-    "enriched_repos": 198,
+    "github_repos": 218,
+    "enriched_repos": 218,
     "archived_repos": 0,
     "fetch_errors": 0
   },
@@ -1328,6 +1328,79 @@
       "is_new": false
     },
     {
+      "id": "rvt",
+      "name": "rvt",
+      "category": "BIM (Building Information Modeling)",
+      "description": "Open-source library for parsing the native Autodesk Revit (`.rvt`) file format directly without requiring Revit.",
+      "website": null,
+      "github_url": "https://github.com/phi-ag/rvt",
+      "github_repo": "phi-ag/rvt",
+      "tags": [
+        "Revit"
+      ],
+      "github": {
+        "full_name": "phi-ag/rvt",
+        "stars": 25,
+        "forks": 5,
+        "open_issues": 7,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2026-11-25T20:56:20Z",
+        "default_branch": "main",
+        "homepage": null,
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "bimdown",
+      "name": "BimDown",
+      "category": "BIM (Building Information Modeling)",
+      "description": "Open, plain-text BIM format representing a building as a folder of CSV tables and GeoJSON geometry per level.",
+      "website": "https://bim.jouledown.com/",
+      "github_url": "https://github.com/NovaShang/BimDown",
+      "github_repo": "NovaShang/BimDown",
+      "tags": [
+        "BIM"
+      ],
+      "github": {
+        "full_name": "NovaShang/BimDown",
+        "stars": 18,
+        "forks": 3,
+        "open_issues": 0,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "aec",
+          "ai-agents",
+          "architecture",
+          "bim",
+          "building-information-modeling",
+          "claude-code",
+          "cli",
+          "csv",
+          "duckdb",
+          "file-format",
+          "geojson",
+          "ifc",
+          "llm",
+          "revit"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T22:42:52Z",
+        "default_branch": "main",
+        "homepage": "https://bim.jouledown.com",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
       "id": "freecad",
       "name": "FreeCAD",
       "category": "CAD (Computer-Aided Design)",
@@ -1409,8 +1482,8 @@
         "default_branch": "master",
         "homepage": "http://librecad.org/",
         "error": null,
-        "stars_prev": 6642,
-        "stars_delta": 1
+        "stars_prev": 6643,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1790,8 +1863,8 @@
         "default_branch": "main",
         "homepage": "https://editor.pascal.app",
         "error": null,
-        "stars_prev": 25758,
-        "stars_delta": 1
+        "stars_prev": 25759,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -1837,7 +1910,7 @@
           "rust"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:16:46Z",
+        "pushed_at": "2026-11-26T00:07:09Z",
         "default_branch": "main",
         "homepage": null,
         "error": null,
@@ -2054,6 +2127,297 @@
         "pushed_at": "2026-06-24T14:54:51Z",
         "default_branch": "master",
         "homepage": "https://3dviewer.net",
+        "error": null,
+        "stars_prev": 3776,
+        "stars_delta": 0
+      },
+      "is_new": false
+    },
+    {
+      "id": "rodeo",
+      "name": "Rodeo",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "Open-source browser-based 2D/3D CAD editor and CLI converter that opens and saves Vectorworks files and reads DWG, Revit, SketchUp, IFC, Rhino, and Archicad models.",
+      "website": "https://rodeo.build/",
+      "github_url": "https://github.com/rodeobuild/rodeo",
+      "github_repo": "rodeobuild/rodeo",
+      "tags": [
+        "IFC",
+        "Revit",
+        "Rhino",
+        "DWG/DXF",
+        "BIM",
+        "CAD"
+      ],
+      "github": {
+        "full_name": "rodeobuild/rodeo",
+        "stars": 37,
+        "forks": 7,
+        "open_issues": 0,
+        "language": "TypeScript",
+        "license": "AGPL-3.0",
+        "topics": [
+          "3d",
+          "architecture",
+          "bim",
+          "browser",
+          "cad",
+          "dwg",
+          "ifc",
+          "vectorworks"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-23T19:49:56Z",
+        "default_branch": "main",
+        "homepage": "https://rodeo.build",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "dwg2dxf-converter",
+      "name": "dwg2dxf-converter",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "Standalone, zero-dependency DWG-to-DXF converter for JavaScript and Node.js powered by LibreDWG compiled to WebAssembly.",
+      "website": null,
+      "github_url": "https://github.com/JosephESSEY/dwg2dxf-converter",
+      "github_repo": "JosephESSEY/dwg2dxf-converter",
+      "tags": [
+        "DWG/DXF",
+        "WASM"
+      ],
+      "github": {
+        "full_name": "JosephESSEY/dwg2dxf-converter",
+        "stars": 22,
+        "forks": 0,
+        "open_issues": 0,
+        "language": "JavaScript",
+        "license": null,
+        "topics": [
+          "dwg-dxf-webassembly-nodejs-cad-libredwg"
+        ],
+        "archived": false,
+        "pushed_at": "2026-06-01T11:44:29Z",
+        "default_branch": "main",
+        "homepage": null,
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "mlightcad-cad-viewer",
+      "name": "mlightcad CAD Viewer",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "Browser-based DXF and DWG viewer and editor that runs entirely client-side with no backend server required.",
+      "website": "https://mlightcad.com/cad-viewer/",
+      "github_url": "https://github.com/mlightcad/cad-viewer",
+      "github_repo": "mlightcad/cad-viewer",
+      "tags": [
+        "DWG/DXF",
+        "CAD"
+      ],
+      "github": {
+        "full_name": "mlightcad/cad-viewer",
+        "stars": 1285,
+        "forks": 256,
+        "open_issues": 8,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "autocad",
+          "cad",
+          "dwg",
+          "dwg-compatible",
+          "dwg-editor",
+          "dwg-files",
+          "dwg-parser",
+          "dwg-reader",
+          "dwg-support",
+          "dwg-to-html",
+          "dwg-viewer",
+          "dxf",
+          "dxf-editor",
+          "dxf-parser",
+          "dxf-reader",
+          "dxf-to-html",
+          "dxf-viewer",
+          "dxf-writer",
+          "threejs",
+          "webgl"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T14:44:21Z",
+        "default_branch": "main",
+        "homepage": "https://mlightcad.com/cad-viewer/",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "fluidcad",
+      "name": "FluidCAD",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "Open-source parametric B-Rep CAD modeling application combining visual and code-driven workflows on OpenCascade.",
+      "website": "https://fluidcad.io/",
+      "github_url": "https://github.com/Fluid-CAD/FluidCAD",
+      "github_repo": "Fluid-CAD/FluidCAD",
+      "tags": [
+        "CAD"
+      ],
+      "github": {
+        "full_name": "Fluid-CAD/FluidCAD",
+        "stars": 788,
+        "forks": 49,
+        "open_issues": 22,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "3d",
+          "3dprinting",
+          "cad",
+          "mechanical-engineering",
+          "parametric-modelling"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T15:37:04Z",
+        "default_branch": "main",
+        "homepage": "https://fluidcad.io",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "opengeometry",
+      "name": "OpenGeometry",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "Open-source B-Rep and AEC geometry CAD kernel built for both developers and AI agents.",
+      "website": "https://opengeometry.io/",
+      "github_url": "https://github.com/OpenGeometry-io/OpenGeometry",
+      "github_repo": "OpenGeometry-io/OpenGeometry",
+      "tags": [
+        "AI/LLM",
+        "CAD"
+      ],
+      "github": {
+        "full_name": "OpenGeometry-io/OpenGeometry",
+        "stars": 561,
+        "forks": 64,
+        "open_issues": 16,
+        "language": "Rust",
+        "license": "MPL-2.0",
+        "topics": [
+          "agents",
+          "architecture",
+          "cad",
+          "computer-graphics",
+          "draft",
+          "draw",
+          "engineering",
+          "graphics",
+          "mechanical-engineering",
+          "rocket",
+          "sketch",
+          "web"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-20T07:28:49Z",
+        "default_branch": "main",
+        "homepage": "https://opengeometry.io",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "dxf-viewer",
+      "name": "dxf-viewer",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "WebGL-accelerated 2D DXF viewer written in JavaScript for rendering CAD drawings in the browser.",
+      "website": null,
+      "github_url": "https://github.com/vagran/dxf-viewer",
+      "github_repo": "vagran/dxf-viewer",
+      "tags": [
+        "DWG/DXF"
+      ],
+      "github": {
+        "full_name": "vagran/dxf-viewer",
+        "stars": 591,
+        "forks": 168,
+        "open_issues": 27,
+        "language": "JavaScript",
+        "license": "MPL-2.0",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2026-11-11T14:37:24Z",
+        "default_branch": "master",
+        "homepage": null,
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "dxf-parser",
+      "name": "dxf-parser",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "JavaScript parser that converts DXF CAD drawings into structured JSON objects for analysis and browser rendering.",
+      "website": null,
+      "github_url": "https://github.com/gdsestimating/dxf-parser",
+      "github_repo": "gdsestimating/dxf-parser",
+      "tags": [
+        "DWG/DXF"
+      ],
+      "github": {
+        "full_name": "gdsestimating/dxf-parser",
+        "stars": 563,
+        "forks": 153,
+        "open_issues": 42,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2024-06-20T21:41:58Z",
+        "default_branch": "master",
+        "homepage": null,
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "smlibpy",
+      "name": "smlibpy",
+      "category": "CAD (Computer-Aided Design)",
+      "description": "WebAssembly NURBS and B-Rep CAD kernel based on SMLib for JavaScript, Node.js, and Python applications.",
+      "website": "https://smlibpy.classcad.ch/",
+      "github_url": "https://github.com/awv-informatik/smlibpy",
+      "github_repo": "awv-informatik/smlibpy",
+      "tags": [
+        "WASM"
+      ],
+      "github": {
+        "full_name": "awv-informatik/smlibpy",
+        "stars": 253,
+        "forks": 31,
+        "open_issues": 4,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2026-10-28T14:35:53Z",
+        "default_branch": "main",
+        "homepage": "https://smlibpy.classcad.ch",
         "error": null,
         "stars_prev": null,
         "stars_delta": null
@@ -2666,6 +3030,119 @@
         "stars_delta": 0
       },
       "is_new": false
+    },
+    {
+      "id": "mcp-server-for-revit",
+      "name": "MCP Server for Revit",
+      "category": "Revit Plugins & Extensions",
+      "description": "Open-source Model Context Protocol server for interacting with Autodesk Revit models from AI assistants.",
+      "website": null,
+      "github_url": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit",
+      "github_repo": "mcp-servers-for-revit/mcp-servers-for-revit",
+      "tags": [
+        "MCP",
+        "Revit",
+        "AI/LLM"
+      ],
+      "github": {
+        "full_name": "mcp-servers-for-revit/mcp-servers-for-revit",
+        "stars": 468,
+        "forks": 186,
+        "open_issues": 33,
+        "language": "C#",
+        "license": "MIT",
+        "topics": [
+          "claude",
+          "mcp",
+          "revit"
+        ],
+        "archived": false,
+        "pushed_at": "2026-04-05T06:47:22Z",
+        "default_branch": "main",
+        "homepage": "https://sparx-fire.com",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "bimwright",
+      "name": "BIMwright",
+      "category": "Revit Plugins & Extensions",
+      "description": "Open-source Model Context Protocol server for Autodesk Revit 2022 to 2027, enabling AI agents to inspect and modify Revit models.",
+      "website": null,
+      "github_url": "https://github.com/bimwright/rvt-mcp",
+      "github_repo": "bimwright/rvt-mcp",
+      "tags": [
+        "MCP",
+        "Revit",
+        "AI/LLM",
+        "BIM"
+      ],
+      "github": {
+        "full_name": "bimwright/rvt-mcp",
+        "stars": 153,
+        "forks": 48,
+        "open_issues": 18,
+        "language": "C#",
+        "license": "Apache-2.0",
+        "topics": [
+          "aec",
+          "ai",
+          "autodesk",
+          "bim",
+          "bim-automation",
+          "claude",
+          "claude-code",
+          "csharp",
+          "dotnet",
+          "mcp",
+          "mcp-server",
+          "model-context-protocol",
+          "revit",
+          "revit-api"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T15:18:04Z",
+        "default_branch": "master",
+        "homepage": "https://github.com/bimwright/rvt-mcp",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "revit-mcp-server",
+      "name": "revit-mcp-server",
+      "category": "Revit Plugins & Extensions",
+      "description": "Open-source Model Context Protocol server providing 80+ AI automation tools for Autodesk Revit 2023 to 2026.",
+      "website": null,
+      "github_url": "https://github.com/LuDattilo/revit-mcp-server",
+      "github_repo": "LuDattilo/revit-mcp-server",
+      "tags": [
+        "MCP",
+        "Revit",
+        "AI/LLM"
+      ],
+      "github": {
+        "full_name": "LuDattilo/revit-mcp-server",
+        "stars": 93,
+        "forks": 34,
+        "open_issues": 18,
+        "language": "C#",
+        "license": "MIT",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2026-07-03T08:48:05Z",
+        "default_branch": "main",
+        "homepage": null,
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
     },
     {
       "id": "energyplus",
@@ -3607,7 +4084,7 @@
         "full_name": "eclipse-sumo/sumo",
         "stars": 4293,
         "forks": 1885,
-        "open_issues": 3596,
+        "open_issues": 3597,
         "language": "Python",
         "license": "EPL-2.0",
         "topics": [
@@ -3620,8 +4097,8 @@
         "default_branch": "main",
         "homepage": "https://eclipse.dev/sumo",
         "error": null,
-        "stars_prev": 4292,
-        "stars_delta": 1
+        "stars_prev": 4293,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4588,6 +5065,104 @@
       "is_new": false
     },
     {
+      "id": "brepjs",
+      "name": "brepjs",
+      "category": "Parametric & Computational Design",
+      "description": "TypeScript B-Rep CAD library backed by OpenCascade for creating exact solids, with BIM packages for IFC4-aligned parametric building elements.",
+      "website": "https://brepjs.dev/",
+      "github_url": "https://github.com/andymai/brepjs",
+      "github_repo": "andymai/brepjs",
+      "tags": [
+        "IFC",
+        "BIM",
+        "CAD"
+      ],
+      "github": {
+        "full_name": "andymai/brepjs",
+        "stars": 151,
+        "forks": 13,
+        "open_issues": 0,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "topics": [
+          "3d-printing",
+          "ai-agents",
+          "bim",
+          "boundary-representation",
+          "brep",
+          "cad",
+          "claude-code",
+          "csg",
+          "geometry-kernel",
+          "ifc",
+          "mcp",
+          "nurbs",
+          "opencascade",
+          "parametric-modeling",
+          "sheet-metal",
+          "solid-modeling",
+          "step",
+          "stl",
+          "typescript",
+          "wasm"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T17:43:01Z",
+        "default_branch": "main",
+        "homepage": "https://brepjs.dev",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "jscad",
+      "name": "JSCAD",
+      "category": "Parametric & Computational Design",
+      "description": "Modular browser and CLI toolkit for creating parametric 2D and 3D CAD designs in JavaScript, with DXF, STL, and OBJ export.",
+      "website": "https://openjscad.xyz/",
+      "github_url": "https://github.com/jscad/OpenJSCAD.org",
+      "github_repo": "jscad/OpenJSCAD.org",
+      "tags": [
+        "DWG/DXF"
+      ],
+      "github": {
+        "full_name": "jscad/OpenJSCAD.org",
+        "stars": 3283,
+        "forks": 569,
+        "open_issues": 146,
+        "language": "JavaScript",
+        "license": "MIT",
+        "topics": [
+          "2d-design",
+          "3d-design",
+          "3mf",
+          "amf",
+          "csg",
+          "dxf",
+          "hacktoberfest",
+          "javascript",
+          "jscad",
+          "modular",
+          "monorepo",
+          "obj",
+          "openjscad",
+          "stl",
+          "svg",
+          "x3d"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-07T05:57:55Z",
+        "default_branch": "master",
+        "homepage": "https://openjscad.xyz/",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
       "id": "home-assistant",
       "name": "Home Assistant",
       "category": "IoT & Smart Buildings",
@@ -4598,9 +5173,9 @@
       "tags": [],
       "github": {
         "full_name": "home-assistant/core",
-        "stars": 92543,
+        "stars": 92544,
         "forks": 39363,
-        "open_issues": 3746,
+        "open_issues": 3747,
         "language": "Python",
         "license": "Apache-2.0",
         "topics": [
@@ -4614,12 +5189,12 @@
           "raspberry-pi"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:39:36Z",
+        "pushed_at": "2026-11-26T00:09:27Z",
         "default_branch": "dev",
         "homepage": "https://www.home-assistant.io",
         "error": null,
-        "stars_prev": 92540,
-        "stars_delta": 3
+        "stars_prev": 92543,
+        "stars_delta": 1
       },
       "is_new": false
     },
@@ -4761,8 +5336,8 @@
         "default_branch": "master",
         "homepage": "https://thingsboard.io",
         "error": null,
-        "stars_prev": 22720,
-        "stars_delta": 1
+        "stars_prev": 22721,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -4871,10 +5446,10 @@
         "default_branch": "master",
         "homepage": "http://bacnet.sourceforge.net/",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 610,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "bac0",
@@ -4908,10 +5483,10 @@
         "default_branch": "main",
         "homepage": null,
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 249,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "open62541",
@@ -4948,10 +5523,10 @@
         "default_branch": "master",
         "homepage": "https://open62541.org",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 3287,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "matter",
@@ -4987,10 +5562,10 @@
         "default_branch": "master",
         "homepage": "https://buildwithmatter.com",
         "error": null,
-        "stars_prev": null,
-        "stars_delta": null
+        "stars_prev": 9004,
+        "stars_delta": 0
       },
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "iobroker",
@@ -5018,6 +5593,132 @@
         "pushed_at": "2026-11-24T06:43:16Z",
         "default_branch": "master",
         "homepage": "http://iobroker.net",
+        "error": null,
+        "stars_prev": 1388,
+        "stars_delta": 0
+      },
+      "is_new": false
+    },
+    {
+      "id": "fuxa",
+      "name": "FUXA",
+      "category": "IoT & Smart Buildings",
+      "description": "Web-based SCADA, HMI, and BMS dashboard software with built-in BACnet, Modbus, OPC UA, and MQTT drivers for monitoring and controlling building and industrial systems.",
+      "website": "https://frangoteam.org/",
+      "github_url": "https://github.com/frangoteam/FUXA",
+      "github_repo": "frangoteam/FUXA",
+      "tags": [],
+      "github": {
+        "full_name": "frangoteam/FUXA",
+        "stars": 5325,
+        "forks": 1437,
+        "open_issues": 420,
+        "language": "JavaScript",
+        "license": "MIT",
+        "topics": [
+          "angular",
+          "bacnet",
+          "dashboard",
+          "hmi",
+          "iot",
+          "modbus",
+          "mqtt",
+          "nodejs",
+          "opc-ua",
+          "opcua",
+          "plc",
+          "s7",
+          "scada",
+          "siemens",
+          "svg-editor",
+          "web-editor",
+          "web-hmi",
+          "web-scada"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-25T22:09:38Z",
+        "default_branch": "master",
+        "homepage": "https://frangoteam.org",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "node-opcua",
+      "name": "Node-OPCUA",
+      "category": "IoT & Smart Buildings",
+      "description": "TypeScript and Node.js implementation of the OPC UA protocol for building clients and servers that integrate with MEP equipment and facility management systems.",
+      "website": null,
+      "github_url": "https://github.com/node-opcua/node-opcua",
+      "github_repo": "node-opcua/node-opcua",
+      "tags": [],
+      "github": {
+        "full_name": "node-opcua/node-opcua",
+        "stars": 1674,
+        "forks": 518,
+        "open_issues": 22,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "cryptography",
+          "cybersecurity",
+          "energy",
+          "iec-62541",
+          "iiot",
+          "industrial-automation",
+          "industry-4",
+          "instrumentation",
+          "iot-platform",
+          "javascript",
+          "m2m",
+          "manufacturing",
+          "node-opcua",
+          "nodejs",
+          "opc-ua",
+          "opcua",
+          "transport",
+          "typescript"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-23T17:54:05Z",
+        "default_branch": "master",
+        "homepage": null,
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
+      "id": "node-modbus-serial",
+      "name": "node-modbus-serial",
+      "category": "IoT & Smart Buildings",
+      "description": "Pure JavaScript implementation of Modbus RTU and TCP for Node.js, used to communicate with HVAC controllers, energy meters, and building automation devices.",
+      "website": null,
+      "github_url": "https://github.com/yaacov/node-modbus-serial",
+      "github_repo": "yaacov/node-modbus-serial",
+      "tags": [
+        "Energy"
+      ],
+      "github": {
+        "full_name": "yaacov/node-modbus-serial",
+        "stars": 731,
+        "forks": 270,
+        "open_issues": 123,
+        "language": "JavaScript",
+        "license": "ISC",
+        "topics": [
+          "modbus-rtu",
+          "modbus-serial",
+          "modbus-tcp",
+          "node-serialport"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-03T09:58:41Z",
+        "default_branch": "main",
+        "homepage": null,
         "error": null,
         "stars_prev": null,
         "stars_delta": null
@@ -5679,7 +6380,7 @@
         "full_name": "azmartone67/dchub-mcp-server",
         "stars": 3,
         "forks": 0,
-        "open_issues": 10,
+        "open_issues": 12,
         "language": "JavaScript",
         "license": "MIT",
         "topics": [
@@ -5705,7 +6406,7 @@
           "site-selection"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:38:31Z",
+        "pushed_at": "2026-11-26T00:11:39Z",
         "default_branch": "main",
         "homepage": "https://dchub.cloud/mcp",
         "error": null,
@@ -6250,6 +6951,37 @@
       "is_new": false
     },
     {
+      "id": "ifc-mcp",
+      "name": "ifc-mcp",
+      "category": "AI & Automation for AECO",
+      "description": "Local Model Context Protocol server for IFC and BIM workflows, running generated IfcOpenShell Python code in Pyodide alongside an integrated IFC viewer.",
+      "website": null,
+      "github_url": "https://github.com/flinker-app/ifc-mcp",
+      "github_repo": "flinker-app/ifc-mcp",
+      "tags": [
+        "IFC",
+        "MCP",
+        "AI/LLM"
+      ],
+      "github": {
+        "full_name": "flinker-app/ifc-mcp",
+        "stars": 14,
+        "forks": 1,
+        "open_issues": 0,
+        "language": "JavaScript",
+        "license": "Apache-2.0",
+        "topics": [],
+        "archived": false,
+        "pushed_at": "2026-11-24T22:15:43Z",
+        "default_branch": "main",
+        "homepage": "https://www.npmjs.com/package/ifc-mcp",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
+    },
+    {
       "id": "itwin-js",
       "name": "iTwin.js",
       "category": "Digital Twins",
@@ -6282,7 +7014,7 @@
           "webgl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:15:25Z",
+        "pushed_at": "2026-11-26T00:06:17Z",
         "default_branch": "master",
         "homepage": "https://www.itwinjs.org",
         "error": null,
@@ -6331,10 +7063,55 @@
         "default_branch": "main",
         "homepage": "https://playcanvas.com",
         "error": null,
-        "stars_prev": 17374,
-        "stars_delta": 1
+        "stars_prev": 17375,
+        "stars_delta": 0
       },
       "is_new": false
+    },
+    {
+      "id": "3dtilesrendererjs",
+      "name": "3DTilesRendererJS",
+      "category": "Digital Twins",
+      "description": "Open-source OGC 3D Tiles renderer for Three.js, Babylon.js, and React Three Fiber, used for streaming large-scale 3D city models and infrastructure digital twins.",
+      "website": null,
+      "github_url": "https://github.com/NASA-AMMOS/3DTilesRendererJS",
+      "github_repo": "NASA-AMMOS/3DTilesRendererJS",
+      "tags": [],
+      "github": {
+        "full_name": "NASA-AMMOS/3DTilesRendererJS",
+        "stars": 2547,
+        "forks": 436,
+        "open_issues": 117,
+        "language": "JavaScript",
+        "license": "Apache-2.0",
+        "topics": [
+          "3d-tiles",
+          "3dtiles",
+          "b3dm",
+          "babylonjs",
+          "cesium",
+          "geometry",
+          "geospatial",
+          "gis",
+          "gltf",
+          "graphics",
+          "r3f",
+          "rendering",
+          "terrain",
+          "threejs",
+          "tile-set",
+          "tileset",
+          "visualization"
+        ],
+        "archived": false,
+        "pushed_at": "2026-11-11T09:50:28Z",
+        "default_branch": "master",
+        "homepage": "https://nasa-ammos.github.io/3DTilesRendererJS/three/mars.html",
+        "error": null,
+        "stars_prev": null,
+        "stars_delta": null
+      },
+      "is_new": true
     },
     {
       "id": "qgis",
@@ -6350,8 +7127,8 @@
       "github": {
         "full_name": "qgis/QGIS",
         "stars": 14889,
-        "forks": 3609,
-        "open_issues": 5525,
+        "forks": 3610,
+        "open_issues": 5526,
         "language": "C++",
         "license": "GPL-2.0",
         "topics": [],
@@ -6360,8 +7137,8 @@
         "default_branch": "master",
         "homepage": "https://qgis.org",
         "error": null,
-        "stars_prev": 14887,
-        "stars_delta": 2
+        "stars_prev": 14889,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -6395,7 +7172,7 @@
           "webgl"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:33:17Z",
+        "pushed_at": "2026-11-26T00:04:57Z",
         "default_branch": "main",
         "homepage": "https://cesium.com/cesiumjs/",
         "error": null,
@@ -6915,12 +7692,12 @@
           "tauri-app"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:55:05Z",
+        "pushed_at": "2026-11-26T00:12:36Z",
         "default_branch": "main",
         "homepage": "https://geolibre.app",
         "error": null,
-        "stars_prev": 8822,
-        "stars_delta": 1
+        "stars_prev": 8823,
+        "stars_delta": 0
       },
       "is_new": false
     },
@@ -7341,7 +8118,7 @@
       "tags": [],
       "github": {
         "full_name": "opf/openproject",
-        "stars": 17740,
+        "stars": 17741,
         "forks": 3841,
         "open_issues": 355,
         "language": "Ruby",
@@ -7373,7 +8150,7 @@
         "default_branch": "dev",
         "homepage": "https://www.openproject.org",
         "error": null,
-        "stars_prev": 17739,
+        "stars_prev": 17740,
         "stars_delta": 1
       },
       "is_new": false
@@ -7544,7 +8321,7 @@
           "takeoff"
         ],
         "archived": false,
-        "pushed_at": "2026-11-25T23:54:23Z",
+        "pushed_at": "2026-11-26T00:06:42Z",
         "default_branch": "main",
         "homepage": "https://openconstructionerp.com",
         "error": null,
