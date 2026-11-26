@@ -177,6 +177,14 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Free browser tools for BIM coordination and information management (BEP, MIDP, LOD/LOIN, IDS, clash matrices, BCF, COBie checks), with plain-language lessons and an ISO 19650 reference. Exports to Excel, PDF and Word; no sign-up.
   *Website: [bimpedia.org](https://bimpedia.org/)*
 
+- **rvt**
+  Open-source library for parsing the native Autodesk Revit (`.rvt`) file format directly without requiring Revit.
+  *GitHub: [phi-ag/rvt](https://github.com/phi-ag/rvt)*
+
+- **BimDown**
+  Open, plain-text BIM format representing a building as a folder of CSV tables and GeoJSON geometry per level.
+  *Website: [bim.jouledown.com](https://bim.jouledown.com/) · GitHub: [NovaShang/BimDown](https://github.com/NovaShang/BimDown)*
+
 ## CAD (Computer-Aided Design)
 
 - **FreeCAD**
@@ -255,6 +263,38 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Browser-based 3D, CAD, and BIM model viewer and embeddable JavaScript library supporting IFC, STEP, IGES, BREP, Rhino 3DM, FreeCAD FCStd, glTF, OBJ, STL, and FBX.
   *Website: [3dviewer.net](https://3dviewer.net/) · GitHub: [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)*
 
+- **Rodeo**
+  Open-source browser-based 2D/3D CAD editor and CLI converter that opens and saves Vectorworks files and reads DWG, Revit, SketchUp, IFC, Rhino, and Archicad models.
+  *Website: [rodeo.build](https://rodeo.build/) · GitHub: [rodeobuild/rodeo](https://github.com/rodeobuild/rodeo)*
+
+- **dwg2dxf-converter**
+  Standalone, zero-dependency DWG-to-DXF converter for JavaScript and Node.js powered by LibreDWG compiled to WebAssembly.
+  *GitHub: [JosephESSEY/dwg2dxf-converter](https://github.com/JosephESSEY/dwg2dxf-converter)*
+
+- **mlightcad CAD Viewer**
+  Browser-based DXF and DWG viewer and editor that runs entirely client-side with no backend server required.
+  *Website: [mlightcad.com](https://mlightcad.com/cad-viewer/) · GitHub: [mlightcad/cad-viewer](https://github.com/mlightcad/cad-viewer)*
+
+- **FluidCAD**
+  Open-source parametric B-Rep CAD modeling application combining visual and code-driven workflows on OpenCascade.
+  *Website: [fluidcad.io](https://fluidcad.io/) · GitHub: [Fluid-CAD/FluidCAD](https://github.com/Fluid-CAD/FluidCAD)*
+
+- **OpenGeometry**
+  Open-source B-Rep and AEC geometry CAD kernel built for both developers and AI agents.
+  *Website: [opengeometry.io](https://opengeometry.io/) · GitHub: [OpenGeometry-io/OpenGeometry](https://github.com/OpenGeometry-io/OpenGeometry)*
+
+- **dxf-viewer**
+  WebGL-accelerated 2D DXF viewer written in JavaScript for rendering CAD drawings in the browser.
+  *GitHub: [vagran/dxf-viewer](https://github.com/vagran/dxf-viewer)*
+
+- **dxf-parser**
+  JavaScript parser that converts DXF CAD drawings into structured JSON objects for analysis and browser rendering.
+  *GitHub: [gdsestimating/dxf-parser](https://github.com/gdsestimating/dxf-parser)*
+
+- **smlibpy**
+  WebAssembly NURBS and B-Rep CAD kernel based on SMLib for JavaScript, Node.js, and Python applications.
+  *Website: [smlibpy.classcad.ch](https://smlibpy.classcad.ch/) · GitHub: [awv-informatik/smlibpy](https://github.com/awv-informatik/smlibpy)*
+
 ## Revit Plugins & Extensions
 
 - **pyRevit**
@@ -324,6 +364,18 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **zexus**
   Autodesk Revit AI agent and add-in combining an MCP server with dynamic C# execution against the Revit API.
   *GitHub: [QuanZ827/zexus](https://github.com/QuanZ827/zexus)*
+
+- **MCP Server for Revit**
+  Open-source Model Context Protocol server for interacting with Autodesk Revit models from AI assistants.
+  *GitHub: [mcp-servers-for-revit/mcp-servers-for-revit](https://github.com/mcp-servers-for-revit/mcp-servers-for-revit)*
+
+- **BIMwright**
+  Open-source Model Context Protocol server for Autodesk Revit 2022 to 2027, enabling AI agents to inspect and modify Revit models.
+  *GitHub: [bimwright/rvt-mcp](https://github.com/bimwright/rvt-mcp)*
+
+- **revit-mcp-server**
+  Open-source Model Context Protocol server providing 80+ AI automation tools for Autodesk Revit 2023 to 2026.
+  *GitHub: [LuDattilo/revit-mcp-server](https://github.com/LuDattilo/revit-mcp-server)*
 
 ## Simulation & Analysis
 
@@ -567,6 +619,14 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for Rhino 8 and Grasshopper that lets AI agents place, wire and group Grasshopper components and manage Rhino layers and geometry.
   *GitHub: [brookstalley/cordyceps](https://github.com/brookstalley/cordyceps)*
 
+- **brepjs**
+  TypeScript B-Rep CAD library backed by OpenCascade for creating exact solids, with BIM packages for IFC4-aligned parametric building elements.
+  *Website: [brepjs.dev](https://brepjs.dev/) · GitHub: [andymai/brepjs](https://github.com/andymai/brepjs)*
+
+- **JSCAD**
+  Modular browser and CLI toolkit for creating parametric 2D and 3D CAD designs in JavaScript, with DXF, STL, and OBJ export.
+  *Website: [openjscad.xyz](https://openjscad.xyz/) · GitHub: [jscad/OpenJSCAD.org](https://github.com/jscad/OpenJSCAD.org)*
+
 ## IoT & Smart Buildings
 
 - **Home Assistant**
@@ -616,6 +676,18 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **ioBroker**
   Open-source IoT and building automation platform written in Node.js with a modular adapter ecosystem for integrating smart building devices and protocols.
   *Website: [iobroker.com](https://www.iobroker.com/) · GitHub: [ioBroker/ioBroker](https://github.com/ioBroker/ioBroker)*
+
+- **FUXA**
+  Web-based SCADA, HMI, and BMS dashboard software with built-in BACnet, Modbus, OPC UA, and MQTT drivers for monitoring and controlling building and industrial systems.
+  *Website: [frangoteam.org](https://frangoteam.org/) · GitHub: [frangoteam/FUXA](https://github.com/frangoteam/FUXA)*
+
+- **Node-OPCUA**
+  TypeScript and Node.js implementation of the OPC UA protocol for building clients and servers that integrate with MEP equipment and facility management systems.
+  *GitHub: [node-opcua/node-opcua](https://github.com/node-opcua/node-opcua)*
+
+- **node-modbus-serial**
+  Pure JavaScript implementation of Modbus RTU and TCP for Node.js, used to communicate with HVAC controllers, energy meters, and building automation devices.
+  *GitHub: [yaacov/node-modbus-serial](https://github.com/yaacov/node-modbus-serial)*
 
 ## Facility & Asset Management
 
@@ -769,6 +841,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Model Context Protocol server for inspecting, editing and running EnergyPlus building energy simulation models with idfkit.
   *Website: [mcp.idfkit.com](https://mcp.idfkit.com/) · GitHub: [idfkit/idfkit-mcp](https://github.com/idfkit/idfkit-mcp)*
 
+- **ifc-mcp**
+  Local Model Context Protocol server for IFC and BIM workflows, running generated IfcOpenShell Python code in Pyodide alongside an integrated IFC viewer.
+  *GitHub: [flinker-app/ifc-mcp](https://github.com/flinker-app/ifc-mcp)*
+
 ## Digital Twins
 
 - **iTwin.js**
@@ -778,6 +854,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
 - **PlayCanvas**
   Open-source WebGL game engine for building interactive 3D visualizations and digital twins.
   *GitHub: [playcanvas/engine](https://github.com/playcanvas/engine)*
+
+- **3DTilesRendererJS**
+  Open-source OGC 3D Tiles renderer for Three.js, Babylon.js, and React Three Fiber, used for streaming large-scale 3D city models and infrastructure digital twins.
+  *GitHub: [NASA-AMMOS/3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS)*
 
 ## GIS & Mapping
 
