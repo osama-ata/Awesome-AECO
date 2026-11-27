@@ -707,6 +707,10 @@ AECO stands for Architecture, Engineering, Construction, and Operations. It refe
   Independent comparisons of field-service management software for trade shops, including features and modeled true cost.
   *Website: [fieldservicescout.com](https://www.fieldservicescout.com/)*
 
+- **Commercial Facilities Shift Handover Checklist**
+  Printable checklist and editable Excel log for facilities teams to record open tenant requests, the responsible person or team, and the next check at shift change.
+  *Website: [bigplanner.co.kr](https://bigplanner.co.kr/fire-safety-ai/en/shift-handover/)*
+
 ## Generative Design
 
 - **Anton**
